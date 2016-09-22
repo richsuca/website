@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Richard Hsu personal website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="Richard Hsu">
+		<meta name="author" content="Richard Hsu">
+		<meta name="robots" content="index, follow">
+		<link rel="alternate" type="application/rss+xml" title="Richard Hsu feed" href="/feed/rss.xml" />
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="/favicon.gif">
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="header-heading">Richard Hsu</h1>
+				<h4 class="header-heading">Personal website. Stories, information and opinions.</h4>
+			</div>
+			<div class="nav-bar">
+				<ul class="nav">
+					<li><a href="/">Latest</a></li>
+					<li><a href="/archive">Archives</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/others">Others</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="main"><h3><a href="/2014/02/28/sybase-where-clause-in-derived-table">Sybase: Where Clause in Derived Table</a></h3>
+<p>Feb 28, 2014</p>
+<p>Sybase's processing of a where clause in a derived table confused me. Instead of applying it first, it seemed to move the where clause outside of the derived table. To recreate the behaviour, here is a table with two rows:</p>
+<pre><code>create table data(nums varchar(4))
+insert into data values('255')
+insert into data values('3000')
+
+select nu
+from
+( select convert(tinyint, nums) nu
+from data
+where len(nums) &amp;lt; 4 -- filter out 3000
+) inside
+where nu = 255
+</code></pre>
+
+<p>What I expect: 255</p>
+<p>What happens:
+Query throws Arithmetic overflow error during conversion of '3000' to tinyint(range is 0-255). I expected the filter in the derived table to be applied first eliminating '3000' from getting converted but that is not the case. It seems Sybase does below instead:</p>
+<pre><code>select nu
+from
+( select convert(tinyint, nums) nu, nums
+from data
+) inside
+where nu = 255
+and len(nums) &amp;lt; 4
+</code></pre>
+
+<p>I could not find out why so this remains a mystery but what makes it more interesting is below works fine:</p>
+<pre><code>select nu
+from
+( select convert(tinyint, nums) nu
+from data
+where nums != '3000'
+) inside
+where nu = 255
+</code></pre>
+
+<p>We used a temporary table to ensure filter happens.</p>
+
+				</div>
+			</div>
+			<div class="footer">
+				Made in Canada with spices from India. Since 2004.
+			</div>
+		</div>
+	</body>
+</html>
