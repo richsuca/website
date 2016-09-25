@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Richard Hsu's personal website</title>
-<atom:link href="https://richardhsu.net/feed/" rel="self" type="application/rss+xml" />
+<atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://richardhsu.net/</link>
 <description>Personal website. Stories, information and opinions.</description>
-<lastBuildDate>Sun, 25 Sep 2016 18:48:54 -0400</lastBuildDate>
+<lastBuildDate>Sun, 25 Sep 2016 19:11:15 -0400</lastBuildDate>
 <language>en</language><item>
   <title>World Cup of Hockey: NA vs. Russia</title>
   <link>https://richardhsu.net/2016/09/21/wch-na-vs-russia</link>
