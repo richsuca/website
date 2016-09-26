@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
 /* -----------------------
 Base styles
 ------------------------*/
@@ -8,7 +10,7 @@ body
  padding: 0;
  color: #333;
  background-color: #eee;
- font: 1em/1.2 Calibri, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+ font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -67,8 +69,8 @@ strong {
     font-weight: bold;
 }
 
-a:link { color: royalblue; }
-a:visited { color: purple; }
+a:link { color: royalblue; text-decoration: none; }
+a:visited { color: purple; text-decoration: none; }
 a:focus { color: black; }
 a:hover { color: green; }
 a:active { color: red; }
