@@ -1,9 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
 
-/* -----------------------
-Base styles
-------------------------*/
-
 body
 {
  margin: 0;
@@ -35,6 +31,7 @@ p
 
 blockquote
 {
+ font-family: Georgia, serif;
  padding: 1em 2em;
  margin: 0 0 2em;
  border-left: 5px solid #eee;
@@ -69,15 +66,7 @@ strong {
     font-weight: bold;
 }
 
-a:link { color: royalblue; text-decoration: none; }
-a:visited { color: purple; text-decoration: none; }
-a:focus { color: black; }
-a:hover { color: green; }
-a:active { color: red; }
-
-/* -----------------------
-Layout styles
-------------------------*/
+h2 a:link, h2 a:visited { color: black; text-decoration: none; }
 
 .container
 {
@@ -90,16 +79,12 @@ Layout styles
 {
  color: #000;
  background: #f2f2f2;
- padding: 1em 1.25em;
+ padding: 2em 1.25em;
 }
 
 .header-heading { margin: 0; }
-
-.nav-bar
-{
- background: #f2f2f2;
- padding: 1em 3em;
-}
+.header-nav { margin: 0; padding: 1em 0em; }
+.header-nav a:link, .header-nav a:visited { color: black; text-decoration: none; }
 
 .content { padding: 1em 1.25em; }
 
@@ -110,140 +95,10 @@ Layout styles
  padding: 1em 1.25em;
 }
 
-/* -----------------------
-Nav
-------------------------*/
-
-.nav
-{
- margin: 0;
- padding: 0;
- list-style: none;
-}
-
-.nav li
-{
- display: inline;
- margin: 0 1em 0 0;
-}
-
-.nav a
-{
- display: inline;
- padding: 0;
- color: #000;
- text-decoration: none;
- border-bottom: 0;
-}
-
-.nav a:link { color: black; }
-.nav a:visited { color: black; }
-
-.nav a:focus
-{
- color: black;
- background-color: white;
-}
-
-.nav a:hover
-{
- color: white;
- background-color: blue;
-}
-
-.nav a:active
-{
- color: white;
- background-color: blue;
-}
-
-/* -----------------------
-Single styles
-------------------------*/
-
-.img-responsive { max-width: 100%; }
-
-.btn
-{
- color: #fff !important;
- background-color: royalblue;
- border-color: #222;
- display: inline-block;
- padding: .5em 1em;
- margin-bottom: 0;
- font-weight: 400;
- line-height: 1.2;
- text-align: center;
- white-space: nowrap;
- vertical-align: middle;
- cursor: pointer;
- border: 1px solid transparent;
- border-radius: .2em;
- text-decoration: none;
-}
-
-.btn:hover
-{
- color: #fff !important;
- background-color: green;
-}
-
-.btn:focus
-{
- color: #fff !important;
- background-color: black;
-}
-
-.btn:active
-{
- color: #fff !important;
- background-color: red;
-}
-
-.table
-{
- width: 100%;
- max-width: 100%;
- margin-bottom: 20px;
-}
-
-.list-unstyled
-{
- padding-left: 0;
- list-style: none;
-}
-
-.list-inline
-{
- padding-left: 0;
- margin-left: -5px;
- list-style: none;
-}
-
-.list-inline > li
-{
- display: inline-block;
- padding-right: 5px;
- padding-left: 5px;
-}
-
-/* -----------------------
-Wide styles
-------------------------*/
-
+/* Wide styles */
 @media (min-width: 42em)
 {
  .header { padding: 1.5em 3em; }
  .content { padding: 2em 3em; }
  .footer { padding: 2em 3em; }
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) { /* iPhone 5 or similar */ 
-	.nav-bar
-	{
-	 padding: 1em 1.5em;
-	}
 }
