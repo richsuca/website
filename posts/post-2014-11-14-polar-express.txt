@@ -1,0 +1,18 @@
+title: The Polar Express
+name: polar-express
+date: 2014-11-14 23:18:20
+text:
+<p>The Polar Express is a story is about a boy who goes to the North Pole in a magical train. He gets a silver bell from Santa Claus but loses it on his way back. Miraculously, the next morning, it appears again in a box under his Christmas tree. The story ends with the quoted text below:</p>
+<blockquote>
+  I shook the bell. It made the most beautiful sound my sister and I had ever heard.
+  
+  But my mother said, "Oh, that's too bad."
+  
+  "Yes," said my father, "it's broken."
+  
+  When I'd shaken the bell, my parents had not heard a sound.
+  
+  At one time most of my friends could hear the bell, but as years passed, it fell silent for all of them. Even Sarah found one Christmas that she could no longer hear its sweet sound. Though I've grown old, the bell still rings for me as it does for all who truly believe.
+</blockquote>
+<p>From &quot;THE POLAR EXPRESS&quot; (Twentieth Anniversary Edition)</p>
+<p>I have read this story many times to my son but I paid attention to the ending only this week. Perhaps, I just didn't hear the bell before?</p>

@@ -1,0 +1,7 @@
+title: Hanx Writer
+name: hanx-writer
+date: 2014-08-21 11:24:48
+text:
+<img src="https://dl.dropboxusercontent.com/u/219644/14989022952_3c443e37b7_k.jpg" alt="Hanx Writer" />
+<p>An iPad app that gives you all the <em>goodness</em> of a type writer. It is well <a href="http://www.hitcents.com/b2b/work/hanx" title="Hitcents">designed</a> but only those with experience with typewriters (including yours truly) will like it and even fewer will actually use it for long.</p>
+<p>To see a demo (non-iPad readers), visit <a href="http://youtu.be/b4YSToipUOg">YouTube</a></p>

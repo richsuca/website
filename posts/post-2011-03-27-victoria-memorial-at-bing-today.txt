@@ -1,0 +1,6 @@
+title: Victoria Memorial at Bing today
+name: victoria-memorial-at-bing-today
+date: 2011-03-27 11:10:25
+text:
+<img title="Victoria Memorial" src="https://lh4.googleusercontent.com/_j4-Ptxs4ZpE/TY9gr2Zh2eI/AAAAAAAAE0w/FX_sQ9F3V1A/s640/VictoriaMemorial-Bing.png" alt="" width="640" height="400" />
+<p>To my pleasant surprise, Bing's background image today is from Kolkata!</p>

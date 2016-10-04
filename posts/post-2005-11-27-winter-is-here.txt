@@ -1,0 +1,5 @@
+title: Winter is here
+name: winter-is-here
+date: 2005-11-27 19:12:00
+text:
+<a href="http://www.flickr.com/photos/richardhsu/64768925/" title="photo sharing"><img src="http://static.flickr.com/35/64768925_22dd194fe3.jpg" class="flickr-photo" alt="" /></a><br />	<span class="flickr-caption"><a href="http://www.flickr.com/photos/richardhsu/64768925/">view from 702</a>, originally uploaded by <a href="http://www.flickr.com/people/richardhsu/">Richard Hsu</a>.</span></div>				<p class="flickr-yourcomment">	Caroline &amp; I are experiencing our first white winter. We get to see snow and snow fall and flurries, get wet, get chilled and most of all get wrapped in 10 kgs of clothing.</p>

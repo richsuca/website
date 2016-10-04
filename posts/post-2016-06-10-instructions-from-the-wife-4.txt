@@ -1,0 +1,7 @@
+title: Instructions from The Wife
+name: instructions-from-the-wife-4
+date: 2016-06-10 19:00:58
+text:
+<blockquote>She is a wise and hard working woman, my wife. I must listen to her.</blockquote>
+
+<a href="https://richardhsu.net/2016/06/03/instructions-from-the-wife-3">Previous instruction</a>

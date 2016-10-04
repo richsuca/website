@@ -1,0 +1,12 @@
+title: Installing nodejs & npm on Ubuntu 13.10
+name: installing-nodejs-npm-on-ubuntu-13-10
+date: 2013-10-19 10:18:23
+text:
+To try <a href="https://en.ghost.org/" title="Ghost Blogging">Ghost blogging platform</a>, I had to install nodejs and npm. Was not straight forward so wanted to share what commands I ran to get it installed.
+
+
+<pre>
+sudo apt-get install nodejs 
+sudo ln -s /usr/bin/nodejs /usr/bin/node 
+curl https://npmjs.org/install.sh | sudo sh
+</pre>

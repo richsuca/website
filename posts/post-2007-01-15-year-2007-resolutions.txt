@@ -1,0 +1,5 @@
+title: Year 2007 resolutions
+name: year-2007-resolutions
+date: 2007-01-15 20:41:00
+text:
+A new year is upon us and with each new year comes new resolutions/<span class="blsp-spelling-corrected" id="SPELLING_ERROR_0">wish list</span>, so here it is:-<br /><ul><li>Learn swimming</li><li>Post at least one entry per month (on this blog)</li><li>Make at least 2 viewable photos per month.</li><li>Contribute to at least one open source/free project.</li></ul><p>What I would like to see happen in 2007</p><ul><li>Some PC maker to start offering <span class="blsp-spelling-error" id="SPELLING_ERROR_1">Ubuntu</span> and also providing full support (specially for device drivers)</li><li>Canon or Nikon release a $500 <span class="blsp-spelling-error" id="SPELLING_ERROR_2">DSLR</span>.</li><li>My car survive the year without any breakdowns/repairs.</li><li>My computer survive the year without any crash/replacement.</li></ul>

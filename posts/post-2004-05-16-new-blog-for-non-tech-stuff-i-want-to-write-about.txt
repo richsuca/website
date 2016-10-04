@@ -1,0 +1,9 @@
+title: New blog for non-tech stuff I want to write about
+name: new-blog-for-non-tech-stuff-i-want-to-write-about
+date: 2004-05-16 13:16:00
+text:
+I started blogging at <a href="http://richard.rediffblogs.com">Rediff Blogs</a> and it still has my blogs. I am moving now to blogger as I find it better than rediffblogs. But it was rediffblogs that got me into blogging.
+<br />
+<br />I have tech blogs at <a href="http://blogs.geekdojo.net/richardhsu">GeekDojo</a> and a <a href="http://richardhsu.blogspot.com">collection of tech (programming mostly) resources on the internet</a>.
+<br />
+<br />But here, I will post all non-tech stuff like what I did, what I think about certain things etc. Mainly for myself to read in future but also as a means of communicating with my friends.

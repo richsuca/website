@@ -1,0 +1,7 @@
+<item>
+  <title>$title</title>
+  <link>$permalink</link>
+  <guid>$permalink</guid>
+  <pubDate>$date</pubDate>
+  <description><![CDATA[$text]]></description>
+</item>

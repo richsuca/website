@@ -1,0 +1,5 @@
+title: an ideal computer room
+name: an-ideal-computer-room
+date: 2005-07-28 11:52:00
+text:
+<a href="http://photoshopnews.com/stories/images/adobe-visit/adobe-visit_018.jpg"><img style="float:right;cursor:hand;width:320px;margin:0 0 10px 10px;" src="http://photoshopnews.com/stories/images/adobe-visit/adobe-visit_018.jpg" border="0" alt="" /></a><br /><br />Someday I would like to have an office like this. If not at work, then at least my home computer room would look like this.<br /><br />courtsey: <a href="http://www.photoshopnews.com/feature-stories/a-visit-to-adobe/">PhotoshopNews.com</a><br /><br /><span style="font-style:italic;">Note: the guy is a Co-Architect of Photoshop working in Adobe.</span>

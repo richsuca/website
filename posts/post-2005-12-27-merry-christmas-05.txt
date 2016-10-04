@@ -1,0 +1,5 @@
+title: Merry Christmas '05
+name: merry-christmas-05
+date: 2005-12-27 11:59:00
+text:
+<a href="http://www.flickr.com/photos/richardhsu/78072457/" title="photo sharing"><img src="http://static.flickr.com/39/78072457_26bdf0ce38.jpg" /></a><br />	<span><a href="http://www.flickr.com/photos/richardhsu/78072457/">Merry Christmas '05</a>, originally uploaded by <a href="http://www.flickr.com/people/richardhsu/">Richard Hsu</a>.</span><p>Merry Christmas to everyone!<br /><br />This photo was made at Eaton Centre, Toronto, Canada. This tree is decorated with Swarovski crystals.</p>

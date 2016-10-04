@@ -1,0 +1,5 @@
+title: Having a good day
+name: having-a-good-day
+date: 2006-12-08 12:15:00
+text:
+While the day started with a lot of action (work-wise), it has settled down and I am having a good day.<br /><br />Specifics?<br /><br />I am working from home (a.k.a tele-commuting) :-), when I work from home, I am in my pyjamas, listening to music (Christmas carols) and now and then get grab something from the kitchen to eat.

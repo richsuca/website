@@ -1,0 +1,5 @@
+title: Tim Hortons Coffee
+name: tim-hortons-coffee
+date: 2005-10-22 09:37:00
+text:
+<div style="float:right;margin-left:10px;margin-bottom:10px;"> <a href="http://www.flickr.com/photos/richardhsu/54846260/" title="photo sharing"><img src="http://static.flickr.com/32/54846260_3d55f7357b_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;">  <a href="http://www.flickr.com/photos/richardhsu/54846260/">Tim Hortons Coffee</a>  <br />  Originally uploaded by <a href="http://www.flickr.com/people/richardhsu/">Richard Hsu</a>. </span></div>checking.<br />

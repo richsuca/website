@@ -1,0 +1,5 @@
+title: Joel's way of saying 'freak out'
+name: joels-way-of-saying-freak-out
+date: 2004-08-19 09:46:00
+text:
+<p>"... So. Specs are good, but not if nobody reads them. As a spec-writer, you have to <i>trick people</i> into reading your stuff, and you should also probably make an effort not to <strong>cause any already-too-small brains to leak out through eye-sockets</strong>.... " - <!--StartFragment --> <em>Joel Spolsky</em></p><p>The 'already-too-small brains' refers to stupid non-tech managers who don't understand geeks but has an influence on them :-)</p><p>I was reading the article from which the above extract is taken (<a href="http://www.joelonsoftware.com/articles/fog0000000033.html">full article here</a>) and found the author's expression (marked in bold) really really funny, so thought of putting it up here.</p>

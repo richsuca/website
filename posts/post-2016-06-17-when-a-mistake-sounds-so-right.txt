@@ -1,0 +1,10 @@
+title: When a mistake sounds so right
+name: when-a-mistake-sounds-so-right
+date: 2016-06-17 19:00:04
+text:
+<p>My 4 year old daughter says many things with confidence whether it is correct or not. Here are some memorable ones that makes me smile every time.</p>
+<ol>
+    <li>Newtube (Youtube)</li>
+    <li>Write the Weather (write the date for when I have to sign her homework)</li>
+    <li>Silly (saliva)</li>
+</ol>

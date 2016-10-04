@@ -1,0 +1,5 @@
+title: Home made static site generator
+name: home-made-static-site-generator
+date: 2016-09-19 01:37:00
+text:
+First new post on the home made static site generator. Feature complete with RSS and a few nice things like auto Title casing. No more ads.

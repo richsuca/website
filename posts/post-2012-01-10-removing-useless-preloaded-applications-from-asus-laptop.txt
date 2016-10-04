@@ -1,0 +1,8 @@
+title: Removing useless preloaded applications from Asus laptop
+name: removing-useless-preloaded-applications-from-asus-laptop
+date: 2012-01-10 13:26:02
+text:
+<p>My friend fell victim to a computer virus(The Bad). After my standard approaches to remove the virus (including MSRT, online solutions) failed, I resorted to factory reset for the Asus laptop. Factory reset was simple and convenient (compared to installing Windows followed by drivers etc.) and completed successfully(The Good) but then I had to spend another hour removing useless preloaded applications(The Ugly).</p>
+<p>Shame on Asus for making their customers suffer these 'bloatware'/'crapware' .</p>
+<p>If I did not have the below guide, it would have taken me more time (Thanks David)
+<a href="http://forum.notebookreview.com/asus/380681-asus-utility-bloatware-guide.html#post4838868">http://forum.notebookreview.com/asus/380681-asus-utility-bloatware-guide.html#post4838868</a></p>

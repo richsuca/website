@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Richard Hsu's personal website</title>
+<atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
+<link>https://richardhsu.net/</link>
+<description>Personal website. Stories, information and opinions.</description>
+<lastBuildDate>$date</lastBuildDate>
+<language>en</language>

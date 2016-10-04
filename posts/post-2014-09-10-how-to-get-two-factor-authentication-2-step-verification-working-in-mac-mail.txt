@@ -1,0 +1,11 @@
+title: How to get Two-Factor authentication (2-Step Verification) working in Mac Mail
+name: how-to-get-two-factor-authentication-2-step-verification-working-in-mac-mail
+date: 2014-09-10 18:54:38
+text:
+<p>To get Two-Factor authentication (or what Google calls 2-Step Verification) working with Gmail and Mac Mail app, you need to enter the App password in two places (incoming and outgoing).</p>
+<ol>
+<li>In Mail &gt; Preferences, go to Accounts</li>
+<li>Click on Google, enter the App Password in the Password field (this is for incoming mails)</li>
+<li>Click the drop down for Outgoing Mail Server (SMTP), pick ‘Edit SMTP Server List…’, paste the App password again. This is for outgoing mail.</li>
+</ol>
+<p>Same applies for outlook.com (live.com, hotmail.com) or yahoo mail. You need to enter the application specific password for both incoming and outgoing.</p>

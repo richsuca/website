@@ -1,0 +1,14 @@
+title: Cooler than Cool
+name: cooler-than-cool
+date: 2015-11-28 22:10:38
+text:
+<p>We were on our way to the dollar store. In November, most houses have Christmas lights and decorations so it makes for an interesting drive. One of the houses had sparkly blue lights that covered the entire front wall. It was without doubt the most interesting Christmas lighting we saw. My son, sitting at the back, said “That’s Sick!”</p>
+<p>My wife and I didn’t know what he meant and our first reactions were along the lines of “What?!”. He then proceeded to educate us on the different levels of <em>Cool</em> . According to him, <em>Sick</em> is few levels above <em>Awesome</em>.</p>
+<p>Since this is the season to be generous, I am hereby sharing the new found wisdom with you.</p>
+<p>Levels of Cool</p>
+<ol>
+<li>Cool!</li>
+<li>Awesome! (Cooler than Cool)</li>
+<li>RAD! (More than Awesome)</li>
+<li>Sick! (Highest level of Cool)</li>
+</ol>

@@ -1,0 +1,12 @@
+title: My first real experience with a laptop
+name: my-first-real-experience-with-a-laptop
+date: 2004-12-30 10:48:00
+text:
+Since yesterday evening, I've been working on a laptop as my primary computer. I've used laptops before but never had one which was dedicated to me. The fun thing is that its also my first real Windows XP experience. Its now configured for email, both official and personal [runs both Outlook and Thunderbird] and my elaborate development tools is also setup and running.
+<br />
+<br />At first I found it annoying [described later] but soon got used to it. The upside with this [and indeed most] laptop is the display: its flat and is not CRT based [<strong>C</strong>athode <strong>R</strong>ay <strong>T</strong>ube, the kind we have in most TVs today]. Rather its based on what I believe to be some sort of LCD technology [<strong>L</strong>iquid <strong>C</strong>rystal <strong>D</strong>isplay, the kind we have in calculators]. Also, the brightness and contrast is very smooth on the eyes. With <a href="http://www.microsoft.com/typography/ClearTypeInfo.mspx">ClearType</a> feature enabled, the text is really easy to read and looks nice.
+<br />
+<br />The downside is the performance and compactness [the keys on the keyboard are laid out differently, making it difficult to type fast [I have to keep looking at the keyboard now, but I am getting better :-)]. I am used to having a few nifty utilities like <a href="http://wordweb.info/free/">WordWeb</a> etc. open all the time, but I can't afford that now. Oh, and before I forget, the surface of the laptop is hot [no pun intended]. Especially on the left bottom edge of the keyboard. That area is in direct contact with the 'under-side' of my left wrist and its not pleasant at all.
+<br />
+<br />Thus far I have only this much to report [there is more, but I would then be completely twisting this personal blog entry around a technical axle. Its bent enough already :-)]
+<br />

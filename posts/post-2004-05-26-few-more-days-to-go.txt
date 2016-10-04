@@ -1,0 +1,7 @@
+title: few more days to go...
+name: few-more-days-to-go
+date: 2004-05-26 00:01:00
+text:
+Very soon I will again be changing jobs. Frustrating, very frustrating, either its me, or its my luck. Somehow, I manage to find reason(s) or reason/opportunity comes and I have decide to move. Where will I be next year this time ? only time will tell, only thing I can guaratee about is I'll still be hacking code... :-) hopefully in C#/.NET.
+<br />
+<br />One thing I want to get right is my ability to save money, after all these years, I still find myself time and again in near empty pocket situations. This has to go in my resolution.

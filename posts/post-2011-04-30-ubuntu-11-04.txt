@@ -1,0 +1,13 @@
+title: Ubuntu 11.04
+name: ubuntu-11-04
+date: 2011-04-30 15:33:27
+text:
+<p>As with previous Ubuntu releases, I downloaded 11.04 releases yesterday to try it out. I followed instruction and created a USB boot disk with 700MB of 'disk' space for session persistence.</p>
+<p>So far, I am very impressed. With every release, Ubuntu is getting closer and closer to being an alternative to Microsoft Windows as a consumer desktop OS. I believe it is already as good as Microsoft Windows for business.</p>
+<p>1) Skype<br />
+I remember having to do a lot of tweaking to get Skype voice call to work in previous Ubuntu releases. The last time I tried Ubuntu, Skype did not have video calling or screen sharing. So I was pleasantly surprised when I was able to install Skype and have video and voice working flawlessly without any tweak! I did not get a chance to try screen sharing yet but I don't expect any problem with it.</p>
+<p>2) UI<br />
+I like the UI of the Ubuntu 11.04. Overall, it feels minimalist compared to Microsoft Windows. No thick border around all application windows. Love it! The default scroll bars look good as well.</p>
+<p>3) Application install<br />
+The new Ubuntu Software Center is very user friendly and the overall application install experience is good.</p>
+<p>This is exciting. I will use it as an OS on the laptop and see how long I can go without moving back into Microsoft Windows.</p>

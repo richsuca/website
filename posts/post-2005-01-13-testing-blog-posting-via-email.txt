@@ -1,0 +1,5 @@
+title: testing blog posting via email
+name: testing-blog-posting-via-email
+date: 2005-01-13 08:30:00
+text:
+from what i know, in the client site that i am going to, internet is<br />very slow, web pages doesn't open. however emails should work, so i<br />have configured my blog so that i can post blog entries via email.<br />lets hope the mind continues to leak..<br />

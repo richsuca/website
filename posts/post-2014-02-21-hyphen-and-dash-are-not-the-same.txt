@@ -1,0 +1,19 @@
+title: - (hyphen) and – (dash) are not the same
+name: hyphen-and-dash-are-not-the-same
+date: 2014-02-21 19:00:07
+text:
+<p>Linux <code>find</code> command ignores* –name (dash name) option and runs finding all files instead of exiting with an unknown parameter error.</p>
+<p>Wrong command (with dash name option):
+<code>find –name '*.dat' -exec rm {} \;</code></p>
+<p>What I wanted it to do: Find all files matching *.dat wildcard and delete them
+What it does: Find all files in the directory and delete them, then throw an error message it could not find *.dat file or directory</p>
+<p>Correct command (with hyphen name option):
+<code>find -name '*.dat' -exec rm {} \;</code></p>
+<p>I was typing the command in Outlook and the AutoCorrect feature changed - (hyphen) to – (dash). It was copy-pasted from the email to a Putty session executed causing undesired behaviour.</p>
+<p>How to avoid this?</p>
+<ul>
+<li><a title="Turn off AutoCorrect" href="http://office.microsoft.com/en-ca/word-help/undo-or-turn-off-automatic-formatting-HA102491299.aspx?CTT=1">Turn off AutoCorrect &amp; AutoFormat options in Outlook</a></li>
+<li>Start with a Plain Text formatted email</li>
+<li>Write the commands in Notepad or Notepad++ and attach the text file to the email</li>
+</ul>
+<p>*It does not really ignore it, rather, it interprets it as a verbatim file name you want to find instead of wild card search.</p>

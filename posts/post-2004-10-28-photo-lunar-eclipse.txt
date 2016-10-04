@@ -1,0 +1,8 @@
+title: Photo - Lunar Eclipse
+name: photo-lunar-eclipse
+date: 2004-10-28 13:10:00
+text:
+I have taken to photography as a serious hobby, and this is the kind of photo I would love to take, its not by a pro, just a techie like me..
+<br /><img src="http://www.kindel.com/blogimages/charlie/Lunar_20Eclipse_20015_20small.JPG" />
+<br />
+<br />Source : <a href="http://kindel.com/blogs/charlie/posts/534.aspx">Charlie Kindel's blog</a>
