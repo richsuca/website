@@ -5,11 +5,11 @@
 <atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://richardhsu.net/</link>
 <description>Personal website. Stories, information and opinions.</description>
-<lastBuildDate>Mon, 03 Oct 2016 21:25:58 -0400</lastBuildDate>
+<lastBuildDate>Tue, 04 Oct 2016 09:20:44 -0400</lastBuildDate>
 <language>en</language><item>
   <title>Chaipress</title>
-  <link>https://richardhsu.net/2016/09/29/chaipress</link>
-  <guid>https://richardhsu.net/2016/09/29/chaipress</guid>
+  <link>https://richardhsu.net/2016/09/29/chaipress/</link>
+  <guid>https://richardhsu.net/2016/09/29/chaipress/</guid>
   <pubDate>Thu, 29 Sep 2016 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>On a September 1st afternoon, I found an article about <a href="http://lwn.net/Articles/698452/">Linux kernel GPL enforcement</a> on <a href="https://news.ycombinator.com">Hacker News</a>. It referenced Torvald's <a href="https://lists.linuxfoundation.org/pipermail/ksummit-discuss/2016-August/003580.html">reply</a> on the thread. I read it and enjoyed the argument made and the style it was made in. It also got me curious about plain text formatting (<code>*bold*</code>, <code>_underscore_</code>,  <code>[footnotes]</code>, <code>&gt; for quoting</code>). I suddenly had a desire to write like that and wondered if there was a blogging service that supported that. My website <em>was</em> on WordPress and it could work using <code>&lt;pre&gt;</code> Html tag but plain text wasn't <em>the</em> only way to write.</p>
 <p>So I Googled for "plain text blog" and found <a href="http://calepin.co/">http://calepin.co/</a> and it was nice but not exactly what I was looking for. I noticed the words "Powered by Pelican" in the footer. That got me looking up <a href="http://docs.getpelican.com/">Pelican</a> and I learnt it was a "static site generator written in Python". Interesting<sup>1</sup>. On the same Google results page, there was a blog post about <a href="https://www.notionsandnotes.org/tech/web-development/pelican-static-blog-setup.html">building a static blog with Pelican</a>. The post describes blogging options and makes an argument for static site generators. It also provides step-by-step instructions to get Pelican working, but the most useful paragraph for me was</p>
@@ -30,8 +30,8 @@ Footnotes:</p>
 <p></small></p>]]></description>
 </item><item>
   <title>World Cup of Hockey: NA vs. Russia</title>
-  <link>https://richardhsu.net/2016/09/21/wch-na-vs-russia</link>
-  <guid>https://richardhsu.net/2016/09/21/wch-na-vs-russia</guid>
+  <link>https://richardhsu.net/2016/09/21/wch-na-vs-russia/</link>
+  <guid>https://richardhsu.net/2016/09/21/wch-na-vs-russia/</guid>
   <pubDate>Wed, 21 Sep 2016 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>The <a href="http://ice.wch2016.com/recap?id=2016060106">match</a> between North America(NA) and Russia in the World Cup of Hockey was fast, exciting, dramatic, and had an edge-of-the-seat heart pounding finish that makes hockey entertaining to watch. There was also the young guns of <em>The West</em> (US &amp; Canada) versus the men of Russia angle. The end result was disappointing for me but Russia deserved to win it.</p>
 <p>Some commentary</p>
@@ -67,14 +67,14 @@ Footnotes:</p>
 ]]></description>
 </item><item>
   <title>Home Made Static Site Generator</title>
-  <link>https://richardhsu.net/2016/09/19/home-made-static-site-generator</link>
-  <guid>https://richardhsu.net/2016/09/19/home-made-static-site-generator</guid>
+  <link>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</link>
+  <guid>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</guid>
   <pubDate>Mon, 19 Sep 2016 01:37:00 -0400</pubDate>
   <description><![CDATA[First new post on the home made static site generator. Feature complete with RSS and a few nice things like auto Title casing. No more ads.]]></description>
 </item><item>
   <title>When a Mistake Sounds So Right</title>
-  <link>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right</link>
-  <guid>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right</guid>
+  <link>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right/</link>
+  <guid>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right/</guid>
   <pubDate>Fri, 17 Jun 2016 19:00:04 -0400</pubDate>
   <description><![CDATA[<p>My 4 year old daughter says many things with confidence whether it is correct or not. Here are some memorable ones that makes me smile every time.</p>
 <ol>
@@ -84,24 +84,24 @@ Footnotes:</p>
 </ol>]]></description>
 </item><item>
   <title>Instructions From the Wife</title>
-  <link>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4</link>
-  <guid>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4</guid>
+  <link>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4/</link>
+  <guid>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4/</guid>
   <pubDate>Fri, 10 Jun 2016 19:00:58 -0400</pubDate>
   <description><![CDATA[<blockquote>She is a wise and hard working woman, my wife. I must listen to her.</blockquote>
 
 <a href="https://richardhsu.net/2016/06/03/instructions-from-the-wife-3">Previous instruction</a>]]></description>
 </item><item>
   <title>Instructions From the Wife</title>
-  <link>https://richardhsu.net/2016/06/03/instructions-from-the-wife-3</link>
-  <guid>https://richardhsu.net/2016/06/03/instructions-from-the-wife-3</guid>
+  <link>https://richardhsu.net/2016/06/03/instructions-from-the-wife-3/</link>
+  <guid>https://richardhsu.net/2016/06/03/instructions-from-the-wife-3/</guid>
   <pubDate>Fri, 03 Jun 2016 19:00:42 -0400</pubDate>
   <description><![CDATA[<blockquote>My life is complete because of my wife. I cannot praise her enough.</blockquote>
 
 <a href="https://richardhsu.net/2016/05/27/instructions-from-the-wife-2">Previous instruction</a>]]></description>
 </item><item>
   <title>Instructions From the Wife</title>
-  <link>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2</link>
-  <guid>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2</guid>
+  <link>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/</link>
+  <guid>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/</guid>
   <pubDate>Fri, 27 May 2016 19:00:54 -0400</pubDate>
   <description><![CDATA[<blockquote>I shall buy my wife a great gift for all her hard work and sacrifices.</blockquote>
 
@@ -110,22 +110,22 @@ Footnotes:</p>
 &nbsp;]]></description>
 </item><item>
   <title>Instructions From the Wife</title>
-  <link>https://richardhsu.net/2016/05/20/instructions-from-the-wife</link>
-  <guid>https://richardhsu.net/2016/05/20/instructions-from-the-wife</guid>
+  <link>https://richardhsu.net/2016/05/20/instructions-from-the-wife/</link>
+  <guid>https://richardhsu.net/2016/05/20/instructions-from-the-wife/</guid>
   <pubDate>Fri, 20 May 2016 19:00:58 -0400</pubDate>
   <description><![CDATA[<p>I discovered hand written notes at the top of 4 pages of my notebook. They are from my wife. I will share one per week (unedited) every Friday for the next 4 weeks.</p>
 <p>Here is the first one:</p>
 <blockquote>I shall learn well write poems for my darling wife</blockquote>]]></description>
 </item><item>
   <title>Artist Series :: Alexey Titarenko</title>
-  <link>https://richardhsu.net/2016/04/26/artist-series-alexey-titarenko</link>
-  <guid>https://richardhsu.net/2016/04/26/artist-series-alexey-titarenko</guid>
+  <link>https://richardhsu.net/2016/04/26/artist-series-alexey-titarenko/</link>
+  <guid>https://richardhsu.net/2016/04/26/artist-series-alexey-titarenko/</guid>
   <pubDate>Tue, 26 Apr 2016 20:36:52 -0400</pubDate>
   <description><![CDATA[<p>Ted Forbes through his Youtube channel <a href="https://www.youtube.com/user/theartofphotography/featured">The Art of Photography</a> has taught me the history and art of photography. He introduced me to many interesting photographers and works of art. <a href="https://www.youtube.com/watch?v=whoZ8SRgi2s">Here</a> is the first video in The Artist Series featuring Alexey Titarenko.</p>]]></description>
 </item><item>
   <title>LG TV (Model 55LF6000)</title>
-  <link>https://richardhsu.net/2016/04/15/lg-tv-model-55lf6000</link>
-  <guid>https://richardhsu.net/2016/04/15/lg-tv-model-55lf6000</guid>
+  <link>https://richardhsu.net/2016/04/15/lg-tv-model-55lf6000/</link>
+  <guid>https://richardhsu.net/2016/04/15/lg-tv-model-55lf6000/</guid>
   <pubDate>Fri, 15 Apr 2016 18:28:03 -0400</pubDate>
   <description><![CDATA[<p>The Samsung 50&quot; TV stopped working Thursday night. No TV on Friday meant the general mood at home was a mix of impatience (when are you getting the new TV?), boredom, anxiety (what is happening in Friday's episodes), and excitement (shopping for a new gadget and reading reviews). After eliminating the power cable as the problem for the dead TV, I decided it wasn't worth repairing and so began the search for a new TV.</p>
 <h3>Requirements</h3>
@@ -175,8 +175,8 @@ c) https://www.amazon.ca/LG-55-Inch-55LF6000-1080p-120Hz/dp/B00TRQPNKU&#160;<a h
 </div>]]></description>
 </item><item>
   <title>Milestones</title>
-  <link>https://richardhsu.net/2015/12/11/milestones</link>
-  <guid>https://richardhsu.net/2015/12/11/milestones</guid>
+  <link>https://richardhsu.net/2015/12/11/milestones/</link>
+  <guid>https://richardhsu.net/2015/12/11/milestones/</guid>
   <pubDate>Fri, 11 Dec 2015 23:08:55 -0400</pubDate>
   <description><![CDATA[<p>My daughter reached an important milestone today. She was allowed entry into Ikea's children's play place called Småland. Ikea shoppers can leave their kids in the supervised play place for 40 minutes at a time. The play place has toys, movies, sponge balls etc. that keep the kids entertained while their parents/guardians shop in peace. My older son has played at the play place every time we have shopped at Ikea over the years.</p>
 <p>Since the facility is designed for a certain age group, there is a minimum and maximum height requirement for entry. Few months ago, my daughter was shorter than the minimum height requirement and wasn't allowed to play in there. She was disappointed but I told her if she ate lots of food, she would grow the few inches she needed to get in. Today, we were shopping at Ikea again so I took her to the play place. The entry supervisor asked her to take her shoes off and stand against the measurement wall. To our pleasant surprise, the top of her head was just touching the line marking the minimum height and they let her in!</p>
@@ -185,8 +185,8 @@ c) https://www.amazon.ca/LG-55-Inch-55LF6000-1080p-120Hz/dp/B00TRQPNKU&#160;<a h
 <p>Dated: Dec 5th, 2015.</p>]]></description>
 </item><item>
   <title>Lesson in Photography: Using Shutter Priority</title>
-  <link>https://richardhsu.net/2015/12/06/shutter-priority</link>
-  <guid>https://richardhsu.net/2015/12/06/shutter-priority</guid>
+  <link>https://richardhsu.net/2015/12/06/shutter-priority/</link>
+  <guid>https://richardhsu.net/2015/12/06/shutter-priority/</guid>
   <pubDate>Sun, 06 Dec 2015 00:38:35 -0400</pubDate>
   <description><![CDATA[<p>I was handed the camera(Canon DSLR with Yongnuo flash) at my friend's birthday dinner last month. I pointed the flash to the ceiling(bounce), set the dial to Aperture Priority and went about making photos. I noticed the shutter speed being calculated was slower than ideal and some photos were blurry. The settings I would have used in my Nikon DSLR wasn't working for this Canon camera and I had trouble adjusting. To get a faster shutter speed, I increased the ISO (maybe to 800) and it seemed better. I kept making photos but was uncomfortable with the results. Towards the end of the birthday party, I changed the mode to Shutter Priority, set Shutter Speed to 1/100 sec, ISO 800 and it solved the exposure problem. I should have done that much earlier.</p>
 <p>Yesterday, my friend sent me the first 80 photos and most of them were not properly exposed due to slow shutter speed. I could see ghosting, blur, etc. in the photos. It was disappointing and heart breaking. I was trusted to document an important once-in-a-lifetime event in my friend's life and I failed. I am yet to receive the photos made towards the end when I switched to Shutter Priority. Let's hope there is enough in there to make it memorable for him.</p>
@@ -194,8 +194,8 @@ c) https://www.amazon.ca/LG-55-Inch-55LF6000-1080p-120Hz/dp/B00TRQPNKU&#160;<a h
 <p>Next time, I will remember to set the ISO higher and start with Shutter Priority in that kind of a situation.</p>]]></description>
 </item><item>
   <title>Cooler Than Cool</title>
-  <link>https://richardhsu.net/2015/11/28/cooler-than-cool</link>
-  <guid>https://richardhsu.net/2015/11/28/cooler-than-cool</guid>
+  <link>https://richardhsu.net/2015/11/28/cooler-than-cool/</link>
+  <guid>https://richardhsu.net/2015/11/28/cooler-than-cool/</guid>
   <pubDate>Sat, 28 Nov 2015 22:10:38 -0400</pubDate>
   <description><![CDATA[<p>We were on our way to the dollar store. In November, most houses have Christmas lights and decorations so it makes for an interesting drive. One of the houses had sparkly blue lights that covered the entire front wall. It was without doubt the most interesting Christmas lighting we saw. My son, sitting at the back, said “That’s Sick!”</p>
 <p>My wife and I didn’t know what he meant and our first reactions were along the lines of “What?!”. He then proceeded to educate us on the different levels of <em>Cool</em> . According to him, <em>Sick</em> is few levels above <em>Awesome</em>.</p>
@@ -209,8 +209,8 @@ c) https://www.amazon.ca/LG-55-Inch-55LF6000-1080p-120Hz/dp/B00TRQPNKU&#160;<a h
 </ol>]]></description>
 </item><item>
   <title>The Tunnel of Time by R K Laxman</title>
-  <link>https://richardhsu.net/2015/06/05/the-tunnel-of-time-by-r-k-laxman</link>
-  <guid>https://richardhsu.net/2015/06/05/the-tunnel-of-time-by-r-k-laxman</guid>
+  <link>https://richardhsu.net/2015/06/05/the-tunnel-of-time-by-r-k-laxman/</link>
+  <guid>https://richardhsu.net/2015/06/05/the-tunnel-of-time-by-r-k-laxman/</guid>
   <pubDate>Fri, 05 Jun 2015 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>I finished reading The Tunnel of Time (R K Laxman's autobiography). Being a slow reader, it took me months to complete but I enjoyed it. Here is a short description of the book and some excerpts.</p>
 <p>The book is deeply personal but also historical (India's Independence, Indira Gandhi imposed Emergency, Bangladesh etc.). You learn about R K Laxman's childhood, his family (including R K Narayan), friends and growing up in Mysore. There are stories about how he got started as a cartoonist, detailed descriptions of his travels, ideas about the human condition, his disciplined approach to creating cartoons, and of course his favourite subject (politicians) as observed by The Common Man. You get to know what he thought about his fellow cartoonists from around the world, real estate, winning various awards (including Ramon Magsaysay), and his family. He ends with his thoughts on his grand daughter.</p>
@@ -232,8 +232,8 @@ c) https://www.amazon.ca/LG-55-Inch-55LF6000-1080p-120Hz/dp/B00TRQPNKU&#160;<a h
 ]]></description>
 </item><item>
   <title>Parenting Is an Art</title>
-  <link>https://richardhsu.net/2015/04/24/parenting-is-an-art</link>
-  <guid>https://richardhsu.net/2015/04/24/parenting-is-an-art</guid>
+  <link>https://richardhsu.net/2015/04/24/parenting-is-an-art/</link>
+  <guid>https://richardhsu.net/2015/04/24/parenting-is-an-art/</guid>
   <pubDate>Fri, 24 Apr 2015 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>Two stories from the past weekend:</p>
 <h3>Saturday</h3>
@@ -259,8 +259,8 @@ Usually, we are rushing out of the car and running up the stairs to the changing
 </div>]]></description>
 </item><item>
   <title>Being Sick</title>
-  <link>https://richardhsu.net/2015/01/29/being-sick</link>
-  <guid>https://richardhsu.net/2015/01/29/being-sick</guid>
+  <link>https://richardhsu.net/2015/01/29/being-sick/</link>
+  <guid>https://richardhsu.net/2015/01/29/being-sick/</guid>
   <pubDate>Thu, 29 Jan 2015 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>Jan 26th, 2015.</p>
 <p>I am sick again. It has been over 10 days now that I am suffering soar throat, fever, shivering, stuffy nose, and cough. It was the same in last month. After a few days of pain, I saw the doctor, got 10 days of antibiotic medicine and I was better. This time, I tried to fight it but gave up yesterday morning and got another round of antibiotic medicines from the doctor.</p>
@@ -269,16 +269,16 @@ Usually, we are rushing out of the car and running up the stairs to the changing
 ]]></description>
 </item><item>
   <title>It's Like the Winter Classic</title>
-  <link>https://richardhsu.net/2014/12/30/its-like-the-winter-classic</link>
-  <guid>https://richardhsu.net/2014/12/30/its-like-the-winter-classic</guid>
+  <link>https://richardhsu.net/2014/12/30/its-like-the-winter-classic/</link>
+  <guid>https://richardhsu.net/2014/12/30/its-like-the-winter-classic/</guid>
   <pubDate>Tue, 30 Dec 2014 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>Picture this. An evening at an outdoor Ice Skating rink. It is around Christmas time so the mood is festive and warm. People in their winter coats, jackets, gloves, hats are skating in circles. You hear giggles, laughs, and talks as they go gracefully around the rink. Some are skating in pairs, holding hands. Then it starts to snow! It is beautiful.</p>
 <p>This was something I had only seen in movies and TV shows but yesterday, when my son and I went skating, it was real and it was beautiful. My son said &quot;It's like The Winter Classic&quot; (NHL Ice Hockey game played outdoors are called The Winter Classic).</p>
 ]]></description>
 </item><item>
   <title>The Polar Express</title>
-  <link>https://richardhsu.net/2014/11/14/polar-express</link>
-  <guid>https://richardhsu.net/2014/11/14/polar-express</guid>
+  <link>https://richardhsu.net/2014/11/14/polar-express/</link>
+  <guid>https://richardhsu.net/2014/11/14/polar-express/</guid>
   <pubDate>Fri, 14 Nov 2014 23:18:20 -0400</pubDate>
   <description><![CDATA[<p>The Polar Express is a story is about a boy who goes to the North Pole in a magical train. He gets a silver bell from Santa Claus but loses it on his way back. Miraculously, the next morning, it appears again in a box under his Christmas tree. The story ends with the quoted text below:</p>
 <blockquote>
@@ -297,8 +297,8 @@ Usually, we are rushing out of the car and running up the stairs to the changing
 ]]></description>
 </item><item>
   <title>Octopress</title>
-  <link>https://richardhsu.net/2014/10/10/octopress</link>
-  <guid>https://richardhsu.net/2014/10/10/octopress</guid>
+  <link>https://richardhsu.net/2014/10/10/octopress/</link>
+  <guid>https://richardhsu.net/2014/10/10/octopress/</guid>
   <pubDate>Fri, 10 Oct 2014 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>I have decided to migrate the blog from Wordpress to Octopress (hosted on <a href="http://github.com">GitHub</a>) . To get Octopress working, I followed the instructions on the <a href="http://octopress.org">Octopress website</a> and it worked. The default Classic theme is nice but two customizations were made: Favicon &amp; Date format (remove Time part).</p>
 <h3>Favicon</h3>
@@ -343,8 +343,8 @@ octopress/source/_includes/post/date.html
 ]]></description>
 </item><item>
   <title>I Gave in and Had It</title>
-  <link>https://richardhsu.net/2014/10/02/i-gave-in-and-had-it</link>
-  <guid>https://richardhsu.net/2014/10/02/i-gave-in-and-had-it</guid>
+  <link>https://richardhsu.net/2014/10/02/i-gave-in-and-had-it/</link>
+  <guid>https://richardhsu.net/2014/10/02/i-gave-in-and-had-it/</guid>
   <pubDate>Thu, 02 Oct 2014 03:34:23 -0400</pubDate>
   <description><![CDATA[It takes enormous will power to resist and I have been avoiding it for months but I lost the battle tonight. I unpacked two Maggi noodles and cooked myself a large bowl of steamy comforting noodle soup. Bonus ingredient: home made Hakka-style Sew-Mai (dumpling). Yummy.]]></description>
 </item></channel>
