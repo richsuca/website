@@ -1,1 +1,1 @@
-<h4><a href="$permalink">$title</a> ($date)</h4>
+<h4><a href="$permalink">$title</a> <span class="post-date">($date)</span></h4>

@@ -33,7 +33,9 @@ p
 
 blockquote
 {
- font-family: Georgia, serif;
+ font-family: "Times New Roman", Times, serif;
+ font-style: italic;
+ font-size: 110%;
  padding: 1em 2em;
  margin: 0 0 2em;
  border-left: 5px solid #eee;
@@ -82,17 +84,26 @@ strong {
  padding: 2em 1.25em;
 }
 
-.header-heading { margin: 0; }
-.header-nav { margin: 0; padding: 1em 0em; }
+.header-heading { margin: 0; font-family: "Times New Roman", Times, serif; text-align: center;}
+.header-heading-line2 { margin: 0; font-family: "Times New Roman", Times, serif; font-style: italic; text-align: center;}
+.header-nav { margin: 0; padding: 1em 0em; text-align: center;}
 .header-nav a:link, .header-nav a:visited { color: black; text-decoration: none; }
 
 .content { padding: 1em 1.25em; }
+
+.post-title {margin: 0; font-family: "Times New Roman", Times, serif;}
+.post-date {color: #808080}
 
 .footer
 {
  color: #000;
  background: #f2f2f2;
- padding: 1em 1.25em;
+ padding: 0.5em 1.25em;
+ text-align: center;
+}
+
+@media all and (max-device-width: 320px){
+    body{font-size: 14px;}
 }
 
 /* Wide styles */
@@ -100,5 +111,6 @@ strong {
 {
  .header { padding: 1.5em 3em; }
  .content { padding: 2em 3em; }
- .footer { padding: 2em 3em; }
+ .footer { padding: 0.5em 3em; }
+  body {font-size: 20px;}
 }
