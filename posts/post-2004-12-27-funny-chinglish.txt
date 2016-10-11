@@ -2,7 +2,7 @@ title: Funny Chinglish
 name: funny-chinglish
 date: 2004-12-27 23:33:00
 text:
-<p>Following is an extract from <a href="http://richardhsu.net/weblog/2004/10/26/the-joy-of-reading-stories/">&quot;The Young Explorer&quot; by Horatio Alger</a> :-</p>
+<p>Following is an extract from <a href="https://richardhsu.net/2004/10/26/the-joy-of-reading-stories/">&quot;The Young Explorer&quot; by Horatio Alger</a> :-</p>
 <p>In this part, a group of american gold miners are bullying and questioning a Mongolian [generalised by the author as a Chinaman]. The funny part is about the way a Mongolian [and indeed a Chinese] speaks english.</p>
 <p>Irish-American : &quot;...Where do you come from?&quot;</p>
 <p>Mongolian [named Ki Sing] : &quot;Me come from 'Flisco.&quot; [Its suppose to be 'f<span style="font-weight:bold;">r</span>isco', short for San Francisco]</p>
