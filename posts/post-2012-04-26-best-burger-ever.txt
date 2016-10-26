@@ -2,4 +2,4 @@ title: Best burger ever
 name: best-burger-ever
 date: 2012-04-26 13:28:02
 text:
-<a href="http://richsu.files.wordpress.com/2012/04/20120426-142353.jpg"><img src="http://richsu.files.wordpress.com/2012/04/20120426-142353.jpg" alt="20120426-142353.jpg" class="alignnone size-full" /></a>
+<img src="https://dl.dropboxusercontent.com/u/219644/burger.jpg" alt="Burger" />

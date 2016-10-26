@@ -3,9 +3,9 @@ name: moved
 date: 2010-04-11 01:32:32
 text:
 <p>We just moved into a rental apartment leaving Rainbow Village. Its been a memorable and happy ~3 years at Rainbow Village. The 2 bedroom apartment had a good balance of convenience and luxury. I will miss the view from the living room and the good people in the building who helped, cared and supported us while we called it our home. The Lin family has played a major role in our lives so far and will continue to do so. We continue along our journey hoping that the next residence we settle in will be worth leaving the comfort, convenience and luxury of Rainbow Village.</p>
-<p><a href="http://richsu.files.wordpress.com/2010/04/img_5412.jpg"><img class="size-medium wp-image-124" title="Rainbow Villlage" src="http://richsu.files.wordpress.com/2010/04/img_5412.jpg?w=300" alt="Rainbow Village" width="300" height="225" /></a><br />
+<p><img title="Rainbow Villlage" src="https://dl.dropboxusercontent.com/u/219644/rbvillage.jpg" alt="Rainbow Village" /><br />
 View from Living Room
 <br />
 <br /></p>
-<img class="alignnone" title="Rainbow Village" src="http://farm4.static.flickr.com/3330/3520524457_a68bf2bea9.jpg" alt="Rainbow Village" width="500" height="375" />
+<img title="Rainbow Village" src="http://farm4.static.flickr.com/3330/3520524457_a68bf2bea9.jpg" alt="Rainbow Village" />
 <p>Another photo from one of the bedrooms.</p>
