@@ -6,7 +6,7 @@ I slept at 3am due to a dinner social event that ended late and also my pre-slee
 
 So this morning, sleepy and lethargic, I was vacuuming the basement and not enjoying it at all when I found a small toy in a corner. Recognising it as a Shopkin, I gave it to my daughter who was happy to get it back. She said "Oh! that's my [Jelly Bean Joe][3]<sup>*</sup>".
 
-And just like that, life interesting again!
+And just like that, life is interesting again!
 
 <small>
 * Online, I found references to Jelly B. but not _Jelly Bean Joe_ so I asked my son. He educated me that it is a character from the TV show Odd Squad.
