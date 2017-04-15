@@ -2,7 +2,7 @@ title: Phones
 name: phones
 date: 2017-04-10 22:00:00
 text:
-I wish a phone call is *still* about something other than a donation, credit card, survey, vacation, or duct cleaning. Most of the time it isn't so I hardly pick up phones now. If I am nearby, I will glance at the caller ID and see if I recognise the name or number. Most of the time I don't so it goes unanswered and the automated voice messaging system takes over. If I am *still* nearby, I will listen to the voice message. Most of the time, there is none. If the message is from someone that isn't soliciting, I will call back.
+I wish a phone call is *still* about something other than a donation, credit card, survey, vacation, or duct cleaning. Most of the time it isn't, so I hardly pick up phones now. If I am nearby, I will glance at the caller ID and see if I recognise the name or number. Most of the time I don't, so it goes unanswered and the automated voice messaging system takes over. If I am *still* nearby, I will listen to the voice message. Most of the time, there is none. If the message is from someone that isn't soliciting, I will call back.
 
 It is sad that marketing calls have turned a simple, elegant solution into a nuisance.
 
