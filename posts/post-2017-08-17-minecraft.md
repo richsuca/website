@@ -14,4 +14,4 @@ Minecraft is a simple and fun pixel game. It takes your creativity and imaginati
 
 Well, that's Minecraft. Hope you like my essay and download Minecraft available on these platforms: PC, Mac, XBox 360, XBox One, PS3, PS4, XBox One S, iPad/tablet, Nitendo Switch, Wii, Wii U, Phone, and more. If you have already downloaded Minecraft, then why did you read this?
 
-[1]: https://www.washingtonpost.com/news/morning-mix/wp/2017/08/21/a-woman-in-india-just-won-a-divorce-because-her-husband-failed-to-provide-her-a-toilet-thats-huge/?hpid=hp_hp-morning-mix_mm-toilets%3Ahomepage%2Fstory
+[1]: https://www.dropbox.com/s/zfxvuc13hdzecdd/minecraftessay.jpg?dl=0
