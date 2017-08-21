@@ -8,7 +8,7 @@ Aiden 08/18/17
 Salary: 1 house (Monopoly)
 
 Minecraft Essay (Job)  
-The topic of the essay is Minecraft. Minecraft is a 3-D Pixel block game. The producers for the game are Jeb, and Notch. The main objective is to survive, create, and have fun.
+The topic of the essay is Minecraft. Minecraft is a 3-D Pixel block game. The producers of the game are Jeb, and Notch. The main objective is to survive, create, and have fun.
 
 Minecraft is a simple and fun pixel game. It takes your creativity and imagination to become a reality! In Minecraft, there are two modes to choose from: Creative or Survival. Creative is where you focus more on building. You have access to all the blocks, in the Creative inventory. Survival, you have to focus on more, well, surviving. You have nothing when you start the world. You have to gather resources, and build a shelter. You can craft, farm, build, battle, go to other dimensions, and get a few pets. There are few _mobs_ (short for mobile), there are passive, neutral, and hostile mobs. Passive mobs never attack you, neutral mobs don't attack you unless you attack them or provoke them. Hostile mobs will attack you on sight.
 
