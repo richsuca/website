@@ -13,16 +13,16 @@ Firework shows don't happen every day. During our visit, the Magic Kingdom [fire
 On select days, parks are open earlier or close later only for Disney hotel guests. Disney calls this extra time "Extra Magic Hours". During our visit, Animal Kingdom had Extra Magic Hours from 8am-9am on Tuesday. We used that early entry to line up for the very popular [_Avatar Flight of Passage_][2] ride*. As we entered Animal Kingdom, I saw a line of visitors (not staying at Disney hotel) that weren't allowed to get in yet so the one hour head start does make a difference.
 
 3) Arriving and Departure days  
-On the day you arrive or depart, you will not have a full day so either don't visit a park on that day or pick one that you can enjoy in the shorter day without rushing. We arrived Saturday noon and didn't visit any park. After a leisurely lunch, we spent the afternoon shopping at The Loop outlet. On the day of departure, our bus from hotel to airport was at 5.45pm so we picked Epcot for that shorter day since it seemed the most relaxing**.
+On the day you arrive or depart, you will not have a full day so either don't visit a park or pick one that you can enjoy in the shorter day without rushing. We arrived Saturday noon and didn't visit any park. After a leisurely lunch, we spent the afternoon shopping at The Loop outlet. On the day of departure, our bus from hotel to airport was at 5.45pm so we picked Epcot for that shorter day since it seemed the most relaxing**.
 
 Planning help  
 Please refer to the [guide for park hours](https://disneyworld.disney.go.com/calendars/five-day/) to find out Fireworks days and Extra Magic hours.
 
 I had three guides in my pocket all the time and used it often. You can get these at the hotel or parks.
 
-1. Times Guide for all resorts that also shows Extra Magic Hours and times for popular events.  
-2. Times Guide for the parks. One per park.  
-3. Guide map for the parks. One per park.
+1. Times Guide for all parks. This is a weekly guide for park hours, Extra Magic Hours and times for popular events.  
+2. Times Guide for the parks. One per park. This is a two page park specific list of times for popular attractions and events. 
+3. Guide map for the parks. One per park. Large well made map of the park, attractions, restaurants, washrooms etc.
 
 They have a mobile app that is very useful but the Wi-Fi in the parks wasn't reliable so we used the paper guide and maps most of the time. We did use our roaming data connection to check wait times for rides.
 
