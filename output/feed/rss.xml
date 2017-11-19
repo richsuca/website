@@ -5,8 +5,16 @@
 <atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://richardhsu.net/</link>
 <description>Richard Hsu's personal website</description>
-<lastBuildDate>Fri, 10 Nov 2017 17:02:53 -0400</lastBuildDate>
+<lastBuildDate>Sun, 19 Nov 2017 00:46:39 -0400</lastBuildDate>
 <language>en</language><item>
+  <title>Excuse for Not Eating</title>
+  <link>https://richardhsu.net/2017/11/19/excuses/</link>
+  <guid>https://richardhsu.net/2017/11/19/excuses/</guid>
+  <pubDate>Sun, 19 Nov 2017 00:01:00 -0400</pubDate>
+  <description><![CDATA[<p>Adele didn't want to finish her lunch(old news). She wanted to skip to the drink (Sprite). She started with her usual excuses but realised it wasn't working. So she came up with a new one.</p>
+<p>She said: In my stomach, the <em>food section</em> is full but the <em>drink section</em> still has space.</p>
+<p>It worked!</p>]]></description>
+</item><item>
   <title>How to Disney</title>
   <link>https://richardhsu.net/2017/11/10/how-to-disney/</link>
   <guid>https://richardhsu.net/2017/11/10/how-to-disney/</guid>
@@ -265,15 +273,5 @@ Footnotes:</p>
   <description><![CDATA[<blockquote>My life is complete because of my wife. I cannot praise her enough.</blockquote>
 
 <a href="https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/">Previous instruction</a>]]></description>
-</item><item>
-  <title>Instructions From the Wife</title>
-  <link>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/</link>
-  <guid>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/</guid>
-  <pubDate>Fri, 27 May 2016 19:00:54 -0400</pubDate>
-  <description><![CDATA[<blockquote>I shall buy my wife a great gift for all her hard work and sacrifices.</blockquote>
-
-<a href="https://richardhsu.net/2016/05/20/instructions-from-the-wife/">Previous instruction</a>
-
-&nbsp;]]></description>
 </item></channel>
 </rss>
