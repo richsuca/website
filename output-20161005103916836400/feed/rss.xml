@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Richard Hsu's personal website</title>
+<atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
+<link>https://richardhsu.net/</link>
+<description>Personal website. Stories, information and opinions.</description>
+<lastBuildDate>Tue, 04 Oct 2016 09:20:44 -0400</lastBuildDate>
+<language>en</language><item>
+  <title>Chaipress</title>
+  <link>https://richardhsu.net/2016/09/29/chaipress/</link>
+  <guid>https://richardhsu.net/2016/09/29/chaipress/</guid>
+  <pubDate>Thu, 29 Sep 2016 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>On a September 1st afternoon, I found an article about <a href="http://lwn.net/Articles/698452/">Linux kernel GPL enforcement</a> on <a href="https://news.ycombinator.com">Hacker News</a>. It referenced Torvald's <a href="https://lists.linuxfoundation.org/pipermail/ksummit-discuss/2016-August/003580.html">reply</a> on the thread. I read it and enjoyed the argument made and the style it was made in. It also got me curious about plain text formatting (<code>*bold*</code>, <code>_underscore_</code>,  <code>[footnotes]</code>, <code>&gt; for quoting</code>). I suddenly had a desire to write like that and wondered if there was a blogging service that supported that. My website <em>was</em> on WordPress and it could work using <code>&lt;pre&gt;</code> Html tag but plain text wasn't <em>the</em> only way to write.</p>
+<p>So I Googled for "plain text blog" and found <a href="http://calepin.co/">http://calepin.co/</a> and it was nice but not exactly what I was looking for. I noticed the words "Powered by Pelican" in the footer. That got me looking up <a href="http://docs.getpelican.com/">Pelican</a> and I learnt it was a "static site generator written in Python". Interesting<sup>1</sup>. On the same Google results page, there was a blog post about <a href="https://www.notionsandnotes.org/tech/web-development/pelican-static-blog-setup.html">building a static blog with Pelican</a>. The post describes blogging options and makes an argument for static site generators. It also provides step-by-step instructions to get Pelican working, but the most useful paragraph for me was</p>
+<blockquote>
+<p>The hosting resources required for public deployment are very small, 
+allowing one to use very cheap hosts such as NearlyFreeSpeech. Outside the domain registration costs, 
+the running costs come to less than $1 per month, which is a great saving!</p>
+</blockquote>
+<p><a href="https://www.nearlyfreespeech.net/">NearlyFreeSpeech</a> was the final<sup>3</sup> ingredient needed to make <a href="https://github.com/richsuca/chaipress">Chaipress</a> - my own static site generator. I don't know if it was the geekiness of NearlyFreeSpeech's website, their philosophy, or the pricing but it got me started and I had the first generated website up on September 17th. Writing the generator didn't take long but importing my WordPress posts did<sup>2</sup>. And I forgot about the plain text <em>only</em> thing that started all this.</p>
+<p>I called it Chaipress because Chai(tea) is simple, easy-to-make, low cost, and refreshing. The <em>press</em> is a suffix borrowed from the names of other blogging systems (WordPress, Octopress).</p>
+<p><small>
+Footnotes:</p>
+<ol>
+<li>Python is my favourite and Blogging apps are an eternal curiosity of mine. I did try Pelican. </li>
+<li>Text encoding mistakes. WordPress posts were not in Html so I had to convert them using Markdown. In hindsight, I could have left it as-is and converted them during page generation instead.</li>
+<li>My previous attempts at writing my own blog engine went nowhere. When I started working as a programmer, blogging was <em>a thing</em> and writing a blog engine was also <em>a thing</em>. <a href="https://news.ycombinator.com/item?id=10491873">It</a> <a href="http://www.staticgen.com/">still</a> <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=blog">is</a>.</li>
+</ol>
+<p></small></p>]]></description>
+</item><item>
+  <title>World Cup of Hockey: NA vs. Russia</title>
+  <link>https://richardhsu.net/2016/09/21/wch-na-vs-russia/</link>
+  <guid>https://richardhsu.net/2016/09/21/wch-na-vs-russia/</guid>
+  <pubDate>Wed, 21 Sep 2016 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>The <a href="http://ice.wch2016.com/recap?id=2016060106">match</a> between North America(NA) and Russia in the World Cup of Hockey was fast, exciting, dramatic, and had an edge-of-the-seat heart pounding finish that makes hockey entertaining to watch. There was also the young guns of <em>The West</em> (US &amp; Canada) versus the men of Russia angle. The end result was disappointing for me but Russia deserved to win it.</p>
+<p>Some commentary</p>
+<ul>
+<li>
+<p>Matt Murray had a bad night and gave up 4 goals in a short span of time. That was too much to recover from even with the talent and youth that NA had. Gibson was solid after taking over from Murray and kept NA in the game till the end. It will be interesting to see if Murray starts in the next game and how will this affect his role in Penguins' lineup next month.</p>
+</li>
+<li>
+<p>Bobrovsky, on the other hand, allowed 3 goals on 46 shots from NA. He was the MVP of the game. Russia, with their NHL <em>snipers</em> could only make 25 shots on goal. The contrast between shots and goals reminded me of <a href="https://www.nhl.com/gamecenter/sjs-vs-pit/2016/06/09/2015030415/recap/box-score#game=2015030415,game_state=final,lock_state=final,game_tab=boxscore">Game 5</a> of the Stanley Cup finals between Penguins and Sharks.</p>
+</li>
+<li>
+<p>NA team was too fancy many times resulting in missed chances or turnovers. It was nice to watch but not helpful to their cause. Time and experience in NHL will impart the wisdom to decide when to try low percentage moves and when to just keep it simple and pass or shoot.</p>
+</li>
+<li>
+<p>After the shock of going from 1-0 to 4-1, the young guns of NA regained composure with the late 2nd-period goal. That set up an exciting 3rd-period chase. It was comforting that NA didn't panic.</p>
+</li>
+<li>
+<p>Apart from a one-timer that hit the post, Ovechkin was quiet. Same for Malkin. Datsyuk was busy and I saw some smooth moves but it was the other players that made the difference.</p>
+</li>
+<li>
+<p>It was my first time watching the new NHL players like Auston Matthews, Morgan Reilly, Connor McDavid, and Nathan MacKinnon. I am excited for the start of the NHL season with two of them playing for Toronto Maple Leafs especially Auston Matthews (first draft pick).</p>
+</li>
+<li>
+<p>It could easily have gone to overtime. Now I regret deleting the recorded game. I could watch the 3rd period many times and still not get bored like Game 6 of the 2015-16 Penguins vs Sharks.</p>
+</li>
+<li>
+<p>It was an odd experience watching the recorded game and forwarding to skip the ads and commentaries. While I could watch the match in just over an hour instead of the two to three hours a live broadcast takes, it felt a bit rushed and highlight like. Maybe I missed the commentaries. Maybe the act of pressing <em>Forward</em> and <em>Play</em> on the remote control frequently disrupted the concentration needed to enjoy and watch the game. Maybe both.</p>
+</li>
+<li>
+<p>Notice I didn't use the word <em>grit</em> that Team USA has been using to describe their style of physically aggressive play. There was some pushing around, <a href="https://youtu.be/3035JsLNMX0"><em>face washing</em></a>, and body checks but all forgettable. It was few and far in between and didn't matter. That is how hockey should be played.</p>
+</li>
+</ul>
+]]></description>
+</item><item>
+  <title>Home Made Static Site Generator</title>
+  <link>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</link>
+  <guid>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</guid>
+  <pubDate>Mon, 19 Sep 2016 01:37:00 -0400</pubDate>
+  <description><![CDATA[First new post on the home made static site generator. Feature complete with RSS and a few nice things like auto Title casing. No more ads.]]></description>
+</item><item>
+  <title>When a Mistake Sounds So Right</title>
+  <link>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right/</link>
+  <guid>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right/</guid>
+  <pubDate>Fri, 17 Jun 2016 19:00:04 -0400</pubDate>
+  <description><![CDATA[<p>My 4 year old daughter says many things with confidence whether it is correct or not. Here are some memorable ones that makes me smile every time.</p>
+<ol>
+    <li>Newtube (Youtube)</li>
+    <li>Write the Weather (write the date for when I have to sign her homework)</li>
+    <li>Silly (saliva)</li>
+</ol>]]></description>
+</item><item>
+  <title>Instructions From the Wife</title>
+  <link>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4/</link>
+  <guid>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4/</guid>
+  <pubDate>Fri, 10 Jun 2016 19:00:58 -0400</pubDate>
+  <description><![CDATA[<blockquote>She is a wise and hard working woman, my wife. I must listen to her.</blockquote>
+
+<a href="https://richardhsu.net/2016/06/03/instructions-from-the-wife-3">Previous instruction</a>]]></description>
+</item><item>
+  <title>Instructions From the Wife</title>
+  <link>https://richardhsu.net/2016/06/03/instructions-from-the-wife-3/</link>
+  <guid>https://richardhsu.net/2016/06/03/instructions-from-the-wife-3/</guid>
+  <pubDate>Fri, 03 Jun 2016 19:00:42 -0400</pubDate>
+  <description><![CDATA[<blockquote>My life is complete because of my wife. I cannot praise her enough.</blockquote>
+
+<a href="https://richardhsu.net/2016/05/27/instructions-from-the-wife-2">Previous instruction</a>]]></description>
+</item><item>
+  <title>Instructions From the Wife</title>
+  <link>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/</link>
+  <guid>https://richardhsu.net/2016/05/27/instructions-from-the-wife-2/</guid>
+  <pubDate>Fri, 27 May 2016 19:00:54 -0400</pubDate>
+  <description><![CDATA[<blockquote>I shall buy my wife a great gift for all her hard work and sacrifices.</blockquote>
+
+<a href="https://richardhsu.net/2016/05/20/instructions-from-the-wife">Previous instruction</a>
+
+&nbsp;]]></description>
+</item><item>
+  <title>Instructions From the Wife</title>
+  <link>https://richardhsu.net/2016/05/20/instructions-from-the-wife/</link>
+  <guid>https://richardhsu.net/2016/05/20/instructions-from-the-wife/</guid>
+  <pubDate>Fri, 20 May 2016 19:00:58 -0400</pubDate>
+  <description><![CDATA[<p>I discovered hand written notes at the top of 4 pages of my notebook. They are from my wife. I will share one per week (unedited) every Friday for the next 4 weeks.</p>
+<p>Here is the first one:</p>
+<blockquote>I shall learn well write poems for my darling wife</blockquote>]]></description>
+</item><item>
+  <title>Artist Series :: Alexey Titarenko</title>
+  <link>https://richardhsu.net/2016/04/26/artist-series-alexey-titarenko/</link>
+  <guid>https://richardhsu.net/2016/04/26/artist-series-alexey-titarenko/</guid>
+  <pubDate>Tue, 26 Apr 2016 20:36:52 -0400</pubDate>
+  <description><![CDATA[<p>Ted Forbes through his Youtube channel <a href="https://www.youtube.com/user/theartofphotography/featured">The Art of Photography</a> has taught me the history and art of photography. He introduced me to many interesting photographers and works of art. <a href="https://www.youtube.com/watch?v=whoZ8SRgi2s">Here</a> is the first video in The Artist Series featuring Alexey Titarenko.</p>]]></description>
+</item><item>
+  <title>LG TV (Model 55LF6000)</title>
+  <link>https://richardhsu.net/2016/04/15/lg-tv-model-55lf6000/</link>
+  <guid>https://richardhsu.net/2016/04/15/lg-tv-model-55lf6000/</guid>
+  <pubDate>Fri, 15 Apr 2016 18:28:03 -0400</pubDate>
+  <description><![CDATA[<p>The Samsung 50&quot; TV stopped working Thursday night. No TV on Friday meant the general mood at home was a mix of impatience (when are you getting the new TV?), boredom, anxiety (what is happening in Friday's episodes), and excitement (shopping for a new gadget and reading reviews). After eliminating the power cable as the problem for the dead TV, I decided it wasn't worth repairing and so began the search for a new TV.</p>
+<h3>Requirements</h3>
+<ol>
+<li>The dead TV was a budget model so it had only 2 HDMI ports. Since I had more than 2 HDMI devices, I bought a HDMI splitter that expands 2 HDMI ports to 4. So any TV with 2 HDMI ports will suffice.</li>
+<li>I use Apple TV for Netflix, YoutTube, etc. so there is no need for the "Smart" apps in the TV itself.</li>
+<li>There is a chart that shows <a href="https://en.wikipedia.org/wiki/Optimum_HDTV_viewing_distance">optimal TV screen size</a> for various viewing distances. I looked up the chart and found 50"-55" to be ideal.</li>
+<li>Price range: $700-$1200.</li>
+</ol>
+<p>Since my last two TVs lasted 4 years and 3 years respectively, I wanted to get a 5 years warranty so I didn't have to buy another TV in 5 years. That narrowed down the seller to Costco. Other sellers either charge more for 5 years warranty or can't be relied on for that long.</p>
+<p>There are many TVs in the price range of $700-$1200. I narrowed it down to two based on reviews<sup id="fnref-892-1"><a href="#fn-892-1">1</a></sup>, screen size, and some unscientific selection criterias. After considering <a href="http://www.vizio.com/en-ca/m55c2.html">Vizio M-Series 55&quot; LED TV</a>, I decided to buy <a href="http://www.lg.com/us/tvs/lg-55LF6000">LG 55&quot; LED TV (Model 55LF6000)</a>. The pros and cons of the Vizio vs. LG are listed below:</p>
+<h3>Why Vizio?</h3>
+<ol>
+<li>Ultra HD/4K</li>
+<li>Smart TV</li>
+<li>Better build quality</li>
+<li>5 HDMI inputs</li>
+</ol>
+<h3>Why LG?</h3>
+<ol>
+<li>Costs 37% or $412 lesser ($511 if 5 yrs warranty and taxes are included)</li>
+<li>Can't play Ultra HD/4K but I anticipate limited Ultra HD content for the next </li>
+<li>few years so I would be viewing 1080p (HD) most of the time anyways, and I doubt the additional resolution and detail would matter to me.</li>
+<li>Not a Smart TV, but I don't need it. Apple TV is much better (more apps e.g. Shomi, better designed apps).</li>
+<li>LG design and build quality is good. The metallic look is nice. Besides, all I see is the big display, the rest I hardly notice at all.</li>
+<li>Only 2 HDMI inputs but I have a splitter already so not an issue for me.</li>
+</ol>
+<h3>My Review</h3>
+<p>After 2 days of cable TV watching, XBox gaming, and movie watching both on Netflix and via USB, I am happy with the TV. Looks great and works fine. I gave it a 5-Stars rating on Costco's website. I just have two minor annoyances with the user interface.</p>
+<p>First, when I press volume up/down, even though I don't use the TV's sound, it still shows a round image at the lower center of the screen. This is much better than Samsung's rectangle in the center of the screen but I wish it showed nothing at all. Second, when playing movies from a USB, the movie names are truncated so files with the similar long names are indistinguishable.</p>
+<h3>Conspiracy against LG?</h3>
+<p>We almost didn't buy it! At Costco, the LG model mentioned above was on display so The Wife and I compared the picture quality with other TVs (including a Vizio M-Series) and to my disappointment, it was not as good as the others. Images were not as sharp and text wasn't smooth (the curve of the letter C looked pixelated). We went back and forth comparing different TVs and came to the same conclusion that the picture looked worst in the LG one. I suspected it had to do with the picture profile settings so I started looking for a Costco employee for help.</p>
+<p>There was a gentleman in the next aisle helping another customer so I waited. When I got his attention, I told him about the LG TV picture quality and asked him if he can change the Picture settings to improve it. He said that is how that TV is and there is nothing he can do. He didn't even bother to see it for himself! His reply wasn't satisfactory and I got the impression he didn't know or care so I went back and tried to change the setting myself.</p>
+<p>It was awkward since I was reaching above my shoulder height and under the TV to find the control button. I did manage to change the setting from &quot;Vivid&quot; to &quot;Cinema&quot; and the picture quality improved. It looked just as sharp, clear and smooth as the rest of the TVs we were comparing to! With confirmation and agreement with The Wife, I loaded up the TV and headed for the cash counter. There are lessons here about many things and it makes me appreciate all those times when I depended on a knowledgeable and helpful store people.</p>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-892-1">
+Reviews read<br />
+a) http://www.wirecutter.com (the Vizio M-Series came into consideration due to the good review of C-Series)<br />
+b) http://hdtvcomparison.net/2015/09/lg-55lf6100-vs-55lf6000-do-you-need-to-choose-55lf6100/<br />
+c) https://www.amazon.ca/LG-55-Inch-55LF6000-1080p-120Hz/dp/B00TRQPNKU&#160;<a href="#fnref-892-1">&#8617;</a>
+</li>
+
+</ol>
+</div>]]></description>
+</item><item>
+  <title>Milestones</title>
+  <link>https://richardhsu.net/2015/12/11/milestones/</link>
+  <guid>https://richardhsu.net/2015/12/11/milestones/</guid>
+  <pubDate>Fri, 11 Dec 2015 23:08:55 -0400</pubDate>
+  <description><![CDATA[<p>My daughter reached an important milestone today. She was allowed entry into Ikea's children's play place called Småland. Ikea shoppers can leave their kids in the supervised play place for 40 minutes at a time. The play place has toys, movies, sponge balls etc. that keep the kids entertained while their parents/guardians shop in peace. My older son has played at the play place every time we have shopped at Ikea over the years.</p>
+<p>Since the facility is designed for a certain age group, there is a minimum and maximum height requirement for entry. Few months ago, my daughter was shorter than the minimum height requirement and wasn't allowed to play in there. She was disappointed but I told her if she ate lots of food, she would grow the few inches she needed to get in. Today, we were shopping at Ikea again so I took her to the play place. The entry supervisor asked her to take her shoes off and stand against the measurement wall. To our pleasant surprise, the top of her head was just touching the line marking the minimum height and they let her in!</p>
+<p>This marks a small but significant milestone in her life and ours. We don't weigh or measure our children's height so it is these simple and small life events that makes us pause and think about their growth.</p>
+<p>Another funny story related to my daughter happened last night. I was dressed and ready to go out when I realised the cell phone wasn't in my pocket. Thinking it was upstairs in my office room, I asked my daughter to go get it for me. She could not find it(it was in my jacket pocket) but came back with the cordless phone handset. She said she couldn't find my cell phone so I should have the cordless phone instead.</p>
+<p>Dated: Dec 5th, 2015.</p>]]></description>
+</item><item>
+  <title>Lesson in Photography: Using Shutter Priority</title>
+  <link>https://richardhsu.net/2015/12/06/shutter-priority/</link>
+  <guid>https://richardhsu.net/2015/12/06/shutter-priority/</guid>
+  <pubDate>Sun, 06 Dec 2015 00:38:35 -0400</pubDate>
+  <description><![CDATA[<p>I was handed the camera(Canon DSLR with Yongnuo flash) at my friend's birthday dinner last month. I pointed the flash to the ceiling(bounce), set the dial to Aperture Priority and went about making photos. I noticed the shutter speed being calculated was slower than ideal and some photos were blurry. The settings I would have used in my Nikon DSLR wasn't working for this Canon camera and I had trouble adjusting. To get a faster shutter speed, I increased the ISO (maybe to 800) and it seemed better. I kept making photos but was uncomfortable with the results. Towards the end of the birthday party, I changed the mode to Shutter Priority, set Shutter Speed to 1/100 sec, ISO 800 and it solved the exposure problem. I should have done that much earlier.</p>
+<p>Yesterday, my friend sent me the first 80 photos and most of them were not properly exposed due to slow shutter speed. I could see ghosting, blur, etc. in the photos. It was disappointing and heart breaking. I was trusted to document an important once-in-a-lifetime event in my friend's life and I failed. I am yet to receive the photos made towards the end when I switched to Shutter Priority. Let's hope there is enough in there to make it memorable for him.</p>
+<p>I must have viewed countless hours of video, books etc. that covers exposure and the role Aperture, Shutter Speed, and ISO plays. Yet, when it mattered, I forgot the basics and took too long to get the right exposure and wasted important moments.</p>
+<p>Next time, I will remember to set the ISO higher and start with Shutter Priority in that kind of a situation.</p>]]></description>
+</item><item>
+  <title>Cooler Than Cool</title>
+  <link>https://richardhsu.net/2015/11/28/cooler-than-cool/</link>
+  <guid>https://richardhsu.net/2015/11/28/cooler-than-cool/</guid>
+  <pubDate>Sat, 28 Nov 2015 22:10:38 -0400</pubDate>
+  <description><![CDATA[<p>We were on our way to the dollar store. In November, most houses have Christmas lights and decorations so it makes for an interesting drive. One of the houses had sparkly blue lights that covered the entire front wall. It was without doubt the most interesting Christmas lighting we saw. My son, sitting at the back, said “That’s Sick!”</p>
+<p>My wife and I didn’t know what he meant and our first reactions were along the lines of “What?!”. He then proceeded to educate us on the different levels of <em>Cool</em> . According to him, <em>Sick</em> is few levels above <em>Awesome</em>.</p>
+<p>Since this is the season to be generous, I am hereby sharing the new found wisdom with you.</p>
+<p>Levels of Cool</p>
+<ol>
+<li>Cool!</li>
+<li>Awesome! (Cooler than Cool)</li>
+<li>RAD! (More than Awesome)</li>
+<li>Sick! (Highest level of Cool)</li>
+</ol>]]></description>
+</item><item>
+  <title>The Tunnel of Time by R K Laxman</title>
+  <link>https://richardhsu.net/2015/06/05/the-tunnel-of-time-by-r-k-laxman/</link>
+  <guid>https://richardhsu.net/2015/06/05/the-tunnel-of-time-by-r-k-laxman/</guid>
+  <pubDate>Fri, 05 Jun 2015 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>I finished reading The Tunnel of Time (R K Laxman's autobiography). Being a slow reader, it took me months to complete but I enjoyed it. Here is a short description of the book and some excerpts.</p>
+<p>The book is deeply personal but also historical (India's Independence, Indira Gandhi imposed Emergency, Bangladesh etc.). You learn about R K Laxman's childhood, his family (including R K Narayan), friends and growing up in Mysore. There are stories about how he got started as a cartoonist, detailed descriptions of his travels, ideas about the human condition, his disciplined approach to creating cartoons, and of course his favourite subject (politicians) as observed by The Common Man. You get to know what he thought about his fellow cartoonists from around the world, real estate, winning various awards (including Ramon Magsaysay), and his family. He ends with his thoughts on his grand daughter.</p>
+<p>One remarkable fact is he worked at The Times of India, drawing cartoons for over 50 years sitting at the same table!</p>
+<p>Excerpts:</p>
+<p>On Andaman and Nicobar Islands where he had a vacation:</p>
+<blockquote>
+<p>...giant crabs climbed up the coconut trees, plucked the nuts, climbed down, husked them with their claws, cracked them and noisily ate the kernels!</p>
+</blockquote>
+<p>On Politicians:</p>
+<blockquote>
+<p>Largely politics was the profession of school drop-outs; I observed that politicians were endowed with immense vitality but little intelligence. .... I speculated that politicians were the most durable among the human species. They were tough, impervious to humiliation, failure, defeat, insults, shocks. They led a conscience-free existence hungering eternally for power even when charged with corruption, fraud and murder! For all the travelling they did all over the subcontinent, eating and sleeping at odd hours and shouting themselves hoarse in front of a battery of microphones in heat and dust and sub-zero temperatures, they never suffered from colds, sore throats, fevers or any such maladies that afflicted the common citizen.</p>
+</blockquote>
+<p>Interesting teaser:</p>
+<blockquote>
+<p>But my whole life changed one day because a cat fell into the reservoir situated at the top of the Times of India building.</p>
+</blockquote>
+<p>My book came from India as a gift from my brothers (Thank you Robert &amp; Raymond) but I am sure it will not be hard to buy one.</p>
+]]></description>
+</item><item>
+  <title>Parenting Is an Art</title>
+  <link>https://richardhsu.net/2015/04/24/parenting-is-an-art/</link>
+  <guid>https://richardhsu.net/2015/04/24/parenting-is-an-art/</guid>
+  <pubDate>Fri, 24 Apr 2015 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>Two stories from the past weekend:</p>
+<h3>Saturday</h3>
+<p>Aiden goes to catechism class on Saturday mornings. He doesn't like catechism classes but he knows he will have to attend and learn just like all the other things he has to by our choice. He complained of headache and nausea when I tried to wake him. He didn't want to get up. It does take effort and few calls to wake him up normally but him complaining of headache or nausea is unusual so I gave him the benefit of the doubt and let him stay in bed longer and skip the catechism class.</p>
+<p>After sometime, he did throw up while in bed and wasn't well for the first half of the day so I felt relieved that I didn't force him to go to the class.</p>
+<p>By afternoon, he recovered, played, and ate normally the rest of the day.</p>
+<h3>Sunday</h3>
+<p>He has swimming lessons on Sunday mornings. He doesn't like swimming either and I would wager he prefers catechism classes to swimming. He didn't want to get up again but this time, he just said he didn't &quot;feel&quot; like swimming. Keeping in mind that he was unwell the previous morning, I did consider letting him go back to sleep but decided otherwise. I made him get up assuming he was just trying to avoid swimming.</p>
+<p>When I reached YMCA where he learns to swim, he repeated the same thing. He didn't &quot;feel&quot; like swimming and didn't want to get out of the car. This is unusual<sup id="fnref-777-1"><a href="#fn-777-1" rel="footnote">1</a></sup>. I did spend sometime to think about it not sure what to do. The unpleasant image of him throwing up in the pool with 30 others was on my mind. On the other hand, if he was alright but just avoiding swim lessons, then letting him skip would set a bad precedent. He would be encouraged to try the same for other things he disliked.</p>
+<p>After maybe a minute or so of thinking while still in the parked car, I decided to make him go. We got out of the car, went up to the pool, and he did his lesson without any issue. He seemed fine (as fine as he normally is at the swimming pool).</p>
+<p>He was his usual self the rest of the day: playing, asking for things, watching TV etc.</p>
+<p>Two scenarios, two different decisions, both turned out well but I can't honestly say I was confident of either of my decisions. It could both have turned out to be unwise. I don't know for sure what it was that worked. Maybe it was experience, maybe it was instinct, maybe it was the &quot;connection&quot; between a parent and a child, or maybe it was luck. I don't know. I can give countless examples of things I did or said that I regretted later but no one likes a story with a bad ending.</p>
+<p>Parenting is an art.</p>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-777-1">
+Usually, we are rushing out of the car and running up the stairs to the changing room because we are late&#160;<a href="#fnref-777-1" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div>]]></description>
+</item><item>
+  <title>Being Sick</title>
+  <link>https://richardhsu.net/2015/01/29/being-sick/</link>
+  <guid>https://richardhsu.net/2015/01/29/being-sick/</guid>
+  <pubDate>Thu, 29 Jan 2015 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>Jan 26th, 2015.</p>
+<p>I am sick again. It has been over 10 days now that I am suffering soar throat, fever, shivering, stuffy nose, and cough. It was the same in last month. After a few days of pain, I saw the doctor, got 10 days of antibiotic medicine and I was better. This time, I tried to fight it but gave up yesterday morning and got another round of antibiotic medicines from the doctor.</p>
+<p>When you have soar throat, you have difficulty sleeping, eating, talking, and because you don't sleep well, you can't work and feel drowsy and slow all the time. What is worse than soar throat? Sneezing with soar throat. It causes maximum pain and jangles my brain so much I see stars (yes, like the cartoons). It sucks!</p>
+<p>But, I have a caring wife, understanding kids, flexible employer, and excellent healthcare so I can take time off and get well. I am lucky. Others fall sick too,  and many have worse health problems but they may not be as lucky as I am.</p>
+]]></description>
+</item><item>
+  <title>It's Like the Winter Classic</title>
+  <link>https://richardhsu.net/2014/12/30/its-like-the-winter-classic/</link>
+  <guid>https://richardhsu.net/2014/12/30/its-like-the-winter-classic/</guid>
+  <pubDate>Tue, 30 Dec 2014 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>Picture this. An evening at an outdoor Ice Skating rink. It is around Christmas time so the mood is festive and warm. People in their winter coats, jackets, gloves, hats are skating in circles. You hear giggles, laughs, and talks as they go gracefully around the rink. Some are skating in pairs, holding hands. Then it starts to snow! It is beautiful.</p>
+<p>This was something I had only seen in movies and TV shows but yesterday, when my son and I went skating, it was real and it was beautiful. My son said &quot;It's like The Winter Classic&quot; (NHL Ice Hockey game played outdoors are called The Winter Classic).</p>
+]]></description>
+</item><item>
+  <title>The Polar Express</title>
+  <link>https://richardhsu.net/2014/11/14/polar-express/</link>
+  <guid>https://richardhsu.net/2014/11/14/polar-express/</guid>
+  <pubDate>Fri, 14 Nov 2014 23:18:20 -0400</pubDate>
+  <description><![CDATA[<p>The Polar Express is a story is about a boy who goes to the North Pole in a magical train. He gets a silver bell from Santa Claus but loses it on his way back. Miraculously, the next morning, it appears again in a box under his Christmas tree. The story ends with the quoted text below:</p>
+<blockquote>
+  I shook the bell. It made the most beautiful sound my sister and I had ever heard.
+  
+  But my mother said, "Oh, that's too bad."
+  
+  "Yes," said my father, "it's broken."
+  
+  When I'd shaken the bell, my parents had not heard a sound.
+  
+  At one time most of my friends could hear the bell, but as years passed, it fell silent for all of them. Even Sarah found one Christmas that she could no longer hear its sweet sound. Though I've grown old, the bell still rings for me as it does for all who truly believe.
+</blockquote>
+<p>From &quot;THE POLAR EXPRESS&quot; (Twentieth Anniversary Edition)</p>
+<p>I have read this story many times to my son but I paid attention to the ending only this week. Perhaps, I just didn't hear the bell before?</p>
+]]></description>
+</item><item>
+  <title>Octopress</title>
+  <link>https://richardhsu.net/2014/10/10/octopress/</link>
+  <guid>https://richardhsu.net/2014/10/10/octopress/</guid>
+  <pubDate>Fri, 10 Oct 2014 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p>I have decided to migrate the blog from Wordpress to Octopress (hosted on <a href="http://github.com">GitHub</a>) . To get Octopress working, I followed the instructions on the <a href="http://octopress.org">Octopress website</a> and it worked. The default Classic theme is nice but two customizations were made: Favicon &amp; Date format (remove Time part).</p>
+<h3>Favicon</h3>
+<p>The default Favicon is nice but I prefer my own Gif image designed by <a href="http://robbyhsu.tumblr.com">Robert</a>.</p>
+<p>1) Replace favicon file<br />
+I deleted <code>favicon.png</code> from <code>octopress/.themes/classic/source</code> and <code>octopress/source</code> and replaced it with <code>favicon.gif</code></p>
+<p>2) Update <code>head.html</code> in <code>source</code> and <code>theme</code> directories<br /></p>
+<p>Files:</p>
+<pre><code>source/_includes/head.html
+octopress/.themes/classic/source
+</code></pre>
+
+<p>Original:<br />
+&lt;link href=&quot;{{ root_url }}/favicon.png&quot; rel=&quot;icon&quot;&gt;</p>
+<p>New:<br />
+&lt;link href=&quot;{{ root_url }}/favicon.gif&quot; rel=&quot;icon&quot;&gt;</p>
+<h3>Date format (remove Time part)</h3>
+<p>By default, the blog posts will show Date and Time. I removed the Time part.</p>
+<p>Files:</p>
+<pre><code>octopress/.themes/classic/source/_includes/post/date.html
+octopress/source/_includes/post/date.html
+</code></pre>
+
+<p>Original:</p>
+<pre><code>{% if page.date %}{% capture time %}{{ page.date_time_html
+{% if post.date %}{% capture time %}{{ post.date_time_html
+</code></pre>
+
+<p>New:</p>
+<pre><code>{% if page.date %}{% capture time %}{{ page.date_text
+{% if post.date %}{% capture time %}{{ post.date_text
+</code></pre>
+
+<p>For other date formats refer to https://github.com/octopress/date-format</p>
+<p>Why migrate?</p>
+<ol>
+<li>No Ads (don't want to pay $30/year to go ad free in Wordpress)</li>
+<li>Customizations (don't want to pay $30/year for ability to change font etc.)</li>
+<li>The simplicity and benefits of static web pages</li>
+<li>Octopress is a &quot;A blogging framework for hackers.&quot; :)</li>
+</ol>
+]]></description>
+</item><item>
+  <title>I Gave in and Had It</title>
+  <link>https://richardhsu.net/2014/10/02/i-gave-in-and-had-it/</link>
+  <guid>https://richardhsu.net/2014/10/02/i-gave-in-and-had-it/</guid>
+  <pubDate>Thu, 02 Oct 2014 03:34:23 -0400</pubDate>
+  <description><![CDATA[It takes enormous will power to resist and I have been avoiding it for months but I lost the battle tonight. I unpacked two Maggi noodles and cooked myself a large bowl of steamy comforting noodle soup. Bonus ingredient: home made Hakka-style Sew-Mai (dumpling). Yummy.]]></description>
+</item></channel>
+</rss>

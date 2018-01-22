@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Richard Hsu's personal website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="Richard Hsu">
+		<meta name="author" content="Richard Hsu">
+		<meta name="robots" content="index, follow">
+		<link rel="alternate" type="application/rss+xml" title="Richard Hsu's website feed" href="/feed/" />
+		<link rel="apple-touch-icon" href="/favicon.gif">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" href="/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="header-heading">Richard HSU</h1>
+				<h5 class="header-nav"><a href="/">Latest</a>&nbsp;|&nbsp;<a href="/archives/">Archives</a>&nbsp;|&nbsp;<a href="/contact/">Contact</a>&nbsp;|&nbsp;<a href="/others/">Others</a></h5>
+			</div>
+			<div class="content">
+				<div class="main"><h2><a href="/2014/02/21/hyphen-and-dash-are-not-the-same/">- (Hyphen) and – (Dash) Are Not the Same</a></h2>
+<small><p>Feb 21, 2014</p></small>
+<p>Linux <code>find</code> command ignores* –name (dash name) option and runs finding all files instead of exiting with an unknown parameter error.</p>
+<p>Wrong command (with dash name option):
+<code>find –name '*.dat' -exec rm {} \;</code></p>
+<p>What I wanted it to do: Find all files matching *.dat wildcard and delete them
+What it does: Find all files in the directory and delete them, then throw an error message it could not find *.dat file or directory</p>
+<p>Correct command (with hyphen name option):
+<code>find -name '*.dat' -exec rm {} \;</code></p>
+<p>I was typing the command in Outlook and the AutoCorrect feature changed - (hyphen) to – (dash). It was copy-pasted from the email to a Putty session executed causing undesired behaviour.</p>
+<p>How to avoid this?</p>
+<ul>
+<li><a title="Turn off AutoCorrect" href="http://office.microsoft.com/en-ca/word-help/undo-or-turn-off-automatic-formatting-HA102491299.aspx?CTT=1">Turn off AutoCorrect &amp; AutoFormat options in Outlook</a></li>
+<li>Start with a Plain Text formatted email</li>
+<li>Write the commands in Notepad or Notepad++ and attach the text file to the email</li>
+</ul>
+<p>*It does not really ignore it, rather, it interprets it as a verbatim file name you want to find instead of wild card search.</p>
+<hr />				</div>
+			</div>
+			<div class="footer">
+				Made in Canada 🍁 with spices from India. Since 2004.
+			</div>
+		</div>
+	</body>
+</html>

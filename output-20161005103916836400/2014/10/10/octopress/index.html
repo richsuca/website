@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Richard Hsu's personal website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="Richard Hsu">
+		<meta name="author" content="Richard Hsu">
+		<meta name="robots" content="index, follow">
+		<link rel="alternate" type="application/rss+xml" title="Richard Hsu's website feed" href="/feed/" />
+		<link rel="apple-touch-icon" href="/favicon.gif">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" href="/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="header-heading">Richard HSU</h1>
+				<h5 class="header-nav"><a href="/">Latest</a>&nbsp;|&nbsp;<a href="/archives/">Archives</a>&nbsp;|&nbsp;<a href="/contact/">Contact</a>&nbsp;|&nbsp;<a href="/others/">Others</a></h5>
+			</div>
+			<div class="content">
+				<div class="main"><h2><a href="/2014/10/10/octopress/">Octopress</a></h2>
+<small><p>Oct 10, 2014</p></small>
+<p>I have decided to migrate the blog from Wordpress to Octopress (hosted on <a href="http://github.com">GitHub</a>) . To get Octopress working, I followed the instructions on the <a href="http://octopress.org">Octopress website</a> and it worked. The default Classic theme is nice but two customizations were made: Favicon &amp; Date format (remove Time part).</p>
+<h3>Favicon</h3>
+<p>The default Favicon is nice but I prefer my own Gif image designed by <a href="http://robbyhsu.tumblr.com">Robert</a>.</p>
+<p>1) Replace favicon file<br />
+I deleted <code>favicon.png</code> from <code>octopress/.themes/classic/source</code> and <code>octopress/source</code> and replaced it with <code>favicon.gif</code></p>
+<p>2) Update <code>head.html</code> in <code>source</code> and <code>theme</code> directories<br /></p>
+<p>Files:</p>
+<pre><code>source/_includes/head.html
+octopress/.themes/classic/source
+</code></pre>
+
+<p>Original:<br />
+&lt;link href=&quot;{{ root_url }}/favicon.png&quot; rel=&quot;icon&quot;&gt;</p>
+<p>New:<br />
+&lt;link href=&quot;{{ root_url }}/favicon.gif&quot; rel=&quot;icon&quot;&gt;</p>
+<h3>Date format (remove Time part)</h3>
+<p>By default, the blog posts will show Date and Time. I removed the Time part.</p>
+<p>Files:</p>
+<pre><code>octopress/.themes/classic/source/_includes/post/date.html
+octopress/source/_includes/post/date.html
+</code></pre>
+
+<p>Original:</p>
+<pre><code>{% if page.date %}{% capture time %}{{ page.date_time_html
+{% if post.date %}{% capture time %}{{ post.date_time_html
+</code></pre>
+
+<p>New:</p>
+<pre><code>{% if page.date %}{% capture time %}{{ page.date_text
+{% if post.date %}{% capture time %}{{ post.date_text
+</code></pre>
+
+<p>For other date formats refer to https://github.com/octopress/date-format</p>
+<p>Why migrate?</p>
+<ol>
+<li>No Ads (don't want to pay $30/year to go ad free in Wordpress)</li>
+<li>Customizations (don't want to pay $30/year for ability to change font etc.)</li>
+<li>The simplicity and benefits of static web pages</li>
+<li>Octopress is a &quot;A blogging framework for hackers.&quot; :)</li>
+</ol>
+
+				</div>
+			</div>
+			<div class="footer">
+				Made in Canada 🍁 with spices from India. Since 2004.
+			</div>
+		</div>
+	</body>
+</html>

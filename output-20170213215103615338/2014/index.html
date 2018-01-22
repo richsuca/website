@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>A Lengthy Reboot</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="Personal website. Stories, opinion, and ideas.">
+		<meta name="author" content="Richard Hsu">
+		<meta name="robots" content="index, follow">
+		<link rel="alternate" type="application/rss+xml" title="A Lengthy Reboot" href="/feed/" />
+		<link rel="apple-touch-icon" href="/favicon.gif">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" href="/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="header-heading">A LENGTHY REBOOT</h1>
+				<h5 class="header-heading-line2">By Richard Hsu</h5>
+				<h5 class="header-nav"><a href="/">Latest</a>&nbsp;|&nbsp;<a href="/archives/">Archives</a>&nbsp;|&nbsp;<a href="/contact/">Contact</a>&nbsp;|&nbsp;<a href="/others/">Others</a></h5>
+			</div>
+			<div class="content">
+				<div class="main"><h2 class="post-title"><a href="/2014/12/30/its-like-the-winter-classic/">It's Like the Winter Classic</a></h2>
+<small><p class="post-date">Dec 30, 2014</p></small>
+<p>Picture this. An evening at an outdoor Ice Skating rink. It is around Christmas time so the mood is festive and warm. People in their winter coats, jackets, gloves, hats are skating in circles. You hear giggles, laughs, and talks as they go gracefully around the rink. Some are skating in pairs, holding hands. Then it starts to snow! It is beautiful.</p>
+<p>This was something I had only seen in movies and TV shows but yesterday, when my son and I went skating, it was real and it was beautiful. My son said &quot;It's like The Winter Classic&quot; (NHL Ice Hockey game played outdoors are called The Winter Classic).</p>
+
+<hr /><h2 class="post-title"><a href="/2014/11/14/polar-express/">The Polar Express</a></h2>
+<small><p class="post-date">Nov 14, 2014</p></small>
+<p>The Polar Express is a story is about a boy who goes to the North Pole in a magical train. He gets a silver bell from Santa Claus but loses it on his way back. Miraculously, the next morning, it appears again in a box under his Christmas tree. The story ends with the quoted text below:</p>
+<blockquote>
+  I shook the bell. It made the most beautiful sound my sister and I had ever heard.
+  
+  But my mother said, "Oh, that's too bad."
+  
+  "Yes," said my father, "it's broken."
+  
+  When I'd shaken the bell, my parents had not heard a sound.
+  
+  At one time most of my friends could hear the bell, but as years passed, it fell silent for all of them. Even Sarah found one Christmas that she could no longer hear its sweet sound. Though I've grown old, the bell still rings for me as it does for all who truly believe.
+</blockquote>
+<p>From &quot;THE POLAR EXPRESS&quot; (Twentieth Anniversary Edition)</p>
+<p>I have read this story many times to my son but I paid attention to the ending only this week. Perhaps, I just didn't hear the bell before?</p>
+
+<hr /><h2 class="post-title"><a href="/2014/10/10/octopress/">Octopress</a></h2>
+<small><p class="post-date">Oct 10, 2014</p></small>
+<p>I have decided to migrate the blog from Wordpress to Octopress (hosted on <a href="http://github.com">GitHub</a>) . To get Octopress working, I followed the instructions on the <a href="http://octopress.org">Octopress website</a> and it worked. The default Classic theme is nice but two customizations were made: Favicon &amp; Date format (remove Time part).</p>
+<h3>Favicon</h3>
+<p>The default Favicon is nice but I prefer my own Gif image designed by <a href="http://robbyhsu.tumblr.com">Robert</a>.</p>
+<p>1) Replace favicon file<br />
+I deleted <code>favicon.png</code> from <code>octopress/.themes/classic/source</code> and <code>octopress/source</code> and replaced it with <code>favicon.gif</code></p>
+<p>2) Update <code>head.html</code> in <code>source</code> and <code>theme</code> directories<br /></p>
+<p>Files:</p>
+<pre><code>source/_includes/head.html
+octopress/.themes/classic/source
+</code></pre>
+
+<p>Original:<br />
+&lt;link href=&quot;{{ root_url }}/favicon.png&quot; rel=&quot;icon&quot;&gt;</p>
+<p>New:<br />
+&lt;link href=&quot;{{ root_url }}/favicon.gif&quot; rel=&quot;icon&quot;&gt;</p>
+<h3>Date format (remove Time part)</h3>
+<p>By default, the blog posts will show Date and Time. I removed the Time part.</p>
+<p>Files:</p>
+<pre><code>octopress/.themes/classic/source/_includes/post/date.html
+octopress/source/_includes/post/date.html
+</code></pre>
+
+<p>Original:</p>
+<pre><code>{% if page.date %}{% capture time %}{{ page.date_time_html
+{% if post.date %}{% capture time %}{{ post.date_time_html
+</code></pre>
+
+<p>New:</p>
+<pre><code>{% if page.date %}{% capture time %}{{ page.date_text
+{% if post.date %}{% capture time %}{{ post.date_text
+</code></pre>
+
+<p>For other date formats refer to https://github.com/octopress/date-format</p>
+<p>Why migrate?</p>
+<ol>
+<li>No Ads (don't want to pay $30/year to go ad free in Wordpress)</li>
+<li>Customizations (don't want to pay $30/year for ability to change font etc.)</li>
+<li>The simplicity and benefits of static web pages</li>
+<li>Octopress is a &quot;A blogging framework for hackers.&quot; :)</li>
+</ol>
+
+<hr /><h2 class="post-title"><a href="/2014/10/02/i-gave-in-and-had-it/">I Gave in and Had It</a></h2>
+<small><p class="post-date">Oct 02, 2014</p></small>
+It takes enormous will power to resist and I have been avoiding it for months but I lost the battle tonight. I unpacked two Maggi noodles and cooked myself a large bowl of steamy comforting noodle soup. Bonus ingredient: home made Hakka-style Sew-Mai (dumpling). Yummy.
+<hr /><h2 class="post-title"><a href="/2014/09/26/photography/">Photography</a></h2>
+<small><p class="post-date">Sep 26, 2014</p></small>
+<p>Photography is the only creative thing I do and it has been a hobby for the last 10 years. Here is an equipment centric account of my photographic journey. There is something to be said about my teachers and influences too but that is for another day.</p>
+<p>My earliest memory of photography is from Darjeeling, a hill station in India close to Kolkata. My two brothers and I had a good time on that trip (chilling water baths, seeing snow covered Mount Kanchenjunga on the last day of our trip). I borrowed a film camera and bought a tripod for the trip. Don't know where the photos are now but I remember using the tripod to make a photo of us three at the Rock garden. It was a heavy metal tripod that didn't get reused and was eventually disposed. That trip was perhaps the first time I ever used a camera.</p>
+<p>Fast forward to 2004. I got a job that required me to travel. The income from that job and travelling encouraged me to buy my first camera. An entry level 2 megapixel <a href="https://flic.kr/p/7h56g" title="Kodak Digital Camera">Kodak digital camera</a>. The first photo was made in a taxi (digital fare meter). That camera was useful and I had it in Kerala, later in my work trip to Ghana and eventually, it came with me to Canada. The photos made with it takes me back in time and I revisit the places and moments in Kerala and Ghana (Thank you Biju).</p>
+<p>On the way to Canada, my wife and I stopped over in Germany for a week to meet her uncle. He had a Casio QV-R51 digital camera that was slimmer and better camera overall compared to my Kodak (<a href="https://www.flickr.com/photos/richardhsu/tags/wolfsburg/" title="Wolfsburg, Germany">Wolfsburg photos</a>). When I landed in Canada, I continued to use my Kodak but soon replaced it with 5 megapixel Canon Powershot A610 digital camera. I paid around $500 (lower end at the time). The image quality was much improved and at par with the Casio I had tried. I got into photography more seriously, learning about technical aspects of photography, following photography websites (Flickr, photo.net, Ken Rockwell) often planning ahead for a <a href="https://flic.kr/p/8QUVt" title="CN Tower">photo</a>. The Canon Powershot is a capable camera with features like <a href="https://flic.kr/p/8eEef" title="Nathan Phillip Square at night">long exposure</a> and <a href="https://flic.kr/p/79xusm" title="Fall">macro photos</a>. I have photos and videos of my son as a baby and toddler made with it. Precious memories that I shared with my family and friends near and far. The camera and internet reduced the vast distance between us. They still bring a smile when I view them from time to time. Nice camera. I still have it but it is out of use.</p>
+<p>After using Canon Powershot for many years, it was time to upgrade to a Digital SLR (DSLR), I was hoping DSLR prices would drop below <a href="https://richardhsu.net/2007/01/15/year-2007-resolutions/" title="Wish List">$500</a> but ran out of patience. Trusting the recommendation of <a href="http://kenrockwell.com" title="Ken Rockwell">Ken Rockwell</a>, I bought a used Nikon D40 body from Henrys for $250 and matched it with a Nikon 35/f1.8 prime lens from Futureshop. Sometime later, I added an external flash (SB 400) for bouncing light from the ceiling (to avoid the harsh white light on the face). I still have this kit today.</p>
+<p>The DSLR difference? bokeh, detail, low light and fast.</p>
+<p>Bokeh
+With the 35mm lens, I could control what and how much was in focus (bokeh). This is the No. 1 reason I wanted a DSLR. The photos with <a href="https://flic.kr/p/eCoWnG" title="Butterfly">blurred out background</a> is more pleasing. With my Canon Powershot, the only way I could get some bokeh was with macro photos. For portraits or any subject farther than an arms length, I would not get any bokeh. With the 35mm lens on the D40 DSLR, I had much more control, enough to make a portrait photo that had the eyes in focus but the ears are blurred!</p>
+<p>Detail
+The D40 has a bigger sensor so it captures more details. Detail matter when we make prints or zoom into it. The difference in megapixel (MP) between the two cameras is just 1 MP but the difference in detail is much more. Megapixel is not a good attribute for comparing cameras. Today's camera phones have more than 6 MP but the photos will not print as clear as my D40. With more detail, the image remains sharp even after cropping. I don't make large prints so don't yet know the limits of the D40's 6 MP images. Most entry level DSLRs today are 10 MP or more so that is one reason to upgrade :).</p>
+<p>Low light
+In low light it is difficult to get sharp, well lit images with Point &amp; Shoot cameras like my Canon Powershot. The only solution is to use flash but you get unpleasing results due to harsh white light on the foreground subject and dark background. To show the background, there is a &quot;Night Snapshot&quot; option but due to longer exposure, if the foreground subjects are not still, they will show up slightly blurred.</p>
+<p>The D40 can make sharp, well lit photos without a flash in <a href="https://flic.kr/p/9fAmDW" title="Tiramisu">low light</a> (Higher ISO, larger aperture) and with an external flash like my SB400 pointing at the ceiling, you get even better color and more detail. I plan to buy a better flash (SB600 or SB700) that will give me off camera flash and more creative lighting options.</p>
+<p>Fast
+Due to the mechanics of the DSLR, there is no delay between pressing the shutter release button and the capture of the image. This means less retakes. Also, it increases the chances of getting a sharp photo of moving subjects (like children). I typically use continuous shutter for <a href="https://flic.kr/p/fC9986" title="Diabolo">moving subjects</a> (5 images in 2 seconds) to ensure I get a sharp photo. The Canon Powershot is much slower even in daylight.</p>
+<p>Video
+One thing my 2006 D40 cannot do is make video (current generation entry levels can) so I had to buy another camera. Again, going with Ken Rockwell's recommendation, I bought a slim, pocketable Canon Powershot SD780 that makes videos and photos. We gave this camera away and replaced it with another slim pocket sized Canon Powershot (300HS). It is adequate as a video camera but its image quality is poor even compared to the SD780 (not sure if it is my unit or the model in general). I make more videos with the iPad than with this camera so its days are numbered.</p>
+<p>I have made thousands of photos with D40. The majority of them are of my kids.  It is still the only creative hobby I have and enjoy but I seldom carry it outside and hardly ever take it to some place just to make a photo. The need to make photos of events and people will remain but I don't know if I will get back into photography as a creative hobby.</p>
+
+<hr /><h2 class="post-title"><a href="/2014/09/10/how-to-get-two-factor-authentication-2-step-verification-working-in-mac-mail/">How to Get Two-Factor Authentication (2-Step Verification) Working in Mac Mail</a></h2>
+<small><p class="post-date">Sep 10, 2014</p></small>
+<p>To get Two-Factor authentication (or what Google calls 2-Step Verification) working with Gmail and Mac Mail app, you need to enter the App password in two places (incoming and outgoing).</p>
+<ol>
+<li>In Mail &gt; Preferences, go to Accounts</li>
+<li>Click on Google, enter the App Password in the Password field (this is for incoming mails)</li>
+<li>Click the drop down for Outgoing Mail Server (SMTP), pick ‘Edit SMTP Server List…’, paste the App password again. This is for outgoing mail.</li>
+</ol>
+<p>Same applies for outlook.com (live.com, hotmail.com) or yahoo mail. You need to enter the application specific password for both incoming and outgoing.</p>
+<hr /><h2 class="post-title"><a href="/2014/09/06/honesty/">Honesty</a></h2>
+<small><p class="post-date">Sep 06, 2014</p></small>
+<p>This happens often. At a restaurant, grocery or mall, my son will ask me if he can go pee-pee. I will show him the way to the washroom and wait outside, after doing his business, he will come out and I will ask if he washed his hands. He will smile and go back to the washroom again. :) I have not had to ask a second time.</p>
+<p>I know what you must be thinking. He is an honest boy ;)</p>
+
+<hr /><h2 class="post-title"><a href="/2014/08/22/link-clearance/">Link Clearance</a></h2>
+<small><p class="post-date">Aug 22, 2014</p></small>
+<p>The Moth: <a href="http://themoth.org/posts/episodes/chinatown-hot-dogs-and-genetics-re-air-819" title="Chinatown, Hot Dogs, and Genetics">Chinatown, Hot Dogs, and Genetics</a>. True stories , via <a href="https://richardhsu.net/2013/10/31/favourite-radio-station-cbc-radio-one-99-1-fm/" title="Favourite Radio">CBC Radio</a></p>
+<p><a href="http://www.npr.org/blogs/thesalt/2014/08/11/338850091/for-a-more-ordered-life-organize-like-a-chef?utm_source=pocket&amp;utm_medium=twitter&amp;utm_campaign=pockethits" title="For A More Ordered Life, Organize Like A Chef">For A More Ordered Life, Organize Like A Chef</a> via <a href="https://getpocket.com/">Pocket</a></p>
+<p><a href="https://thedistance.com/horween" title="Horween Leather Company">Chicago’s Last Tannery</a> by <a href="https://thedistance.com/" title="The Distance">The Distance</a>. Nice story. Family business, leather, tannery were part of my growing up.</p>
+<p>These are compiled from my recent <a href="https://twitter.com/richardhsu">tweets</a>. The term &quot;link clearance&quot; comes from <a href="http://microsoftjobsblog.com/raymond-chen/">Raymond Chen's</a> blog <a href="http://blogs.msdn.com/b/oldnewthing/" title="The Old New Thing">The Old New Thing</a>. You will get over 11 years of almost daily blogs about Microsoft Windows history, Win32 API programming and his personal hobbies.</p>
+
+<hr /><h2 class="post-title"><a href="/2014/08/21/hanx-writer/">Hanx Writer</a></h2>
+<small><p class="post-date">Aug 21, 2014</p></small>
+<img src="https://dl.dropboxusercontent.com/u/219644/14989022952_3c443e37b7_k.jpg" alt="Hanx Writer" />
+<p>An iPad app that gives you all the <em>goodness</em> of a type writer. It is well <a href="http://www.hitcents.com/b2b/work/hanx" title="Hitcents">designed</a> but only those with experience with typewriters (including yours truly) will like it and even fewer will actually use it for long.</p>
+<p>To see a demo (non-iPad readers), visit <a href="http://youtu.be/b4YSToipUOg">YouTube</a></p>
+
+<hr /><h2 class="post-title"><a href="/2014/08/08/story-from-sunday-mass-junk-collector/">Story From Sunday Mass: Junk Collector</a></h2>
+<small><p class="post-date">Aug 08, 2014</p></small>
+<p>There are two things I like about Sunday mass: The music and stories (homily/sermon). Here is one Father Galea told last Sunday. I don't remember the exact words so this is an adapted version.</p>
+<p>A man asks a boy &quot;what do you want to be when you grow up?&quot;. He answers &quot;a junk collector&quot;. Surprised at the answer, then disappointed but not curious at all, the man gets ready to give unsolicited advice about life choices. He is about to tell the boy why he should be anything <em>but</em> a junk collector when the boy asks &quot;so what have you done?&quot;. The man is quiet, thinks and then realises everything he has collected is <em>junk</em>.</p>
+<p>Father gave an example of J. Robert Oppenheimer, considered the &quot;father of the atomic bomb&quot;, a bright scientist who spent years leading a team developing weapons of mass destruction. When the first atomic bomb was detonated in 1945, his thoughts were &quot;Now I am become Death, the destroyer of worlds.&quot;. He would later oppose the use of nuclear weapons. Perhaps, all he considered valuable wasn't so?</p>
+<p>I thought about the answer to &quot;so what have you done?&quot;. Difficult one.</p>
+<p>&quot;Look for treasures in life, not junk&quot;, advised Father Galea. How to tell them apart? To help answer this question, you should think about death said Father. It will give a better perspective on life and what is a treasure, what is junk. My own views on this changes with time. My favourites on the subject of death and purpose of life are <a href="http://paulgraham.com/love.html" title="How to Do What You Love">How to Do What You Love by Paul Graham</a>, <a href="http://youtu.be/UF8uR6Z6KLc" title="Steve Jobs' 2005 Stanford Commencement Address">Steve Job's commencement address</a>, <a href="http://youtu.be/ncoSRKoU6GQ" title="The Last Lecture by Dr Randy Pausch">The Last Lecture by Randy Pausch</a><sup id="fnref-707-1"><a href="#fn-707-1" rel="footnote">1</a></sup> and <a href="http://mattgemmell.com/empathy/" title="Empathy">Empathy by Matt Gemmell</a>.</p>
+<p>Things I tell myself and others (when they ask):</p>
+<ul>
+<li>Laugh at yourself</li>
+<li>Don't worry about money or prestige</li>
+<li>Stay hungry, stay foolish</li>
+<li>Have fun all the time</li>
+<li>Don't complain; just work harder</li>
+</ul>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-707-1">
+The last part "Why I Gave the Talk" tears me up everytime. This is the 10 mins. version. The original 1 hr version is on <a href="http://youtu.be/ji5_MqicxSo">YouTube</a>&#160;<a href="#fnref-707-1" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div>
+<hr /><h2 class="post-title"><a href="/2014/07/05/you-just-type/">You Just Type</a></h2>
+<small><p class="post-date">Jul 05, 2014</p></small>
+As my son was getting off the car for school, I said "you have fun today", he replied "you too", then he said "oh, but you are working" :), I replied "Work is fun... (pause)... for me", his reply "well, you just type" with a shrug indicating it is no big deal.
+<hr /><h2 class="post-title"><a href="/2014/06/20/the-beautiful-game/">The Beautiful Game</a></h2>
+<small><p class="post-date">Jun 20, 2014</p></small>
+<p>On the way to my son's soccer practise this morning, I heard about the ugly side of soccer (or football) on <a href="http://www.cbc.ca/thesundayedition/essays/2014/06/15/fifa-football-frenzy-unmasked/" title="FIFA Football Frenzy, Unmasked">cbc Radio One</a>. Stories about a referee stabbing an arguing player to death, then himself getting beheaded by outraged fans in a Brazilian town a year ago, 21 people killed in riots after a playoff loss in Democratic Republic of Congo last month, gunfights at a Buenos Aires stadium and 'plentiful and growing' corruption charges against FIFA.</p>
+<blockquote>
+  It is ironic that such a boring athletic contest
+  could lead to such violence and fanatical behaviour
+</blockquote>
+<p>Said the host of the radio show making the case for soccer not being '<a href="https://en.wikipedia.org/wiki/The_Beautiful_Game" title="The Beautiful Game">beautiful</a>' anymore.</p>
+<p>Having played soccer in my school years and followed the European leagues and World Cups, I don't agree the game is boring to watch or play but I agree it is not worth the violence. Soccer games, as with anything else, can be an excuse for violence or money making.</p>
+<p>At my son's soccer practise where kids between 6 to 12 years old play <a href="https://en.wikipedia.org/wiki/Futsal" title="Futsal">indoors</a>, what I saw was 'beautiful'. The shouting of &quot;give it to me!&quot;, &quot;oooh&quot;, &quot;aaah&quot;, the goal celebrations, the funny misses that gets everyone laughing, the drama (a kid was celebrating his sister's goal against his team!) expressed the fun, passion and excitement of playing the game for its own sake. It was just as entertaining as the games on TV.</p>
+<p>Even in a small group of kids, I saw unique styles. There is a spectacled boy who shoots with great power. I volunteered for goalie last Sunday and dreaded the sight of him with the ball and an open shot at me. Another boy (bigger than the rest) plays like a bulldozer, he moves slow but no one can stop him and he spends large durations in the sidelines resting. The best player is the coach's protege. He is an all round player: controls the ball well, passes well and shoots with precision. I did not see him play for 2 days and missed it like a fan. The boys and girls play hard and argue just like men do but they laugh and fool around too unlike televised competition games. I have my <a href="http://richardhsu.net/2014/05/19/e-ink/" title="Kobo eReader">Kobo eReader</a> or a book with me at soccer practise but only read it when the kids are doing exercises. As soon as the games begin, my attention shifts to it and I cannot help myself but get involved. I shout &quot;shoot&quot;, applause when a goal is scored and make funny facial expressions when there is a near miss.</p>
+<p>My son plays defence with no interest in scoring or shooting at goal but he scored one today and I saw him smile with pride and joy as his team mates hi-fived him and patted him on his back.</p>
+<p>Ah yes, the beautiful game.</p>
+
+<hr /><h2 class="post-title"><a href="/2014/06/06/seglaro-or-karlso/">SEGLARÖ or KARLSÖ</a></h2>
+<small><p class="post-date">Jun 06, 2014</p></small>
+<p>Which Ikea umbrella is better for the backyard? <a href="http://www.ikea.com/us/en/catalog/products/70260320/">SEGLARÖ</a> or <a href="http://www.ikea.com/us/en/catalog/products/10260295/">KARLSÖ</a> ?</p>
+<p>A month ago, the wife and I started looking for outdoor furniture and umbrella for the backyard. Ikea (our favourite) was the first place we went shopping. At Ikea, they had this nice demo area with all the umbrellas and furnitures on display and our attention went to the big rectangular hanging umbrella called SEGLARÖ and the dark brown acacia wood <a href="http://www.ikea.com/us/en/catalog/categories/series/14213/">ÄPPLARÖ</a> sofa set underneath. I could imagine myself relaxing in the backyard sitting in the sofa shaded by the umbrella.</p>
+<p>There was some hesitation about the sofa so we wanted to check other stores but the three member shopping team (wife, mother-in-law and I) were in agreement to buy the SEGLARÖ umbrella as it had the design (cantilever) and size (~11' X 8') we wanted and the price ($189) was within expectations (why we like Ikea). Since we had the whole family at the time, I did not think the umbrella would fit in the car, so decided to return another time for it.</p>
+<p>I talked about the umbrella with my neighbour and he liked it too so we had planned to go to Ikea together. Weeks past but we didn't. Others did and SEGLARÖ umbrellas sold out across Canada! <sup id="fnref-679-1"><a href="#fn-679-1" rel="footnote">1</a></sup></p>
+<p>Both of us got earfuls from our respective wives for our procrastination. I blamed him and the continuous rain and he blamed me and we both attempted to make it look like we had all the intentions but nature and miscommunication was the reason we missed the 'perfect' umbrella.</p>
+<p>After visiting many stores over weeks, we went back to Ikea and bought the <a href="http://www.ikea.com/us/en/catalog/categories/series/14213/">ÄPPLARÖ</a> sofa set and <a href="http://www.ikea.com/us/en/catalog/products/10260295/">KARLSÖ</a> umbrella. KARLSÖ is also a cantilevered/hanging umbrella but different from <a href="http://www.ikea.com/us/en/catalog/products/70260320/">SEGLARÖ</a>.</p>
+<p>Comparison of the two umbrellas:</p>
+<table>
+<tbody>
+<tr><th></th><th>Shape</th><th>Coverage</th><th>Pole</th><th>Price</th><th>Turn</th><th>Tilt</th></tr>
+<tr><th>SEGLARÖ</th>
+<td>Rectangle</td><td>85 sq ft</td><td>Aluminum</td><td>C$ 189</td><td>Yes (360 &deg;)</td><td>Yes</td></th>
+</tr>
+<tr><th>KARLSÖ</th>
+<td>Circle</td><td>76 sq ft</td><td>Steel</td><td>C$ 89</td><td>No</td><td>No</td>
+</tr>
+</tbody>
+</table>
+<p>Why pay $100 more for SEGLARÖ?</p>
+<ul>
+<li>It can be turned (360 &deg;) to shade different areas. <sup id="fnref-679-2"><a href="#fn-679-2" rel="footnote">2</a></sup></li>
+<li>Tilt function; provides protection from the sun all day long. <sup id="fnref2:679-2"><a href="#fn-679-2" rel="footnote">2</a></sup></li>
+<li>The pole is made of aluminium so it won’t rust. <sup id="fnref3:679-2"><a href="#fn-679-2" rel="footnote">2</a></sup></li>
+<li>9 sq ft more coverage (enough for a chair)</li>
+<li>Rectangle is better than circle as the seating arrangements tend to be rectangular.</li>
+<li>Better build quality overall</li>
+</ul>
+<p>Comparison of size:</p>
+<img src="https://dl.dropboxusercontent.com/u/219644/14115840168_6d8bb93b8f_o.png" alt="Alt" title="Compare" />
+<p>This is a view from the top of the two umbrellas (SEGLARÖ is the rectangle, KARLSÖ the round one). I have put three 2' X 2' chairs to show what would fit in the non-overlapping areas. SEGLARÖ covers a little more but not by as much as we had expected (based on our visual estimates).</p>
+<p>If both were available, I would have bought SEGLARÖ for the features but KARLSÖ delivers better value. Two KARLSÖs would still cost lesser than one SEGLARÖ and cover about twice the area. I did buy two but one is adequate for the ÄPPLARÖ seating we have. I wish it moved easily like SEGLARÖ to shade the entire seating area (the shade moves with the sun) but the $100 saved comforts me.</p>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-679-1">
+Ikea removed it from their Canada website so I had to link to the US one&#160;<a href="#fnref-679-1" rev="footnote">&#8617;</a>
+</li>
+
+<li id="fn-679-2">
+Listed under "Key features" on Ikea's <a href="http://www.ikea.com/us/en/catalog/products/70260320/">SEGLARÖ</a> product page&#160;<a href="#fnref-679-2" rev="footnote">&#8617;</a> <a href="679-2" rev="footnote">&#8617;</a> <a href="679-2" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div>
+<hr /><h2 class="post-title"><a href="/2014/05/19/e-ink/">E Ink</a></h2>
+<small><p class="post-date">May 19, 2014</p></small>
+<p>I got my <a href="http://www.kobo.com/kobotouch" title="Kobo Touch">Kobo Touch</a> the first day it was available in stores (June 2011). At that time, options for reading included paper books, newspaper, magazines, 22&quot; desktop or 15&quot; notebook computer displays. Reading email and blogs on computer screens were fine but reading articles or books were not as pleasant as paper books for two reasons: backlit displays made my eyes blurry and portability. A device the size &amp; weight of a pocket reference book that can hold thousands of books, reads like print on paper (<a href="http://g-ecx.images-amazon.com/images/G/01/kindle/tequila/dp/eink-text._V139457038_.jpg" title="E Ink vs. Paper vs. LCD">almost</a>), can download anything in the Kobo bookstore wirelessly in minutes and does not need to be recharged for weeks was a welcome change and a new curiosity.</p>
+<p>The first book I downloaded in Kobo Touch was Sir Arthur Conan Doyle's &quot;The Adventures Of Sherlock Holmes&quot; (free). Digital edition of Newspapers were tried but clumsy navigation and $15/month subscription did not win me over so I stopped after the free trial period. The wife reads more, so she monopolised it and quickly learnt to find and download free eBooks. The first book I read start to finish was Steve Jobs by Walter Isaacson. I remember browsing through the thick and heavy hardcover edition at the bookstore and deciding on the eBook instead. The ability to lookup meaning of words with a touch makes for a more complete understanding of the writer.</p>
+<p>With wireless internet connection, it was convenient to get books from Kobo’s bookstore into Kobo Touch but content from other sources (blogs, websites, Toronto Public Library) required a cable connection to a computer<sup id="fnref-658-1"><a href="#fn-658-1" rel="footnote">1</a></sup>. Typically, Kobo Touch and the computer would be at extreme opposite sides of the house so walking to the computer in the basement, finding the USB cable, plugging in the Kobo Touch, finding the eBook or pdf I wanted to read and copying it into the Kobo Touch was a labour intensive process. Another problem was books with photos. Since Kobo Touch was monochrome and low resolution, photos did not show as intended unless the eBook was made specifically for the device.</p>
+<p>Like the Kobo Touch, I ordered iPad 3 as soon as it was released (Mar 2012). So nine months after Kobo Touch, iPad usurped the role of notebook and Kobo Touch swiftly for the wife. It helped that you had access to Kobo bookstore plus Amazon’s via their iPad apps and photos are vibrant and detailed and text crisp and clear. Apple’s iBook would later replace both Kobo and Amazon’s bookstore apps for the wife and kids cutting off all links to Kobo. I continued to use Kobo Touch and Kobo applications on the iPad and computers to buy and read books but the usage of Kobo Touch decreased in favour of the iPad at home.</p>
+<p>It is perfect for use away for home (travel, kid's soccer practice): fits in the pocket, has more books than I can read, holds charge for weeks, no problem reading in bright ambient light and don’t have to handle with care. Cannot say the same for iPad.</p>
+<p>Since August 2013, Kobo has integration with Pocket so I can save web content for reading in Kobo Touch as well. It also has Chess and Sudoku but I don’t play them. The best available Kobo E Ink device today is <a href="http://www.kobo.com/koboaurahd" title="Kobo Aura HD">Kobo Aura HD</a>. I have tried it at a nearby Chapters store and agree it is the '<a href="http://www.pcmag.com/article2/0,2817,2417797,00.asp" title="Porsche of eReaders">Porsche of eReaders</a>'. It has front lighting for reading in the dark, smoother page turns and text looks as sharp and clear as those on paper. Will wait for the price to drop below it’s ‘Porsche’ level ($170).</p>
+<blockquote class="aligncenter">Kobo Touch and other E Ink devices are great for reading text, nothing more or less.</blockquote>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-658-1">
+While writing this blog, I learnt through <a href="http://www.mobileread.com/forums/showthread.php?t=192545" title="Kobo Web Broswer">unofficial sources</a> that Kobo Touch’s experimental web browser can be used to download books from the internet. The browser is a pain to use (pages don’t render well, touch typing is difficult) so the finding of things to read is not practical but I can find it at the computer, save the file at a location with a short address (e.g. http://example.com/reads/) and then type it in the Kobo Touch web browser to download it. This eliminates the cable transfer. The ideal solution would be Kobo making this easier with their one touch sync but I don't expect this to be a priority. Like Amazon, Kobo’s E Ink devices are probably sold at a loss, they make money through books sold.&#160;<a href="#fnref-658-1" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div>
+<hr /><h2 class="post-title"><a href="/2014/05/04/karate-on-my-mind/">Karate on My Mind</a></h2>
+<small><p class="post-date">May 04, 2014</p></small>
+<p>On my way home from the airport, I like to have conversations with the cab driver. It usually starts with the weather and then move to topics that includes current events. Weather was still cold and we both agreed we had enough of the winter already. In current news, the driver told me about a case of shooting in Brampton court house. That led to a long conversation about possible motives factoring in stressful lifestyle and isolation of new immigrants. We were about 5 minutes away from home when I learnt the driver had 3 teenage boys. I asked him how he kept them out of trouble. He started with &quot;I will give you an idea that is guaranteed to work&quot;.</p>
+<p>Expecting another long and interesting conversation, I wished we had more time but it turned out his idea was simple and short. Put them into daily Karate classes he said. All his boys have Black Belt, are studying well and behave well. According to him, boys have a lot of energy and time and if you keep them occupied with something that will expend both, at the end of the day, they will be tired and have less time to get into mischief. All they do is go home, eat and sleep. He repeated that it was a guaranteed solution and I should follow it.</p>
+<p>I reached home, we shook hands and said our good byes. Not being a fan of learning martial arts, I don't plan to follow his advice with my kids but I do agree they need daily physical activity. My way involves playing ball hockey, swimming, basketball or running around chasing others wildly.</p>
+<p>Taxi ride home: $75, parental advice: priceless (line inspired by MasterCard ads).</p>
+
+<hr /><h2 class="post-title"><a href="/2014/04/25/unplugged/">Unplugged</a></h2>
+<small><p class="post-date">Apr 25, 2014</p></small>
+<p>Dec 22, 2013 (midnight)</p>
+<p>For all day today, we did not have electricity at home due to power outage caused by icy weather conditions. It was a unique experience for us, having long forgotten what it is like not to have electricity and all that it enables.</p>
+<p>Fortunately, we had gas so we could have breakfast and coffee to start the day but soon after that, we headed out to the mall where we expected all things under one roof. Electricity, food, shopping and generally suited for passing hours of our day till, what we hoped for, the evening when power would get restored at home.</p>
+<p>As it was a wide spread power outage in the city, we soon learned that it would take as long as 72 hours for power to get restored to over 250,000 houses that lost power in Toronto. We also heard of the possibility of emergency being called if things got worse (not sure what it means though).</p>
+<p>Tired from sitting and doing nothing in the mall, we decided to get back home. To our pleasant surprise, the temperature inside was a liveable 16 degrees Celsius while it was about 2 degrees outside. The rest of the evening was spent with the pleasure of the company of our friendly neighbours and candle light dinner.</p>
+<p>As I write this, I hear a generator running outside but see all dark. It has been fun experiencing a day without power but I look forward to going back to the normal (miss the TV and Internet already).</p>
+<hr /><h2 class="post-title"><a href="/2014/04/05/spongebob-squarepants-at-tlaquepaque-mexico/">SpongeBob Squarepants at Tlaquepaque, Mexico.</a></h2>
+<small><p class="post-date">Apr 05, 2014</p></small>
+<p>Few weeks ago, I was walking around in downtown Tlaquepaque(Mexico) with Enrique and SJ. Outdoor weather was good, there were many others walking around and enjoying the evening. We walked past a coffee shop that had a lady singer and two guys on guitars performing outside. At first, my attention went to the singer who was singing an english song without any microphone. Her voice was powerful and you could hear it clearly 50 steps away. She finished her song and was taking a break, we continued walking and then I heard the guy on electric guitar play the SpongeBob squarepants <a title="SpongeBob squarepants background tune" href="http://youtu.be/-FlzPSbvY14">background tune</a>. I recognised it right away, turned around and noticed the guitar player smiling while he was playing it. He was having fun and I had a smile too thanks to him. My young friends walking with me did not recognise it (they don’t have kids yet) so I educated them about SpongeBob.</p>
+<p>At this point, what I should have done is walked back to the guitar player and let him know that I got it, that what he did just now meant something to me, it made me smile, it made me think of my kids (especially my son who watched a lot of SpongeBob), that the already nice evening I was having got nicer because of it… but I kept on walking on. Very un-cool of me.</p>
+<hr /><h2 class="post-title"><a href="/2014/03/15/acer-laptop-cleanup/">Acer Laptop Cleanup</a></h2>
+<small><p class="post-date">Mar 15, 2014</p></small>
+<p>A friend’s Acer laptop was slow and she asked me to look into it. The approach I took is similar to the one for <a title="Asus laptop cleanup" href="https://richardhsu.net/2012/01/10/removing-useless-preloaded-applications-from-asus-laptop/">Asus</a> but since this was Acer, I had to do research on Acer specific ‘bloatware’/‘crapware’.</p>
+<p>Microsoft sells computers with the “<a title="Microsoft Signature Experience" href="https://signature.microsoft.com">Signature Experience</a>&quot; that comes without any ‘bloatware’/‘crapware’ (what they call 'junk ware'/'trialware'). If you are buying a new Windows computer, I recommend <a title="Microsoft Store" href="http://content.microsoftstore.com/en-us/Home.aspx">Microsoft Store</a>.</p>
+<p>Below is a partial summary of work done to get Windows 7 working responsively again.</p>
+<h4>Work done</h4>
+<ol>
+<li>Reset Internet Explorer</li>
+<li>Reset Google Chrome</li>
+<li>Make Google Chrome default</li>
+<li>Setup Power button to Hibernate instead of Shutdown (to reduce startup time)</li>
+</ol>
+<h4>Removed</h4>
+<ul>
+<li>Acer Backup Manager</li>
+<li>Bing Bar</li>
+<li>Rogers Online Protection (subscription service)</li>
+<li>Rogers Servicepoint Agent</li>
+<li>Norton Online Backup</li>
+<li>MyWinLocker Suite</li>
+<li>Acer Registration</li>
+<li>eBay</li>
+</ul>
+<p>Installed:<br />
+Microsoft Security Essentials &amp; run a Quick scan.</p>
+<p>Finally, I reviewed logs and investigated and resolved the errors. One of these was a DHCP error which was causing the Wireless connections at startup to run very slow. I disabled the unused Intel Wireless Display network components and this was resolved.</p>
+<p>What I started but could not complete:<br />
+<a title="Spinrite" href="https://www.grc.com/sr/spinrite.htm">Spinrite</a> maintenance (would have taken days to scan 700GB)</p>
+<p>What I should have done but missed:</p>
+<ul>
+<li>Run <a title="MSRT" href="http://www.microsoft.com/security/pc-security/malware-removal.aspx">Malicious Software Removal Tool</a> <strong>first thing</strong></li>
+<li>Run <a title="Secunia PSI" href="http://secunia.com/vulnerability_scanning/personal/">Secunia PSI</a> to find out if all programs are updated or not.</li>
+</ul>
+<p>Other resources:<br />
+Acer Driver website: http://us.acer.com/ac/en/US/content/drivers
+Website with info about Acer programs: http://shouldiremoveit.com</p>
+
+<hr /><h2 class="post-title"><a href="/2014/03/10/newspaper/">Newspaper</a></h2>
+<small><p class="post-date">Mar 10, 2014</p></small>
+<p>Eight years ago, I subscribed to daily Toronto Star newspaper. I still remember that evening... A lady with a small table full of Toronto Star newspapers greeted us at the lobby of the apartment. She offered $1/week subscription plus a gift and I was sold. I got a chess set (pieces were plastic but looked like glass) and years of great news, opinions, knowledge and recommendations. I enjoyed reading Toronto Star and still do.</p>
+<p>There were phases where I would read a lot of it daily, and then there were also weeks it went unread. For over a year now, since I got the iPad, the paper goes straight into the recycle bin more than to the breakfast table or the bathroom (my favourite reading place). Many times, I have considered cancelling it but changed my mind. I still read Toronto Star, but more using the computer or iPad.</p>
+<p>The reading experience on computer or iPad is not as good as the printed version but the amount of unread paper I put into the recycle bin makes me feel guilty. So this week, I finally cancelled the subscription to the Toronto Star newspaper. Instead, I opted for monthly Digital Access subscription that gives full access to thestar.com including a Replica Edition (digital version of the newspaper).</p>
+<p>I am buying or borrowing eBooks more than paper versions as well. There is a practical convenience to digital reading but I cannot help but feel sad about the trend away from printed paper. This feels more like a good bye to an old friend than anything else.</p>
+<p>Last edited on Mar 13 2014 - Minor changes.</p>
+
+<hr /><h2 class="post-title"><a href="/2014/02/28/sybase-where-clause-in-derived-table/">Sybase: Where Clause in Derived Table</a></h2>
+<small><p class="post-date">Feb 28, 2014</p></small>
+<p>Sybase's processing of a where clause in a derived table confused me. Instead of applying it first, it seemed to move the where clause outside of the derived table. To recreate the behaviour, here is a table with two rows:</p>
+<pre><code>create table data(nums varchar(4))
+insert into data values('255')
+insert into data values('3000')
+
+select nu
+from
+( select convert(tinyint, nums) nu
+from data
+where len(nums) &amp;lt; 4 -- filter out 3000
+) inside
+where nu = 255
+</code></pre>
+
+<p>What I expect: 255</p>
+<p>What happens:
+Query throws Arithmetic overflow error during conversion of '3000' to tinyint(range is 0-255). I expected the filter in the derived table to be applied first eliminating '3000' from getting converted but that is not the case. It seems Sybase does below instead:</p>
+<pre><code>select nu
+from
+( select convert(tinyint, nums) nu, nums
+from data
+) inside
+where nu = 255
+and len(nums) &amp;lt; 4
+</code></pre>
+
+<p>I could not find out why so this remains a mystery but what makes it more interesting is below works fine:</p>
+<pre><code>select nu
+from
+( select convert(tinyint, nums) nu
+from data
+where nums != '3000'
+) inside
+where nu = 255
+</code></pre>
+
+<p>We used a temporary table to ensure filter happens.</p>
+
+<hr /><h2 class="post-title"><a href="/2014/02/21/hyphen-and-dash-are-not-the-same/">- (Hyphen) and – (Dash) Are Not the Same</a></h2>
+<small><p class="post-date">Feb 21, 2014</p></small>
+<p>Linux <code>find</code> command ignores* –name (dash name) option and runs finding all files instead of exiting with an unknown parameter error.</p>
+<p>Wrong command (with dash name option):
+<code>find –name '*.dat' -exec rm {} \;</code></p>
+<p>What I wanted it to do: Find all files matching *.dat wildcard and delete them
+What it does: Find all files in the directory and delete them, then throw an error message it could not find *.dat file or directory</p>
+<p>Correct command (with hyphen name option):
+<code>find -name '*.dat' -exec rm {} \;</code></p>
+<p>I was typing the command in Outlook and the AutoCorrect feature changed - (hyphen) to – (dash). It was copy-pasted from the email to a Putty session executed causing undesired behaviour.</p>
+<p>How to avoid this?</p>
+<ul>
+<li><a title="Turn off AutoCorrect" href="http://office.microsoft.com/en-ca/word-help/undo-or-turn-off-automatic-formatting-HA102491299.aspx?CTT=1">Turn off AutoCorrect &amp; AutoFormat options in Outlook</a></li>
+<li>Start with a Plain Text formatted email</li>
+<li>Write the commands in Notepad or Notepad++ and attach the text file to the email</li>
+</ul>
+<p>*It does not really ignore it, rather, it interprets it as a verbatim file name you want to find instead of wild card search.</p>
+<hr /><h2 class="post-title"><a href="/2014/02/13/programming-is-not-for-the-general-mass/">Programming Is Not for the General Mass.</a></h2>
+<small><p class="post-date">Feb 13, 2014</p></small>
+<p>Many websites are promoting learning to code/program a computer and strangely several politicians have said they will learn it and encourage the public to learn it as well.</p>
+<p>Coding/programming is <em>not</em> for the general public just like diagnosing an illness or defending a case in the court or fixing a car engine. Just because we use computers and the internet a lot does not mean we need to learn how computer programs are made. Learning to avoid computer virus, theft or misuse of their data is for the general public but not coding.</p>
+<p>http://politicalscrapbook.net/2014/02/tory-boss-of-government-coding-education-initiative-cant-code-lottie-dexter/</p>
+<p>Above links to an article about the Director of UK government's &quot;Year of Code&quot; initiative. She does not know how to code herself, she says things like &quot;code is an international language&quot;, &quot;I think you can pick it up in a day&quot; to show her ignorance.</p>
+<p>Politicians or politically connected getting a job they know nothing about is old news but this topic is close to me so wanted to share my thoughts.</p>
+<p>Will I teach my kids how to code/program computer? Maybe. If they have an interest and if it is part of their school curriculum but not because they need it or they will get a good job or make a lot of money.</p>
+<p>What I would force them to learn? cooking, swimming, doing nothing and being bored ;-)</p>
+
+<hr /><h2 class="post-title"><a href="/2014/01/17/children/">Children</a></h2>
+<small><p class="post-date">Jan 17, 2014</p></small>
+<p>Kids. I often look at others who have grown up kids and wonder when will mine grow up so they are not as dependent on me as they are now. As with anything, I am only looking at the half glass full. The idea that I can leave them behind at home by themselves or they can go to other places by themselves seem very appealing. Think about all the freedom and time I will have!</p>
+<p>But I am often also told that the age my kids are in is the best by parents with teenage or older kids. I still remember a fellow passenger telling me that he still remembers one summer day he spent with his daugher who was 2-3 years at the time (his daughter goes to university now). As he was telling me, I can see him get lost in nostalgia reliving that day for a little bit in his mind. He was all smiles and happy and I can see he would not mind going back to that time at all.</p>
+<p>I am there now.</p>
+
+<hr /><h2 class="post-title"><a href="/2014/01/07/mayor-of-toronto-2/">Mayor of Toronto</a></h2>
+<small><p class="post-date">Jan 07, 2014</p></small>
+<p>It is unfortunate that Rob Ford could be relected Mayor of Toronto in the Oct'14 elections.</p>
+<h3>Why is it unfortunate?</h3>
+<p>Would I trust him with decisions for the City of Toronto when he has demonstrated publicly his inability to filter out nonsense and lies?</p>
+<p>The Mayor or Toronto is expected to lead counsillors, city staff and the people of the city in general but the way he handled Toronto Star's report on the video showing him smoking what appears to be crack(which he admitted after Police found the video) and subsequent embarrasements followed by (see References below) does not give me confidence that he will do a good job.</p>
+<h3>If not Rob Ford, then who?</h3>
+<p>Election day is 10 months away but if I had to vote today, I would vote for Karen Stintz because she is the only one among the declared candidates that I know of and it is more &quot;No Rob Ford&quot; than &quot;Yes Karen Stintz&quot; that is driving my thinking.</p>
+<p>One thing is clear: If we don't have a popular single alternative to Rob Ford, then the &quot;No Rob Ford&quot; votes would split and he could end up with the most votes and get re-elected. That would be sad.</p>
+<p>So, in the next 10 months leading to election day, I intend to educate myself about the candidates that are up for Mayor and a) make up my mind about who I will vote for and b) pass on information to others and help them make up their minds.</p>
+<p>References:<br />
+1. <a href="http://www.thestar.com/news/gta/2014/01/01/a_year_in_the_life_of_mayor_rob_ford_with_apologies_dimanno.html">Toronto Star - A year in the life of Mayor Rob Ford, with apologies: DiManno</a> (Search for &quot;Bodishi!&quot;)</p>
+
+<hr />				</div>
+			</div>
+			<div class="footer">
+				Made in Canada 🍁 with spices from India. Since 2004.
+			</div>
+		</div>
+	</body>
+</html>

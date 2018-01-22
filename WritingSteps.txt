@@ -1,0 +1,20 @@
+C:\Users\richard\website
+git pull
+
+C:\Users\richard\website\posts
+Create a new file post-YYYY-MM-DD-name.md
+
+The file should begin with below template
+title: {Title}
+name: {Name to use in url}
+date: YYYY-DD-YYYY hh:mm:ss
+text:
+
+C:\Users\richard\website
+python process-posts.py
+git add posts/*
+git add output/*
+git status
+git commit -m 'Typo correction for minecraft'
+git status
+git push
