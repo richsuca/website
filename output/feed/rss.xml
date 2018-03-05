@@ -5,8 +5,16 @@
 <atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://richardhsu.net/</link>
 <description>Richard Hsu's personal website</description>
-<lastBuildDate>Mon, 25 Dec 2017 12:09:48 -0400</lastBuildDate>
+<lastBuildDate>Sun, 04 Mar 2018 22:02:21 -0400</lastBuildDate>
 <language>en</language><item>
+  <title>Fly Hacking and Dragons </title>
+  <link>https://richardhsu.net/2018/03/04/flyhacking/</link>
+  <guid>https://richardhsu.net/2018/03/04/flyhacking/</guid>
+  <pubDate>Sun, 04 Mar 2018 19:00:00 -0400</pubDate>
+  <description><![CDATA[<p><em>Fly hacking</em> is a Minecraft term used to describe cheating by a player in a multi-player online game. I learnt this from my son who goes online into Minecraft worlds and plays games with others. To keep it fun, competitive, and fair, players aren't allowed to fly in the games. Flying gives a player unfair advantages. They are supposed to battle on the ground. But there are players who hack into the Minecraft system and fly. When this happens, someone reports them to the server admin and the cheating player gets kicked out of the game.</p>
+<p>In Game of Thrones, Daenerys Targaryen has three fire-breathing dragons that give her the same advantage in battles. When she and her soldiers are surrounded by opponents and there is no way out, in flies her Dragon breathing fire, burning people, scaring the pee out of shocked men. She climbs on it and flies out of, what a few moments ago, was a certain death. The Sons of the Harpy had no option to complain about the unfair advantage of a Dragon.</p>
+<p>Air strikes in war, giant-sized Eagles in Lord of the Rings, there are many other examples in fiction and reality where one side has an unfair advantage over another. Unlike Minecraft, there is no way to level the playing field.</p>]]></description>
+</item><item>
   <title>Christmas </title>
   <link>https://richardhsu.net/2017/12/25/christmas/</link>
   <guid>https://richardhsu.net/2017/12/25/christmas/</guid>
@@ -268,13 +276,5 @@ Footnotes:</p>
     <li>Write the Weather (write the date for when I have to sign her homework)</li>
     <li>Silly (saliva)</li>
 </ol>]]></description>
-</item><item>
-  <title>Instructions From the Wife</title>
-  <link>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4/</link>
-  <guid>https://richardhsu.net/2016/06/10/instructions-from-the-wife-4/</guid>
-  <pubDate>Fri, 10 Jun 2016 19:00:58 -0400</pubDate>
-  <description><![CDATA[<blockquote>She is a wise and hard working woman, my wife. I must listen to her.</blockquote>
-
-<a href="https://richardhsu.net/2016/06/03/instructions-from-the-wife-3/">Previous instruction</a>]]></description>
 </item></channel>
 </rss>
