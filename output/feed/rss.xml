@@ -5,8 +5,18 @@
 <atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://richardhsu.net/</link>
 <description>Richard Hsu's personal website</description>
-<lastBuildDate>Sun, 04 Mar 2018 22:02:21 -0400</lastBuildDate>
+<lastBuildDate>Wed, 20 Jun 2018 15:03:16 -0400</lastBuildDate>
 <language>en</language><item>
+  <title>Chapturkey</title>
+  <link>https://richardhsu.net/2018/06/20/chapturkey/</link>
+  <guid>https://richardhsu.net/2018/06/20/chapturkey/</guid>
+  <pubDate>Wed, 20 Jun 2018 15:00:00 -0400</pubDate>
+  <description><![CDATA[<p>My son has two dictionaries: Merriam-Webster's Pocket Dictionary, and The Kid Dictionary. The Kid Dictionary has made up words to describe the indescribable and it is hilarious!</p>
+<p>I don't remember him ever using the Merriam-Webster's Pocket Dictionary and I doubt it is still around.</p>
+<p>The other night, while reading the story of The Brave Little Tailor (again) to my daughter at bedtime, I was sleepy and skipped a few paragraphs on the last page. My son, who was also in bed but listening, jumped up and told me to pause.</p>
+<p>He went to his bookshelf, pulled out The Kid Dictionary, flipped over to page 40, then read out loud: CHAPTURN (verb). "To sneakily skip pages when reading a long children's book to your kid."</p>
+<p>Then, turning to page 41, he read: CHAPTURKEY (noun). "A parent who gets caught skipping pages when reading a long children's book to his or her kid".</p>]]></description>
+</item><item>
   <title>Fly Hacking and Dragons </title>
   <link>https://richardhsu.net/2018/03/04/flyhacking/</link>
   <guid>https://richardhsu.net/2018/03/04/flyhacking/</guid>
@@ -265,16 +275,5 @@ Footnotes:</p>
   <guid>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</guid>
   <pubDate>Mon, 19 Sep 2016 01:37:00 -0400</pubDate>
   <description><![CDATA[First new post on the home made static site generator. Feature complete with RSS and a few nice things like auto Title casing. No more ads.]]></description>
-</item><item>
-  <title>When a Mistake Sounds So Right</title>
-  <link>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right/</link>
-  <guid>https://richardhsu.net/2016/06/17/when-a-mistake-sounds-so-right/</guid>
-  <pubDate>Fri, 17 Jun 2016 19:00:04 -0400</pubDate>
-  <description><![CDATA[<p>My 4 year old daughter says many things with confidence whether it is correct or not. Here are some memorable ones that makes me smile every time.</p>
-<ol>
-    <li>Newtube (Youtube)</li>
-    <li>Write the Weather (write the date for when I have to sign her homework)</li>
-    <li>Silly (saliva)</li>
-</ol>]]></description>
 </item></channel>
 </rss>
