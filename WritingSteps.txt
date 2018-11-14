@@ -7,7 +7,7 @@ Create a new file post-YYYY-MM-DD-name.md
 The file should begin with below template
 title: {Title}
 name: {Name to use in url}
-date: YYYY-DD-YYYY hh:mm:ss
+date: YYYY-MM-DD hh:mm:ss
 text:
 
 C:\Users\richard\website

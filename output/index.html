@@ -21,7 +21,17 @@
 				<h5 class="header-nav"><a href="/">Latest</a>&nbsp;|&nbsp;<a href="/archives/">Archives</a>&nbsp;|&nbsp;<a href="/contact/">Contact</a>&nbsp;|&nbsp;<a href="/others/">Others</a></h5>
 			</div>
 			<div class="content">
-				<div class="main"><h2 class="post-title"><a href="/2018/06/20/chapturkey/">Chapturkey</a></h2>
+				<div class="main"><h2 class="post-title"><a href="/2018/11/14/4K/">4K Monitor (Enable DisplayPort 1.2, Disable DDC/CI)</a></h2>
+<small><p class="post-date">Nov 14, 2018</p></small>
+<p>Getting a 4K monitor (Dell UP2414Q) working with Windows 10 took a lot more than I expected. My computer motherboard supports 4K resolution @ 30 Hz via HDMI but most people online say 4K @ 30 Hz will not be smooth. Having used monitors at 60 Hz refresh rate for as long as I can remember, I didn't want to take a chance and got the graphics card (AMD RX 460) that supports 4K @ 60 Hz via DisplayPort.</p>
+<p>When I powered up the 4K monitor, I saw the sharp, colour accurate, bright, and "retina" 4K display that I was expecting but it was running at 30 Hz. It was usable, and I didn't notice any lag. Still, I wanted to get the refresh rate to 60 Hz for <em>best</em> results. There was just no way to pick 4K @ 60 Hz.</p>
+<p>It didn't take long to find the answer online. The monitor's <em>DisplayPort 1.2</em> was disabled (default setting). Enabling it via the monitor menu refreshed the available resolutions and refresh rates and I was able to pick 3840 x 2160 (4K) @ 60 Hz. It was noticeably smoother than 30 Hz, so the internet people were right.</p>
+<p>Then I ran into another problem: when the monitor powered back on after sleep, the screen would split into two with the left half at a lower resolution and stretched out (the right half was fine). It was not usable at all. This problem took a while to figure out including time wasted trying Dell's customer support.</p>
+<p>Again, changing a monitor setting solved it. Only this time, I disabled the setting called <em><a href="https://superuser.com/questions/630555/turning-displayport-monitor-off-disables-monitor-completely">DDC/CI</a></em>.</p>
+<p>I still have one unsolved problem, but it is easy to work around. When Windows turns off the monitor to enter sleep mode, it stops sending the signal via the DisplayPort. I can't <em>wake</em> the monitor up using keyboard or mouse. When I power on the monitor, it still doesn't get any display signal from the computer. This thing drove me crazy for about an hour (monitor connected via HDMI doesn't have this problem). I finally gave up trying to make this work. Instead, I don't let Windows power off the monitor. I do it myself by pressing the power button.</p>
+<p>What I learnt is a DisplayPort connection between monitor and computer isn't a simple one-way connection like it is with VGA or DVI. DisplayPort is a two-way connection meaning the monitor sends back data about its capabilities to the computer every time it powers up and the computer then figures out what signal to send (much like a USB printer or mouse). When the computer puts the monitor to sleep and wakes it back up, something goes wrong in that connection negotiation and I end up with either a half screen unusable display or completely off monitor.</p>
+<p>Having to physically press the power button on the monitor to turn it off and on is something new for me but I don't mind it.</p>
+<hr /><h2 class="post-title"><a href="/2018/06/20/chapturkey/">Chapturkey</a></h2>
 <small><p class="post-date">Jun 20, 2018</p></small>
 <p>My son has two dictionaries: Merriam-Webster's Pocket Dictionary, and The Kid Dictionary. The Kid Dictionary has made up words to describe the indescribable and it is hilarious!</p>
 <p>I don't remember him ever using the Merriam-Webster's Pocket Dictionary and I doubt it is still around.</p>
@@ -103,13 +113,6 @@ The topic of the essay is Minecraft. Minecraft is a 3-D Pixel block game. The pr
 <p>It is sad that marketing calls have turned a simple, elegant solution into a nuisance.</p>
 <p>When I was a kid (90s in Kolkata, India), my elderly neighbour had the first phone in the entire building! Her son in Germany sponsored what was then a luxurious gadget. The ring of the phone was distinct and eventful for everyone in the building (we had open doors and windows during the day). Others in the building or nearby also benefited as they got prearranged calls from distant places. It was a magical gadget. Eventually, we got one as well. Having a phone at home eliminated errands I despised. I didn't have to bike to the residential gas cylinder office and stand in line for an hour to book a replacement. A phone call worked.</p>
 <p>The Canadian <a href="https://www.lnnte-dncl.gc.ca/insnum-regnum-eng">National Do Not Call List</a> and regulatory <a href="http://www.cbc.ca/news/business/duct-cleaning-companies-pay-55-000-for-violating-do-not-call-list-1.3007159">enforcement</a> has helped but it hasn’t eliminated marketing calls completely. I am looking forward to a screening solution like Adblockers, firewalls, etc. for computers. Hopefully, it will bring the magic back, when the voice of a person follows my <em>Hello</em> and we have a delightful conversation.</p>
-<hr /><h2 class="post-title"><a href="/2017/04/10/toronto-maple-leafs/">Toronto Maple Leafs</a></h2>
-<small><p class="post-date">Apr 10, 2017</p></small>
-<p>Dear Toronto Maple Leafs,</p>
-<p>It has been an entertaining and fun season so far. Good luck with the <a href="https://youtu.be/8_Z0sQRbvnk">playoffs</a>. I will be cheering for you!</p>
-<p>Thanks, merci (French), gracias (Spanish), dhanyawad (धन्यवाद Hindi), danke (German), efharisto (ευχαριστώ Greek), toda (תודה Hebrew), grazie (Italian), arigato gozaimasu (ありがとうございます Japanese), gratias tibi ago (Latin), khawp khun (ขอบคุณ Thai), takk (Faroese), mahalo (Hawaiian), dziękuję (Polish), mulțumesc (Romanian), spasibo (Спасибо Russian), blagodarya (благодаря Bulgarian), salamat (Tagalog), shukran (شكرا Arabic), köszönöm (Hungarian), obrigado (Portuguese), děkuji (Czech), ďakujem (Slovak), takk (Icelandic), dankon (Esperanto), teşekkür ederim (Turkish), dhanwaad (ਧੰਨਵਾਦ Punjabi), diolch (Welsh), ahéhee' (Navajo), asante (Swahili), e sé (Yoruba), ...</p>
-<p>Update: My <a href="https://hsushenon.wordpress.com/">brother</a> says xièxie (謝謝 Chinese traditional, 谢谢 simplified) was left out.</p>
-<p><small>Credit to <a href="https://wordsmith.org/awad/thankyou-contribution.html">wordsmith.org</a> for the words.</small></p>
 <hr />				</div>
 			</div>
 			<div class="footer">
