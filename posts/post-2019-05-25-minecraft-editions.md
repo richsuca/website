@@ -36,4 +36,4 @@ The rest of the story is unwritten.
 [2]: https://www.minecraft.net/en-us/earth
 [3]: https://www.minecraft.net/en-us/10th-anniversary
 
-<sup>*</sup><small>_my daughter Adele plays too but occasionally_.<small>
+<sup>*</sup><small>_my daughter Adele plays too but occasionally_.</small>
