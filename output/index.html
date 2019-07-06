@@ -21,7 +21,181 @@
 				<h5 class="header-nav"><a href="/">Latest</a>&nbsp;|&nbsp;<a href="/archives/">Archives</a>&nbsp;|&nbsp;<a href="/contact/">Contact</a>&nbsp;|&nbsp;<a href="/others/">Others</a></h5>
 			</div>
 			<div class="content">
-				<div class="main"><h2 class="post-title"><a href="/2019/05/25/minecraft-editions/">Minecraft Editions</a></h2>
+				<div class="main"><h2 class="post-title"><a href="/2019/07/05/einsteins-riddle/">Einstein's Riddle</a></h2>
+<small><p class="post-date">Jul 05, 2019</p></small>
+<p>A friend emailed me <a href="http://udel.edu/~os/riddle.html">Einstein's riddle</a>. He said it took him 25 mins to solve. That gave me a bit of motivation to give it a try. I was at my son's swimming lesson when I read the email and quickly realised that I wasn't going to beat his time. But, as I started solving it with Google Sheets on the iPhone, the idea of using database tables and Sql to generate cartesian product, followed by a process of filtering out untrue data got me intrigued.</p>
+<p>It took me well over an hour but it worked and it was fun. <em>Stop</em> here and go to the riddle page linked above if you want to give it try.</p>
+<p>I used a Sqlite database and below Sql to solve it.</p>
+<pre>
+
+/* drink */
+insert into drink values('tea')
+insert into drink values('coffee')
+insert into drink values('milk')
+insert into drink values('water')
+insert into drink values('beer')
+
+/* house_color */
+insert into house_color values('red')
+insert into house_color values('green')
+insert into house_color values('yellow')
+insert into house_color values('blue')
+insert into house_color values('white')
+
+/* house_order */
+insert into house_order values(1)
+insert into house_order values(2)
+insert into house_order values(3)
+insert into house_order values(4)
+insert into house_order values(5)
+
+/* nationality */
+insert into nationality values('brit')
+insert into nationality values('swede')
+insert into nationality values('dane')
+insert into nationality values('norwegian')
+insert into nationality values('german')
+
+/* pet */
+insert into pet values('dog')
+insert into pet values('birds')
+insert into pet values('horse')
+insert into pet values('cat')
+insert into pet values('fish')
+
+/* cigar */
+insert into smokes values('pall mall');
+insert into smokes values('dunhill');
+insert into smokes values('prince');
+insert into smokes values('blend');
+insert into smokes values('blue master');
+
+/* Create cartesian product of all combinations, but filter out */
+/* combinations that are untrue */
+insert into results
+select house_order.Id, nationality.country, house_color.color, pet.animal, drink.name, smokes.cigar
+from house_order, nationality, house_color, pet, drink, smokes
+where pet.animal = 'fish'
+and nationality.country != 'swede'
+and smokes.cigar != 'pall mall'
+
+/* Continue eliminating more untrue combinations */
+
+/* brit lives in the red house */
+delete from results where country = 'brit' and color != 'red'
+delete from results where country != 'brit' and color = 'red'
+
+/* norwegian lives in the 1st house */
+delete from results where country = 'norwegian' and Id != 1
+delete from results where country != 'norwegian' and Id = 1
+
+/* Then 2nd house is blue */
+delete from results where color = 'blue' and Id != 2
+delete from results where color != 'blue' and Id = 2
+
+/* dane drinks tea */
+delete from results where country = 'dane' and drink != 'tea'
+delete from results where country != 'dane' and drink = 'tea'
+
+/* german smokes prince */
+delete from results where country = 'german' and cigar != 'prince'
+delete from results where country != 'german' and cigar = 'prince'
+
+/* person in green house drinks coffee */
+delete from results where color = 'green' and drink != 'coffee'
+delete from results where color != 'green' and drink = 'coffee'
+
+/* person who smokes dunhill lives in the yellow house */
+delete from results where cigar = 'dunhill' and color != 'yellow'
+delete from results where cigar != 'dunhill' and color = 'yellow'
+
+/* person in the middle house (id: 3) drinks milk */
+delete from results where id = 3 and drink != 'milk'
+delete from results where id != 3 and drink = 'milk'
+
+/* person who drinks beer smokes blue master */
+delete from results where drink = 'beer' and cigar != 'blue master'
+delete from results where drink != 'beer' and cigar = 'blue master'
+
+/* the green house is on the left of the white house */
+/* 2nd house is blue, so either green, white is 3rd, 4th or 4th, 5th */
+delete from results where color = 'green' and Id not in (3,4)
+delete from results where color = 'white' and Id not in (4,5)
+
+/* That leaves just 15 possibilities left for the fish */
+SELECT * from results
+
+Id  country     color   animal  drink   cigar
+3   brit        red     fish    milk    blend
+4   brit        red     fish    water   blend
+5   brit        red     fish    water   blend
+4   brit        red     fish    beer    blue master
+5   brit        red     fish    beer    blue master
+4   dane        yellow  fish    tea     dunhill
+5   dane        yellow  fish    tea     dunhill
+2   dane        blue    fish    tea     blend
+4   dane        white   fish    tea     blend
+5   dane        white   fish    tea     blend
+1   norwegian   yellow  fish    water   dunhill
+4   german      green   fish    coffee  prince
+2   german      blue    fish    water   prince
+4   german      white   fish    water   prince
+5   german      white   fish    water   prince
+</pre>
+
+<p>With my son's help, I created tables with pen &amp; paper, filled one column with one of the possibilities, then filled the blanks using hints. When one of the hints conflicted with what we had filled in, we stopped, and repeated the process with the next one. It got faster as we went through them and the 12th row in the list turned out to be the one.</p>
+<p>The hand written table looked like:</p>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<p><table>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+  <tr>
+    <td>norwegian</td>
+    <td></td>
+    <td>brit</td>
+    <td></td>
+    <td>german</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>water</td>
+    <td>milk</td>
+    <td>coffee</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>yellow</td>
+    <td>blue</td>
+    <td>red</td>
+    <td>green</td>
+    <td>white</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>horse</td>
+    <td>fish</td>
+    <td>cat</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dunhill</td>
+    <td></td>
+    <td>blend</td>
+    <td></td>
+    <td>prince</td>
+  </tr>
+</table></p>
+<hr /><h2 class="post-title"><a href="/2019/05/25/minecraft-editions/">Minecraft Editions</a></h2>
 <small><p class="post-date">May 25, 2019</p></small>
 <p>To celebrate the new <a href="https://www.minecraft.net/en-us/earth">Minecraft Earth</a> and <a href="https://www.minecraft.net/en-us/10th-anniversary">10 years of Minecraft</a>, I wanted to go down memory lane and revisit all the Minecraft items that I bought, downloaded and installed over the years for my son Aiden<sup>*</sup>.</p>
 <p>First came the Minecraft "Pocket Edition" iPad app (2014), then he got an Xbox 360 gaming console (2015) so I had to buy a Minecraft "Xbox 360" game DVD. </p>
@@ -116,15 +290,6 @@ After selecting the park to visit for each day, next comes selecting three FastP
 <p><small>
 *<em>Online surveys are a pain but this was implemented using <a href="https://www.typeform.com/">Typeform</a>, the most pleasant online form filling system.</em>
 </small></p>
-<hr /><h2 class="post-title"><a href="/2017/08/17/minecraft/">Minecraft</a></h2>
-<small><p class="post-date">Aug 17, 2017</p></small>
-<p><em>Backstory: The wife offered Aiden one Monopoly house as payment for an essay about Minecraft. He wrote it by hand on <a href="https://www.dropbox.com/s/zfxvuc13hdzecdd/minecraftessay.jpg?dl=0">paper</a>. Below is the digital version.</em></p>
-<p>Aiden 08/18/17<br />
-Salary: 1 house (Monopoly)</p>
-<p>Minecraft Essay (Job)<br />
-The topic of the essay is Minecraft. Minecraft is a 3-D Pixel block game. The producers of the game are Jeb, and Notch. The main objective is to survive, create, and have fun.</p>
-<p>Minecraft is a simple and fun pixel game. It takes your creativity and imagination to become a reality! In Minecraft, there are two modes to choose from: Creative or Survival. Creative is where you focus more on building. You have access to all the blocks, in the Creative inventory. Survival, you have to focus on more, well, surviving. You have nothing when you start the world. You have to gather resources, and build a shelter. You can craft, farm, build, battle, go to other dimensions, and get a few pets. There are few <em>mobs</em> (short for mobile), there are passive, neutral, and hostile mobs. Passive mobs never attack you, neutral mobs don't attack you unless you attack them or provoke them. Hostile mobs will attack you on sight.</p>
-<p>Well, that's Minecraft. Hope you like my essay and download Minecraft available on these platforms: PC, Mac, XBox 360, XBox One, PS3, PS4, XBox One S, iPad/tablet, Nitendo Switch, Wii, Wii U, Phone, and more. If you have already downloaded Minecraft, then why did you read this?</p>
 <hr />				</div>
 			</div>
 			<div class="footer">
