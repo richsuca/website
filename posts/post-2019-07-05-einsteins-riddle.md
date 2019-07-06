@@ -8,7 +8,7 @@ It took me well over an hour but it worked and it was fun. *Stop* here and go to
 
 I used a Sqlite database and below Sql to solve it.
 
-<code>
+<pre>
 
 /* drink */
 insert into drink values('tea')
@@ -168,7 +168,7 @@ Id	country		color	animal	drink	cigar
 2	german		blue	fish	water	prince
 4	german		white	fish	water	prince
 5	german		white	fish	water	prince
-</code>
+</pre>
 
 With my son's help, I created tables with pen & paper, filled one column with one of the possibilities, then filled the blanks using hints. When one of the hints conflicted with what we had filled in, we stopped, and repeated the process with the next one. It got faster as we went through them and the 12th row in the list turned out to be the one.
 
