@@ -55,11 +55,15 @@ insert into smokes values('blue master');
 /* Create cartesian product of all combinations, but filter out */
 /* combinations that are untrue */
 insert into results
-select house_order.Id, nationality.country, house_color.color, pet.animal, drink.name, smokes.cigar
-from house_order, nationality, house_color, pet, drink, smokes
-where pet.animal = 'fish'
-and nationality.country != 'swede'
-and smokes.cigar != 'pall mall'
+select 
+	house_order.Id, nationality.country, house_color.color, 
+	pet.animal, drink.name, smokes.cigar
+from 
+	house_order, nationality, house_color, pet, drink, smokes
+where 
+	pet.animal = 'fish'
+	and nationality.country != 'swede'
+	and smokes.cigar != 'pall mall'
 
 /* Continue eliminating more untrue combinations */
 
