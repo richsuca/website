@@ -8,7 +8,7 @@ It took me well over an hour but it worked and it was fun. *Stop* here and go to
 
 I used a Sqlite database and below Sql to solve it.
 
-<pre>
+<code>
 
 /* drink */
 insert into drink values('tea')
@@ -18,11 +18,16 @@ insert into drink values('water')
 insert into drink values('beer')
 
 /* house_color */
-insert into house_color values('red')
-insert into house_color values('green')
-insert into house_color values('yellow')
-insert into house_color values('blue')
-insert into house_color values('white')
+insert into house_color
+	values('red')
+insert into house_color
+	values('green')
+insert into house_color
+	values('yellow')
+insert into house_color
+	values('blue')
+insert into house_color
+	values('white')
 
 /* house_order */
 insert into house_order values(1)
@@ -32,11 +37,16 @@ insert into house_order values(4)
 insert into house_order values(5)
 
 /* nationality */
-insert into nationality values('brit')
-insert into nationality values('swede')
-insert into nationality values('dane')
-insert into nationality values('norwegian')
-insert into nationality values('german')
+insert into nationality 
+	values('brit')
+insert into nationality 
+	values('swede')
+insert into nationality 
+	values('dane')
+insert into nationality 
+	values('norwegian')
+insert into nationality 
+	values('german')
 
 /* pet */
 insert into pet values('dog')
@@ -46,69 +56,100 @@ insert into pet values('cat')
 insert into pet values('fish')
 
 /* cigar */
-insert into smokes values('pall mall');
-insert into smokes values('dunhill');
-insert into smokes values('prince');
-insert into smokes values('blend');
-insert into smokes values('blue master');
+insert into smokes
+	values('pall mall');
+insert into smokes
+	values('dunhill');
+insert into smokes
+	values('prince');
+insert into smokes
+	values('blend');
+insert into smokes
+	values('blue master');
 
-/* Create cartesian product of all combinations, but filter out */
-/* combinations that are untrue */
+/* create cartesian product of combinations */
+/* filter out rows that are untrue */
 insert into results
 select 
-	house_order.Id, nationality.country, house_color.color, 
-	pet.animal, drink.name, smokes.cigar
+	house_order.Id, nationality.country,
+	house_color.color, 
+	pet.animal, drink.name, 
+	smokes.cigar
 from 
-	house_order, nationality, house_color, pet, drink, smokes
+	house_order, nationality, 
+	house_color, pet, drink, smokes
 where 
 	pet.animal = 'fish'
 	and nationality.country != 'swede'
 	and smokes.cigar != 'pall mall'
 
-/* Continue eliminating more untrue combinations */
+/* Eliminate more untrue combinations */
 
 /* brit lives in the red house */
-delete from results where country = 'brit' and color != 'red'
-delete from results where country != 'brit' and color = 'red'
+delete from results
+	where country = 'brit' and color != 'red'
+delete from results
+	where country != 'brit' and color = 'red'
 
 /* norwegian lives in the 1st house */
-delete from results where country = 'norwegian' and Id != 1
-delete from results where country != 'norwegian' and Id = 1
+delete from results
+	where country = 'norwegian' and Id != 1
+delete from results
+	where country != 'norwegian' and Id = 1
 
 /* Then 2nd house is blue */
-delete from results where color = 'blue' and Id != 2
-delete from results where color != 'blue' and Id = 2
+delete from results
+	where color = 'blue' and Id != 2
+delete from results
+	where color != 'blue' and Id = 2
 
 /* dane drinks tea */
-delete from results where country = 'dane' and drink != 'tea'
-delete from results where country != 'dane' and drink = 'tea'
+delete from results
+	where country = 'dane' and drink != 'tea'
+delete from results
+	where country != 'dane' and drink = 'tea'
 
 /* german smokes prince */
-delete from results where country = 'german' and cigar != 'prince'
-delete from results where country != 'german' and cigar = 'prince'
+delete from results
+	where country = 'german' and cigar != 'prince'
+delete from results
+	where country != 'german' and cigar = 'prince'
 
 /* person in green house drinks coffee */
-delete from results where color = 'green' and drink != 'coffee'
-delete from results where color != 'green' and drink = 'coffee'
+delete from results
+	where color = 'green' and drink != 'coffee'
+delete from results
+	where color != 'green' and drink = 'coffee'
 
-/* person who smokes dunhill lives in the yellow house */
-delete from results where cigar = 'dunhill' and color != 'yellow'
-delete from results where cigar != 'dunhill' and color = 'yellow'
+/* smokes dunhill & lives in the yellow house */
+delete from results
+	where cigar = 'dunhill' and color != 'yellow'
+delete from results
+	where cigar != 'dunhill' and color = 'yellow'
 
-/* person in the middle house (id: 3) drinks milk */
-delete from results where id = 3 and drink != 'milk'
-delete from results where id != 3 and drink = 'milk'
+/* middle house (id: 3) drinks milk */
+delete from results
+	where id = 3 and drink != 'milk'
+delete from results
+	where id != 3 and drink = 'milk'
 
-/* person who drinks beer smokes blue master */
-delete from results where drink = 'beer' and cigar != 'blue master'
-delete from results where drink != 'beer' and cigar = 'blue master'
+/* drinks beer smokes blue master */
+delete from results
+	where drink = 'beer' 
+	and cigar != 'blue master'
+delete from results
+	where drink != 'beer'
+	and cigar = 'blue master'
 
-/* the green house is on the left of the white house */
-/* 2nd house is blue, so either green, white is 3rd, 4th or 4th, 5th */
-delete from results where color = 'green' and Id not in (3,4)
-delete from results where color = 'white' and Id not in (4,5)
+/* green house on the left of the white */
+/* 2nd house is blue, */
+/* so green, white is 3rd, 4th or 4th, 5th */
+delete from results
+	where color = 'green' and Id not in (3,4)
+delete from results
+	where color = 'white' and Id not in (4,5)
 
-/* That leaves just 15 possibilities left for the fish */
+/* 15 possibilities left for the fish */
 SELECT * from results
 
 Id	country		color	animal	drink	cigar
@@ -127,7 +168,7 @@ Id	country		color	animal	drink	cigar
 2	german		blue	fish	water	prince
 4	german		white	fish	water	prince
 5	german		white	fish	water	prince
-</pre>
+</code>
 
 With my son's help, I created tables with pen & paper, filled one column with one of the possibilities, then filled the blanks using hints. When one of the hints conflicted with what we had filled in, we stopped, and repeated the process with the next one. It got faster as we went through them and the 12th row in the list turned out to be the one.
 
