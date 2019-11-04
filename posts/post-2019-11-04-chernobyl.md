@@ -14,26 +14,22 @@ Reading the [Wikipedia articles][5] about [Chernobyl][2] was educational but it 
 
 Here are some things that aren’t accurate or are completely fictional.
 
-Death toll
-----------
+### Death toll
 In the epilogue, it says "Most estimates range from 4,000 to 93,000 deaths". That is a very large range, and the upper limit is especially suspect. According to the Wikipedia [article][1], the number of deaths is contested due to lack of consensus among various government and international groups that have attempted to calculate it. I did see the figures of 4,000 (immediate and long-term deaths) but the upper-end estimates reach 16,000. Nowhere did I read anything close to 93,000!
 
 16,000 to 93,000 is a serious inflation, and I will try to erase that number from my memory.
 
-The Bridge of Death
--------------------
+### The Bridge of Death
 A powerful, sad, and memorable image from the TV series are of the residents of Pripyat standing on a bridge to see the burning Chernobyl power plant. Per the epilogue, none of them survived. This is not true according to Adam Higginbotham who spent a decade researching Chernobyl and wrote a book about it. He interviewed someone who was on that bridge and is [still alive][3]. It is possible _everyone_ on that bridge watching the burning power plant didn't die.
 
 This one will be hard to forget.
 
-Threat of force
---------------- 
+### Threat of force
 In episode 1, Anatoly Sitnikov is forced by an armed guard to go to the roof and confirm if Reactor Core 4 exploded or not. He didn't want to go because the radiation measurements maxed out, and he saw what he thought were graphite pieces from the Reactor Core on the ground outside the building.
 
 By [one][4] account, this isn't true. He went to inspect it willingly because he was familiar with the reactor, and like others, he wanted to help contain the damage. By other accounts, in 1980s USSR, bureaucrats couldn't just order armed guards to force people into doing things against their will.
 
-Watch but take an antidote
---------------------------
+### Watch but take an antidote
 If I didn’t read Wikipedia articles and the TV series was the only source of information about Chernobyl, then, over time, that would have settled in as fact, and history. It would likely have influenced my opinion about the Soviet Union, about the role of bureaucrats, scientists etc.
 
 I would rewatch the TV series because I tend to miss many things the first time. But I will watch it the way I read opinion pieces in newspapers. Take it as one person's opinion made with news events arranged to influence the reader in a particular way.
