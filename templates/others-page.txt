@@ -3,4 +3,4 @@
 <p><a href="https://roberthsu.design/">Seeing Aloud</a> – My brother Robert's website.</p>
 <p><a href="https://github.com/richsuca/chaipress">Chaipress</a> – A minimalist static blog-style site generator. This website is made with Chaipress.</p>
 <p><a href="http://flickr.com/photos/richardhsu">View in a rectangle</a> – Photos I made.</p>
-<p><a href="https://github.com/richsuca/chaipress">Chaipress</a> – A minimalist static blog-style site generator. This website is made with Chaipress.</p>
+<p><a href="https://github.com/richsuca/">Github Repo</a> – Computer programs no one asked me to make.</p>
