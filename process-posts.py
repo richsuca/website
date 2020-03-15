@@ -41,7 +41,7 @@ date_re = re.compile('(?<=date:[\s*]).*')
 root_dir = '.'
 base_url = 'https://richardhsu.net'
 
-md = markdown.Markdown()
+md = markdown.Markdown(extensions=['footnotes'])
 
 # get posts
 post_dir = Path(root_dir + '/posts')

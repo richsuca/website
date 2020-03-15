@@ -1,3 +1,5 @@
+Use Git Shell (it has your repo password)
+
 C:\Users\richard\website
 git pull
 
