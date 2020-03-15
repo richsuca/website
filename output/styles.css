@@ -107,6 +107,10 @@ img {
  text-align: center;
 }
 
+.footnote {
+ font-size: smaller;
+}
+
 @media all and (max-device-width: 320px){
     body{font-size: 14px;}
 }
