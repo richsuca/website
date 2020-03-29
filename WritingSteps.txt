@@ -1,3 +1,9 @@
+Markdown Editor
+https://writemd.xyz/
+
+Markdown Cheatsheet
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 Use Git Shell (it has your repo password)
 
 C:\Users\richard\website
