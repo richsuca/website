@@ -15,8 +15,7 @@ The list of apps we are using[^remote4]
  
 In this post, I will talk about the first and uber essential one: Citrix
  
-Citrix
-======
+###Citrix
 The wife and I both use Citrix to connect to our remote work computers. It works so well I forget the computer I am using is thousands of miles away in a data center. With rare exceptions, there is no lag in the screen, keyboard, or mouse response. Even when my home internet disconnects briefly, Citrix resumes without us having to redo the connection steps. The underlying Citrix [tech][ica] is magical. I can even print from my remote work computer to my home printer!
 
 We remote to the work Windows computers in many ways, and it all works 

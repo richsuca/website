@@ -5,7 +5,7 @@
 <atom:link href="https://richardhsu.net/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://richardhsu.net/</link>
 <description>Richard Hsu's personal website</description>
-<lastBuildDate>Sun, 26 Apr 2020 14:54:47 -0400</lastBuildDate>
+<lastBuildDate>Sun, 26 Apr 2020 14:58:30 -0400</lastBuildDate>
 <language>en</language><item>
   <title>Remote Everything</title>
   <link>https://richardhsu.net/2020/04/25/citrix/</link>
@@ -22,7 +22,7 @@
 <li>YouTube</li>
 </ul>
 <p>In this post, I will talk about the first and uber essential one: Citrix</p>
-<h1>Citrix</h1>
+<h3>Citrix</h3>
 <p>The wife and I both use Citrix to connect to our remote work computers. It works so well I forget the computer I am using is thousands of miles away in a data center. With rare exceptions, there is no lag in the screen, keyboard, or mouse response. Even when my home internet disconnects briefly, Citrix resumes without us having to redo the connection steps. The underlying Citrix <a href="https://www.pcmag.com/encyclopedia/term/ica">tech</a> is magical. I can even print from my remote work computer to my home printer!</p>
 <p>We remote to the work Windows computers in many ways, and it all works </p>
 <ul>
