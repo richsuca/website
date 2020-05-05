@@ -48,6 +48,15 @@ hr
  border-top: 1px solid #ddd;
 }
 
+ul, ol {
+  list-style-type: square;
+  padding-left: 1.5em;
+}
+
+li {
+    padding: 5px;
+}
+
 table
 {
  background-color: transparent;
