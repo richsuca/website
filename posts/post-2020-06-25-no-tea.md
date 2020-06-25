@@ -1,5 +1,5 @@
 title: No Tea 
-name: no-tea 
+name: no-tea
 date: 2020-06-25 19:00:00
 text:
 I will tell you two ways to avoid making tea.
