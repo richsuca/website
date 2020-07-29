@@ -321,5 +321,12 @@ with open(root_dir + '/output/others/index.html',
     op.write(bottom_template)
 
 shutil.copyfile('styles.css', 'output/styles.css')
-shutil.copyfile('favicon.ico', 'output/favicon.ico')
-shutil.copyfile('favicon.gif', 'output/favicon.gif')
+
+# Favicons
+os.mkdir(root_dir + '/output/icons')
+shutil.copyfile('icons/icon-32.png', 'output/icons/icon-32.png')
+shutil.copyfile('icons/icon-128.png', 'output/icons/icon-128.png')
+shutil.copyfile('icons/icon-152.png', 'output/icons/icon-152.png')
+shutil.copyfile('icons/icon-180.png', 'output/icons/icon-180.png')
+shutil.copyfile('icons/icon-192.png', 'output/icons/icon-192.png')
+shutil.copyfile('icons/icon-196.png', 'output/icons/icon-196.png')
