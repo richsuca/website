@@ -323,10 +323,10 @@ with open(root_dir + '/output/others/index.html',
 shutil.copyfile('styles.css', 'output/styles.css')
 
 # Favicons
-os.mkdir(root_dir + '/output/icons')
-shutil.copyfile('icons/icon-32.png', 'output/icons/icon-32.png')
-shutil.copyfile('icons/icon-128.png', 'output/icons/icon-128.png')
-shutil.copyfile('icons/icon-152.png', 'output/icons/icon-152.png')
-shutil.copyfile('icons/icon-180.png', 'output/icons/icon-180.png')
-shutil.copyfile('icons/icon-192.png', 'output/icons/icon-192.png')
-shutil.copyfile('icons/icon-196.png', 'output/icons/icon-196.png')
+os.mkdir(root_dir + '/output/favicons')
+shutil.copyfile('icons/icon-32.png', 'output/favicons/icon-32.png')
+shutil.copyfile('icons/icon-128.png', 'output/favicons/icon-128.png')
+shutil.copyfile('icons/icon-152.png', 'output/favicons/icon-152.png')
+shutil.copyfile('icons/icon-180.png', 'output/favicons/icon-180.png')
+shutil.copyfile('icons/icon-192.png', 'output/favicons/icon-192.png')
+shutil.copyfile('icons/icon-196.png', 'output/favicons/icon-196.png')
