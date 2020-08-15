@@ -1,4 +1,4 @@
-<h1>Others</h1>
+<h3>Others</h3>
 <p><a href="https://hsushenon.wordpress.com/">Walking Diary</a> – My brother Raymond's website.</p>
 <p><a href="https://roberthsu.design/">Seeing Aloud</a> – My brother Robert's website.</p>
 <p><a href="https://github.com/richsuca/chaipress">Chaipress</a> – A minimalist static blog-style site generator. This website is made with Chaipress.</p>
