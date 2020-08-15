@@ -23,6 +23,7 @@ In early 2017, the wife (who is not a fan of Maggi because of its gooey texture)
 #### The Maggi Cutlet recipe
 
 What you need
+
 - One packet of Masala Maggi
 - Two eggs
 - Salt
@@ -30,6 +31,7 @@ What you need
 - Chilli sauce
 
 How to make it
+
 - Boil water in a small pot (water level should be just below the thickness of the noodles)
 - Empty the Masala seasoning into the pot
 - When the water is boiling, put the noodles in (_don't_ break the noodles)
