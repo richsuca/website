@@ -46,7 +46,7 @@ md = markdown.Markdown(extensions=['footnotes'])
 # get posts
 post_dir = Path(root_dir + '/posts')
 for post_file in post_dir.iterdir():
-    print('reading ' + post_file.name)
+    # print('reading ' + post_file.name)
     with open(str(post_dir) + '/' + post_file.name, encoding='utf-8') as p:
         file_text = ''.join(p.readlines())
         m = title_re.search(file_text)
@@ -158,7 +158,7 @@ for p in posts:
     # create year archive directory if needed
     p_year_string = p.date.strftime('%Y')
 
-    print('Generating ' + p.name + ' ' + p.date.strftime('%Y-%m-%d'))
+    # print('Generating ' + p.name + ' ' + p.date.strftime('%Y-%m-%d'))
 
     if p_year_string != year_string:
         os.mkdir(root_dir + '/output/' + p_year_string)
