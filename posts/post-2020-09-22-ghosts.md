@@ -8,7 +8,7 @@ I spent the first 29 years of my life in India. We didn't eat salmon or talk abo
 
 It took my Canadian born son, who finally decided he had heard the _l_ sound one time too many for me to be aware.
 
-Fast forward a few months, I am reading a story to my daughter at night. My son was also listening to my dramatic rendition of _Tiger Shiger_ ([Tales From Bengal](https://www.ombooksinternational.com/Tales-from-Bengal_961.html)) when I read the words _He was certain that the Shiger was, by far, a much scarier animal or 'rakkhosh' or ghost, than even himself_.
+Fast forward a few months, I am reading a story to my daughter at night. My son was also listening to my dramatic reading of _Tiger Shiger_ ([Tales From Bengal](https://www.ombooksinternational.com/Tales-from-Bengal_961.html)) when I read the words _He was certain that the Shiger was, by far, a much scarier animal or 'rakkhosh' or ghost, than even himself_.
 
 He interrupted me saying the 'h' is silent in _ghost_ (it's pronounced _gos-t_, not _g-host_ like how I was pronouncing it). It felt like he was telling me day is night, and night is day. I took up the challenge and looked up the pronunciation, and he was right!
 
