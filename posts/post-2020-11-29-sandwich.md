@@ -40,7 +40,7 @@ Unlike the sandwich, in life, we get to switch roles: we may start as the lowly 
 
 Or does it matter at all? Whether you are an important part of the sandwich or not, ultimately your job is to get eaten. Would you rather be the eater instead?
 
-^[vege]: Vegans are a subset of vegetarians.
-^[tomato]: Tomato is a fruit that gets used as a vegetable
-^[crust]: I prefer bread without crusts but it is wasteful, and because I have to model good habits for my kids, I pretend otherwise. In the New Market (Kolkata), there is a street vendor that makes tasty crustless sandwiches filled with sliced potato, tomato, and Amul cheese.
-^[lalbazar]: I ate a lot of _vegetable_ sandwiches on the street behind of office (Kolkata). It was mostly filled with spicy potato, the sandwich was grilled in a folding iron plate with a mould that gave the sandwich a nice triangle shape
+[^vege]: Vegans are a subset of vegetarians.
+[^tomato]: Tomato is a fruit that gets used as a vegetable
+[^crust]: I prefer bread without crusts but it is wasteful, and because I have to model good habits for my kids, I pretend otherwise. In the New Market (Kolkata), there is a street vendor that makes tasty crustless sandwiches filled with sliced potato, tomato, and Amul cheese.
+[^lalbazar]: I ate a lot of _vegetable_ sandwiches on the street behind of office (Kolkata). It was mostly filled with spicy potato, the sandwich was grilled in a folding iron plate with a mould that gave the sandwich a nice triangle shape
