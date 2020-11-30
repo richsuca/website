@@ -20,14 +20,14 @@ The middle _something_ is also where all the creativity and variety exists.
 
 At Subways, you get white or brown bread, two choices, but for the middle, there are so many choices it boggles the mind. If you aren't a seasoned Subways eater, you might as well go with the _Sub Of The Day_ to spare yourself from the stare of the Subway guy and the next customer breathing down the back of your neck (pre-pandemic).
 
-The middle _something_ is also critical for vegetarians[^vege]. I remember a conversation with my vegan colleague on the topic of _Beyond Meat_. Before I talked to her, I had the impression _Beyond Meat_ and other varieties existed for meat-eaters, as a way to occasionally or gradually eat vegetarian. While that may be the case, after talking to my colleague, I learnt something that you only learn when you talk to people who are different (I am not a vegetarian).
+The middle _something_ is also critical for vegetarians[^vege]. I remember a conversation with my vegetarian colleague on the topic of _Beyond Meat_. Before we talked, I had the impression _Beyond Meat_ and other varieties existed for meat-eaters, as a way to occasionally or gradually eat vegetarian. After talking to my colleague, I learnt something that you only learn when you talk to people who are different (I am not a vegetarian).
 
 Plant-based meat substitutes like _Beyond Meat_ are a good thing for her family, giving them something to eat at burger restaurants in Montreal or when they are travelling to the US (you get tired of cheese pizza and fries). Even at home, she is now able to make meals with a recipe for meats. That is the beauty of a drop-in substitute like _Beyond Meat_ in contrast to things like soya chunks that isn't a like-for-like substitute. 
 
 So we covered proteins in a sandwich. If we are eating the sandwich for lunch or dinner, it will also include some vegetable and tomato[^tomato], and other things like mushrooms, cheese, and condiments.
 
 ### The bottom slice of bread (or bun)
-The bottom is typically made of the same ingredient as the top slice but it is _not_ the same. It is shaped for holding up the entire thing and tends to be flat on both sides. Besides bearing the full weight of the full sandwich, and being the least visible, it is also the least appreciated. Sounds familiar?!
+The bottom is typically made of the same ingredient as the top slice but it is _not_ the same. It is shaped for holding up the entire thing and tends to be flat on both sides. Besides bearing the full weight of the sandwich, and being the least visible, it is also the least appreciated. Sounds familiar?!
 
 It might not be the one that the sandwich is judged on or the one that the sandwich is desired for but without the bottom, there is _no_ sandwich.
 
@@ -43,4 +43,4 @@ Or does it matter at all? Whether you are an important part of the sandwich or n
 [^vege]: Vegans are a subset of vegetarians.
 [^tomato]: Tomato is a fruit that gets used as a vegetable
 [^crust]: I prefer bread without crusts but it is wasteful, and because I have to model good habits for my kids, I pretend otherwise. In the New Market (Kolkata), there is a street vendor that makes tasty crustless sandwiches filled with sliced potato, tomato, and Amul cheese.
-[^lalbazar]: I ate a lot of _vegetable_ sandwiches on the street behind of office (Kolkata). It was mostly filled with spicy potato, the sandwich was grilled in a folding iron plate with a mould that gave the sandwich a nice triangle shape
+[^lalbazar]: I ate a lot of _vegetable_ sandwiches on the street near Lalbazar (Kolkata). The filling was mainly spicy potato and it was grilled in a folding iron plate with a mould that gave the sandwich a nice triangle shape
