@@ -20,7 +20,7 @@ The middle _something_ is also where all the creativity and variety exists.
 
 At Subways, you get white or brown bread, two choices, but for the middle, there are so many choices it boggles the mind. If you aren't a seasoned Subways eater, you might as well go with the _Sub Of The Day_ to spare yourself from the stare of the Subway guy and the next customer breathing down the back of your neck (pre-pandemic).
 
-The middle _something_ is also critical for vegetarians[^vege]. I remember a conversation with my vegetarian colleague on the topic of _Beyond Meat_. Before we talked, I had the impression _Beyond Meat_ and other varieties existed for meat-eaters, as a way to occasionally or gradually eat vegetarian. After talking to my colleague, I learnt something that you only learn when you talk to people who are different (I am not a vegetarian).
+The middle _something_ is also critical for vegetarians[^vege]. When _Beyond Meat_ was introduced, I thought it was for meat-eaters, as a way to occasionally or gradually eat vegetarian. Then I talked to my vegetarian colleague about it, and I learnt something interesting.
 
 Plant-based meat substitutes like _Beyond Meat_ are a good thing for her family, giving them something to eat at burger restaurants in Montreal or when they are travelling to the US (you get tired of cheese pizza and fries). Even at home, she is now able to make meals with a recipe for meats. That is the beauty of a drop-in substitute like _Beyond Meat_ in contrast to things like soya chunks that isn't a like-for-like substitute. 
 
