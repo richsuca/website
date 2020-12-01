@@ -1,25 +1,4 @@
-Markdown Cheatsheet
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-Use Git Shell (it has your repo password)
-
-C:\Users\richard\website
-git pull
-
-C:\Users\richard\website\posts
-Create a new file post-YYYY-MM-DD-name.md
-
-The file should begin with below template
-title: {Title}
-name: {Name to use in url}
-date: YYYY-MM-DD hh:mm:ss
-text:
-
-C:\Users\richard\website
-python process-posts.py
-git add posts/*
-git add output/*
-git status
-git commit -m 'Typo correction for minecraft'
-git status
-git push
+1. Create a post in GitHub repo
+2. run ./sync
+3. Check the draft website
+4. run ./publish
