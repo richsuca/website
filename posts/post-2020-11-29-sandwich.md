@@ -6,14 +6,14 @@ A sandwich is the ultimate food designed for convenience. It doesn’t need any 
 
 A typical sandwich has two slices of bread and _something_ between.
 
-### The top slice of bread (or bun)
+#### The top slice of bread (or bun)
 The top slice of bread (or bun) of a sandwich is its public face. It gives the eater the first impression of what the sandwich is. The shape of the bread, grilled or not, crust or not[^crust], brown or white, flat, or curved...
 
 Even when you have a side view of the sandwich with all layers, you still tend to judge it from the top slice.
 
 Sometimes, they decorate it with something to tell it apart. A piece of tin foil, or pieces of coriander, or sesame (I hate it), or a short toothpick with a coloured plastic wrapping.
 
-### The special thing in the middle
+#### The special thing in the middle
 The thing in the middle gives the sandwich its name (Ham, Turkey, Beyond Meat, Vegetable[^lalbazar]). It's what we are eating the sandwich for. It's the biggest deal.
 
 The middle _something_ is also where all the creativity and variety exists. 
@@ -26,14 +26,14 @@ Plant-based meat substitutes like _Beyond Meat_ are a good thing for her family,
 
 So we covered proteins in a sandwich. If we are eating the sandwich for lunch or dinner, it will also include some vegetable and tomato[^tomato], and other things like mushrooms, cheese, and condiments.
 
-### The bottom slice of bread (or bun)
+#### The bottom slice of bread (or bun)
 The bottom is typically made of the same ingredient as the top slice but it is _not_ the same. It is shaped for holding up the entire thing and tends to be flat on both sides. Besides bearing the full weight of the sandwich, and being the least visible, it is also the least appreciated. Sounds familiar?!
 
 It might not be the one that the sandwich is judged on or the one that the sandwich is desired for but without the bottom, there is _no_ sandwich.
 
 It is also the one that gets the ugly (but very important) thumbs of the eater instead of the tender grips of the slender and more coveted index and ring fingers.
 
-### So what are you?
+#### So what are you?
 Just like a sandwich, in a family, siblings think of themselves as different parts of a sandwich. At work, in a team, some will get more attention than others, but everyone is required to make the teamwork, even the bottom slice.
 
 Unlike the sandwich, in life, we get to switch roles: we may start as the lowly bottom slice, carrying all the weight and soaking up all the grease, and itself being sandwiched between the special _middle_ and the cold plate. With time, effort, and luck, we can become the top slice or even the special middle.
