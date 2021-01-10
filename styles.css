@@ -122,7 +122,7 @@ img {
  font-size: smaller;
 }
 
-@media all and (max-device-width: 320px){
+@media all and (max-width: 320px){
     body{font-size: 14px;}
 }
 
