@@ -108,7 +108,7 @@ img {
 .content { padding: 1em 1.25em; }
 
 .post-title {margin: 0; font-family: "Times New Roman", Times, serif;}
-.post-date {color: #808080}
+.post-date {color: #808080; font-size: small}
 
 .footer
 {
