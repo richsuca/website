@@ -8,9 +8,9 @@ Canada swiftly went into full lockdown mode while others took more time, and whe
 
 I only know about three countries: Canada (where I live), India (where my parents and brothers live), and the US (because of the conman-who-was-president).
 
-The population of Canada is 38 million, India is 1,374 million. For every person in Canada, you have 580 sq. meters of space. An Indian gets 50 sq. meters. [^1]
+The population of Canada is 38 million, India is 1,374 million. For every person in Canada, you have 580 sq. meters of space. An Indian gets 50 sq. meters. [[wikipedia]][1]
 
-India has 37 parties in the Lok Sabha[^2], Canada has 5[^3].
+India has 37 parties in the [Lok Sabha][2], Canada's House of Commons has [5][3].
 
 Indians are more social than Canadians. Things in Canada are more computerised, requiring less human interaction.
 
@@ -28,8 +28,8 @@ Of course, I think social distancing, wearing a mask, and vaccines are a good id
 
 The day I can give him a glass of water and be there for him in person, I will provide him with unsolicited advice on how to take care of himself.
 
-[^1]: https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density#Population_of_countries_by_density
+[1]: https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density#Population_of_countries_by_density
 
-[^2]: https://loksabha.nic.in/members/PartyWiseStatisticalList.aspx
+[2]: https://loksabha.nic.in/members/PartyWiseStatisticalList.aspx
 
-[^3]: https://lop.parl.ca/sites/ParlInfo/default/en_CA/Parties/partyStandings
+[3]: https://lop.parl.ca/sites/ParlInfo/default/en_CA/Parties/partyStandings
