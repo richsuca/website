@@ -39,7 +39,7 @@ The fielders (some with grey hair) got to the balls in time, didn't fumble, and 
 After crossing Victoria Park Avenue, I rode past a young lady walking her dog. She looked like a young Adele (the singer). Shortly after that, the bike trail ended at Eglinton Avenue, and I turned around to back. Yes, I did see the young Adele lookalike again.
 
 #### Shred Here Now
-On the way back, the last thing I remember was a delivery truck container permanently parked in a commercial area with the words [_Shred Here Now_][^shredhere] and a phone number on the side. I have no idea what it was trying to advertise to people walking or biking along the trail. My first thoughts went towards the crime/drama themes.
+On the way back, the last thing I remember was a delivery truck container permanently parked in a commercial area with the words _Shred Here Now_[^shredhere] and a phone number on the side. I have no idea what it was trying to advertise to people walking or biking along the trail. My first thoughts went towards the crime/drama themes.
 
 [^sillywalk]:  Someone posted signs on the bike/walking trail that said you have to walk silly between the start and stop signs.
 
