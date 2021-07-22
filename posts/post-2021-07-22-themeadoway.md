@@ -48,4 +48,4 @@ On the way back, the last thing I remember was a delivery truck container perman
 [1]: http://www.metrolinx.com/en/greaterregion/projects/kennedy.aspx
 [2]: https://themeadoway.ca/
 [3]: https://goo.gl/maps/k5WqFPyWxxo23WZcA
-[4]: https://richardhsu.net/images/ShredHereNow.PNG
+[4]: https://richardhsu.net/images/ShredHereNow.jpg
