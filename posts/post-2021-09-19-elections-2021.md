@@ -8,7 +8,7 @@ Why did Trudeau call an election now? Trudeau must be tired of compromising with
 
 Polls aren't predicting what he wanted: a majority government. Instead, he is likely to get another minority (his 3rd consecutive term). I don't expect it to last a year before the opposition gives him a no-confidence and votes him out. Next year this time, we might have another election, and the chances of Trudeau getting back then would be near zero (I can't see Canadians giving him another term).
 
-When Trudeau won in 2015, defeating Harper, he got a rare majority government and near 40% of the votes (polls have him at 31% today). He made a lot of [promises][1] many of them he kept (most famously marijuana legalization, carbon tax, 50:50 male:female representation in his cabinet). He also handled Trump's presidency well (especially tariffs and NAFTA renegotiations, although a lot of credit for that goes to Deputy PM Freeland)[^nafta]. Finally, I give high marks to Trudeau's patient, persistent, and firm response to the COVID pandemic.
+When Trudeau won in 2015, defeating Harper, he got a rare majority government and near 40% of the votes (polls have him at 31% today). He made a lot of [promises][1] many of them he kept (most famously marijuana legalization, carbon tax, 50:50 male:female representation in his cabinet). He also handled Trump's presidency well (especially tariffs and NAFTA renegotiations, although a lot of [credit][7] for that goes to Deputy PM Freeland). Finally, I give high marks to Trudeau's patient, persistent, and firm response to the COVID pandemic.
 
 But it isn't all roses with Trudeau. Ethical issues like his family's close ties to the [WE Charity][5] that was about to get a $912 million government contract raised doubts about corruption and competence. As well, the inappropriate _pressure_ his office applied to the attorney-general for leniency in the [SNC-Lavalin][6] bribery case for political reasons (SNC-Lavalin threatened to move their 9,000 worker company from Quebec to elsewhere) betrayed poor judgement.
 
@@ -26,7 +26,7 @@ Here are some of the things that I care about:
 The biggest issue with the Conservatives is their core supporters are in the oil money-dependent province of Alberta, so I can't see how they will do anything about a greener environment. On the other hand, Trudeau's Liberals and I align on most of these. They aren't perfect but the best option we have.  So I think Canada will be better with him as a Prime Minister, but does he deserve another 5-year majority rule? I am not sure.
 
 [1]: https://www.polimeter.org/en/trudeau
-[^nafta]: https://www.macleans.ca/news/canada/nafta-lives-canada-and-the-u-s-reach-an-11th-hour-a-deal/
+[7]: https://www.macleans.ca/news/canada/nafta-lives-canada-and-the-u-s-reach-an-11th-hour-a-deal/
 [2]: https://www.cbc.ca/news/canada/ottawa/phoenix-pay-system-cost-report-1.5138036
 [3]: https://www.ctvnews.ca/health/canadians-haven-t-thought-enough-about-doctor-assisted-dying-toronto-archbishop-1.2805578
 [4]: https://www.cbc.ca/news/politics/erin-otoole-pro-choice-conscience-rights-1.6146200
