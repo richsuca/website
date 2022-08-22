@@ -25,7 +25,7 @@ h6 { font-size: .875em; } /* 14px */
 
 p
 {
- margin: 0 0 1.5em;
+ margin: 1em 0 1em;
  line-height: 1.5;
 }
 
@@ -108,7 +108,7 @@ img {
 .content { padding: 1em 1.25em; }
 
 .post-title {margin: 0; font-family: "Times New Roman", Times, serif;}
-.post-date {color: #808080; font-size: small}
+.post-date {color: #808080; font-size: small; margin: 0}
 
 .footer
 {
