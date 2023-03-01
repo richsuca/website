@@ -1,0 +1,1 @@
+This is just a placeholder file. Needed to have an output dir to work with on first run.
