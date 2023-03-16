@@ -1,4 +1,4 @@
 <h3>Contact</h3>
 <p>I prefer email but you are welcome to tweet.</p>
-<p>Email: admin@richardhsu.net</p>
+<p>Email: richardhsu@ymail.com</p>
 <p>Twitter: <a href="https://twitter.com/richardhsu">@richardhsu</a></p>
