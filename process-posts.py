@@ -332,3 +332,7 @@ shutil.copyfile('icons/icon-152.png', 'output/favicons/icon-152.png')
 shutil.copyfile('icons/icon-180.png', 'output/favicons/icon-180.png')
 shutil.copyfile('icons/icon-192.png', 'output/favicons/icon-192.png')
 shutil.copyfile('icons/icon-196.png', 'output/favicons/icon-196.png')
+
+# Images
+os.mkdir(root_dir + '/output/images')
+shutil.copyfile('images/*', 'output/images/')
