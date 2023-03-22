@@ -8,6 +8,7 @@ from datetime import datetime
 from string import Template
 from titlecase import titlecase
 import markdown
+import glob
 
 class Post:
     def __init__(self, title, name, date, text):
@@ -334,5 +335,7 @@ shutil.copyfile('icons/icon-192.png', 'output/favicons/icon-192.png')
 shutil.copyfile('icons/icon-196.png', 'output/favicons/icon-196.png')
 
 # Images
-os.mkdir(root_dir + '/output/images')
-shutil.copyfile('images/*', 'output/images/')
+img_dir = root_dir + '/output/images' 
+os.mkdir(img_dir)
+for file in glob.glob('images/*'):
+    shutil.copy(file, img_dir)
