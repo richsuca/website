@@ -2,7 +2,7 @@ title: On health
 name: health
 date: 2024-03-10 21:00:00
 text:
-(Written around New Year's Eve 2023)
+(Written in very late December, 2023.)
 
 During my school years (90s), I fell sick often. I remember being sick before exams (pressure?). I remember going to the pharmacy to get specific medicines for malaria because I had it many times before. Another problem I often had was a sore throat. In class 5, my sore throat problem (tonsilitis?) became so bad I had surgery to get it removed. I don't think it completely solved the problem because I continued to have a sore throat and avoided cold drinks/popsicles/ice cream. The funny thing is, after the tonsil removal, I got an ice cream to soothe the soreness from the surgery.
 
