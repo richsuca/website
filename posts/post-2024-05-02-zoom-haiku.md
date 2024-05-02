@@ -27,3 +27,5 @@ I have quick question
 sorry, cannot hear you, bye
 we are out of time
 </pre>
+
+[What is a haiku?](https://www.britannica.com/art/haiku)
