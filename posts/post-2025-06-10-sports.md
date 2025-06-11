@@ -2,7 +2,9 @@ title: On Sports
 name: sports
 date: 2025-06-10 23:53:00
 text:
-# Chess
+### Chess
+
+<img src="https://live.staticflickr.com/65535/54561443216_08dc107956_k.jpg" alt="chess-gukesh-carlsen" style="width: 100%; height: auto;">
 
 The video of Magnus Carlsen banging the table after losing to Gukesh Dommaraju in Norway Chess Round 6 got a lot of news (my brother shared it with me too). I don't know exactly what people are saying on Reddit or YouTube about it, but most probably don't like it, given chess is generally a quiet sport and chess players don't show their emotions much (remarkably, most players analyze the game with their opponents right after it ends).
 
@@ -18,7 +20,7 @@ Chess is my favourite sport now. It's also the only one I play.
 
 [lichess]: https://lichess.org/@/richsu
 
-## Hockey
+### Hockey
 
 Before chess, (ice) hockey was the sport I followed very closely, but since I started with chess in the middle of last year, I have not followed it as much. My favourite (hometown) team, the Maple Leafs, made the playoffs and lost in 7 games in the second round. It felt inevitable they wouldn't go far.
 
@@ -28,7 +30,7 @@ The Florida Panthers won the third game comfortably and now lead the best-of-sev
 
 I will watch every game, time permitting.
 
-## Formula 1
+### Formula 1
 
 Another one I follow closely and play the simulation game on Xbox. It's the only one I also have a fantasy team in (GridRival).
 
@@ -36,7 +38,7 @@ After four years of Max Verstappen and Red Bull, there is some competition for t
 
 The Canadian Grand Prix is this weekend, so my Sunday morning is booked. I will also try to get some practice laps on the Xbox.
 
-## Tennis
+### Tennis
 
 The last time I watched a long tennis match live was the Wimbledon finals (2019, I think) between Roger Federer and Novak Djokovic. Federer had match points in the fifth set but Novak saved them and went on to win. That was an epic match between two of the best players in tennis history (Rafael Nadal is another one).
 
@@ -54,7 +56,7 @@ From there on, I was glued to the iPad till the championship-winning forehand pa
 
 These two are just 22, 23, so I am looking forward to many more of them.
 
-# Baseball
+### Baseball
 
 I still don't know most of the rules of baseball, but when Shohei Ohtani made the news for his jumbo contract with the LA Dodgers, it got me interested and I watched some highlights and eventually started watching playoffs on and off.
 
