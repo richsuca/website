@@ -2,6 +2,8 @@ title: On Sports
 name: sports
 date: 2025-06-10 23:53:00
 text:
+Here are some thoughts on the few sports I watch and play.
+
 ### Chess
 
 <img src="https://live.staticflickr.com/65535/54561443216_08dc107956_k.jpg" alt="chess-gukesh-carlsen" style="width: 100%; height: auto;">
