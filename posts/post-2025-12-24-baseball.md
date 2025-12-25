@@ -69,4 +69,4 @@ With 2 outs, the final play was pure drama: outfielders Andy Pages and Hernánde
 
 The Dodgers threatened but didn’t score. Yamamoto got his 3 outs. The 10th inning ended without any results. In the 11th, Blue Jays’ Bieber retired Rojas and Ohtani. Then Will Smith hit the game-winning home run. The Jays came close to tying it, but a broken bat and double play ended it. Heartbreak for Toronto and Canada. Back-to-back World Series titles for the Dodgers.
 
-It is rare in sports finals where the best meets the best, and it goes the distance. I have had the good luck of watching many of these (F1 2021 final lap between Verstappen and Hamilton, Wimbledon final between Federer-Djokovic, the two Stanley Cup finals between Florida and Edmonton).
+It is rare in sports finals where the best meets the best, and it goes the distance. I have had the good luck of watching many of these (F1 2021 final lap between Verstappen and Hamilton, Wimbledon final between Federer-Djokovic, the two Stanley Cup finals between Florida and Edmonton, and the French Open finals between Alcaraz and Skinner).
