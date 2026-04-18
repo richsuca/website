@@ -37,9 +37,9 @@ class Post:
 
 posts = []
 
-title_re = re.compile('(?<=title:[\s*]).*')
-name_re = re.compile('(?<=name:[\s*]).*')
-date_re = re.compile('(?<=date:[\s*]).*')
+title_re = re.compile(r'(?<=title:[\s*]).*')
+name_re = re.compile(r'(?<=name:[\s*]).*')
+date_re = re.compile(r'(?<=date:[\s*]).*')
 
 root_dir = '.'
 base_url = 'https://richardhsu.net'
