@@ -37,9 +37,9 @@ class Post:
 
 posts = []
 
-title_re = re.compile(r'(?<=title:[\s*]*).*')
-name_re = re.compile(r'(?<=name:[\s*]*).*')
-date_re = re.compile(r'(?<=date:[\s*]*).*')
+title_re = re.compile(r'title:\s*(.*)')
+name_re = re.compile(r'name:\s*(.*)')
+date_re = re.compile(r'date:\s*(.*)')
 
 root_dir = '.'
 base_url = 'https://richardhsu.net'
@@ -54,13 +54,13 @@ for post_file in post_dir.iterdir():
         file_text = ''.join(p.readlines())
         m = title_re.search(file_text)
         if m:
-            title = m.group(0)
+            title = m.group(1)
         m = name_re.search(file_text)
         if m:
-            name = m.group(0)
+            name = m.group(1)
         m = date_re.search(file_text)
         if m:
-            date = m.group(0)
+            date = m.group(1)
 
         text_idx = file_text.find("text:")
         text = file_text[text_idx + len("text:") + 1:]
