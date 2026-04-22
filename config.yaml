@@ -1,0 +1,12 @@
+base_url: https://richardhsu.net
+main_page_posts: 10
+rss_posts: 20
+timezone: '-0400'
+markdown_extensions: [footnotes]
+templates_dir: templates
+posts_dir: posts
+output_dir: output
+icons_dir: icons
+images_dir: images
+styles_css: styles.css
+logging_level: INFO
