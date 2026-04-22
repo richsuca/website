@@ -102,17 +102,19 @@ logging.info(f'Loaded {len(posts)} posts')
 
 # archive previous output
 output_dir_path = output_dir
-archive_dir_name = 'output-' + datetime.now().strftime('%Y%m%d%H%M%S%f')
-archive_dir = root_dir / archive_dir_name
-try:
-    output_dir_path.rename(archive_dir)
-    logging.info(f'Archived previous output to {archive_dir}')
-except FileExistsError:
-    logging.error(f'Cannot move {output_dir_path} --> {archive_dir}')
-    sys.exit()
-except Exception as e:
-    logging.error(f"Unexpected error: {e}")
-    sys.exit()
+
+if output_dir_path.exists():
+    archive_dir_name = 'output-' + datetime.now().strftime('%Y%m%d%H%M%S%f')
+    archive_dir = root_dir / archive_dir_name
+    try:
+        output_dir_path.rename(archive_dir)
+        logging.info(f'Archived previous output to {archive_dir}')
+    except FileExistsError:
+        logging.error(f'Cannot move {output_dir_path} --> {archive_dir}')
+        sys.exit()
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
+        sys.exit()
 
 try:
     output_dir_path.mkdir()
